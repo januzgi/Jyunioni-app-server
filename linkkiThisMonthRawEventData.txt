@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Linkki Jyväskylä ry - ECPv4.6//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Linkki Jyväskylä ry
+X-ORIGINAL-URL:http://linkkijkl.fi
+X-WR-CALDESC:Events for Linkki Jyväskylä ry
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Helsinki:20170925T170000
+DTEND;TZID=Europe/Helsinki:20170925T230000
+DTSTAMP:20171001T144543
+CREATED:20170807T105541Z
+LAST-MODIFIED:20170919T102859Z
+UID:3564-1506358800-1506380400@linkkijkl.fi
+SUMMARY:Chill IoT-workshop
+DESCRIPTION: \n  \nOn September 25th Junction comes to gather local tech enthusiasts and creators for a day of hacking at Jyväskylä with Linkki Jyväskylä ry & JES! ⚡️🚀 \nJunction Roadtrip is a series of events hosted together by Junction and local co-hosts around Finland. The idea is to bring tech enthusiasts together for hacking and learning. The Roadtrip events include an IoT Workshop with introductory presentations by Junction and local co-hosts and the day will be closed with an epic Code Golf Tournament! This is something you don’t want to miss! 😎😎 \nRegister for IoT Workshop: hackjunction.typeform.com/to/pUx1GS! \n—— \nSCHEDULE\n17:00 Opening\n17:15 IoT Workshop\n20:15 Presentations\n21:00 Epic Coding Tournament\n23:00 Closing the event \nIOT WORKSHOP\nDo you know how to code\, but hardware feels hard? Even the toughest coders might not understand hardware. In this workshop participants will have the chance to build their own low-powered weather station and code it to work over the Internet. This is your chance to improve your hardware skills in a great atmosphere while learning with others! \nPRESENTATIONS\nAfter the workshop it’s time to cool down with food and drinks! Presentations will include intro to his year’s Junction as well as other interesting topics. \nCODING TOURNAMENT\nLast but definitely not least\, the evening will end with an epic Code Golf Tournament. In the tournament teams will solve fun coding challenges within time limits – further information TBA! \nJUNCTION\nJunction is a student-driven community which fosters the culture of creating among young and ambitious hackers. Junction organizes annually multiple events which brings new and interesting technology to the hands of young creators. Junction also annually organizes the biggest hackathon in Europe! \nThis year’s Junction 2017 will be held on November 24-26th in Helsinki Area. Applications are open NOW! 🚀 \nRead more about Junction and APPLY NOW at hackjunction.com \n
+URL:http://linkkijkl.fi/event/junction-pre-event/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Helsinki:20170927T170000
+DTEND;TZID=Europe/Helsinki:20170927T230000
+DTSTAMP:20171001T144543
+CREATED:20170807T103006Z
+LAST-MODIFIED:20170923T114743Z
+UID:3560-1506531600-1506553200@linkkijkl.fi
+SUMMARY:Fuksiaiset
+DESCRIPTION:On aika taas fuksiaisten!\n  \nTämä on tapahtuma mitä kenenkään fuksin ei kannata missata: \n  \nNyt on vihdoin aika opettaa fuksit tavoille ja katsoa kuka heistä oikeasti osaa pelata elämäm peliä! \nNyt erotellaan gamerit casuaaleista\, kun kierretään erinäisiä minipelejä Jyväskylän keskustan tuntumassa. Tartu siis ohjaimeen\, paina mitä tahansa näppäintä ja tee uusi piste-ennätys! \n  \nTeemana on siis pelit\, eli fuksien on määrä pistää päälle jokin video-\, lauta- tms.peliin liittyvä skin. Tällä kertaa skinit eivät ole vain kosmeettisia\, vaan voivat myös vaikuttaa onnistumiseesi. \n  \nKierroksella tulee vastaan useita minibosseja\, joita varten on hyvä sanoa vihjeenä: lahjukset yleensä laskevat vaikeustasoa tavoitellessasi parasta tulosta. Joskus pitkässä nurmikossa kulkiessasi on myös mahdollista törmätä joihinkin äärimmäisen harvinaisiin suurempiin satunnaiskohtaamisiin. Kukistamalla (lahjomalla) nämä voit ansaita vielä ylimääräisiä pisteitä! \nÄlä huoli kuitenkaan\, sillä alueella valvoo myös pelastava enkeli\, joka käyttää parannusloitsua\, mikäli tarve vaatii. Suositeltavaa on kuitenkin ottaa myös omia parannusjuomia mukaan. \n  \nPeli ei vaadi ennakkotilausta. \nPikamatkusta oman ainejärjestösi Start Zonelle klo 17:00 \nYnnä&Linkki: MaA- ja MaD-rakennuksien välistä \n  \nJatkoina toimii Arcade-luola Escape\, jonne siirtyminen tapahtuu noin klo 22 aikoihin\, rastiradan jälkeen. Alussa saamallasi pelimerkillä pääset sisään ja talletat ylimääräiset esineesi ilmaiseksi. (Hox! Max carry weight!) \n  \nlyhyesti: \n\nMITÄ: Fuksiaiset!\nMISSÄ: MaA- ja MaD-rakennuksien välistä\nMILLOIN: 27.9. klo 17-22\nPUKUKOODI: Pelit!\nMIKSI: Fuksit tuli. \n
+URL:http://linkkijkl.fi/event/fuksiaiset/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20170928
+DTEND;VALUE=DATE:20170929
+DTSTAMP:20171001T144543
+CREATED:20170807T103614Z
+LAST-MODIFIED:20170914T102631Z
+UID:3562-1506556800-1506729599@linkkijkl.fi
+SUMMARY:Linkin Excu Helsinkiin
+DESCRIPTION: \n  \nLinkin eeppinen Excursio Helsinkiin. \nMatkaohjelmaan kuuluu mm. torstain yritysvierailu Wunderdogin ja IBM:n luona ja perjantain Tietoon tutustuminen. \nTätä retkeä ei kannata missään tapauksessa missata! \nTämä excursio maksaa 25 euroa per osallistuja. \nExcun hintaan sisältyy mm. majoitus ja bussikuljetus Jyväskylä-Helsinki-Jyväskylä. \nIlmoittautumiskanta aukeaa lauantaina 9.9. klo 14:00 ja sulkeutuu\n16.9. klo 14:00 taikka kannan täyttyessä. \nLinkki ilmoittautumiskantaan: https://goo.gl/forms/he5XSk9WMgozruae2 \nlyhyesti: \nMITÄ: Linkin epic Excursio Helsinkiin\nMISSÄ: Pääkaupunkiseutu\nMILLOIN: 28-29.9.\nMIKSI: Retket on kivoja. \n  \nKuulimme huhua myös että Metro löytyy Pääkaupunkiseudulta. \n
+URL:http://linkkijkl.fi/event/linkin-excu-helsinkiin/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Helsinki:20170928T183000
+DTEND;TZID=Europe/Helsinki:20170929T010000
+DTSTAMP:20171001T144543
+CREATED:20170914T160751Z
+LAST-MODIFIED:20170914T160751Z
+UID:3701-1506623400-1506646800@linkkijkl.fi
+SUMMARY:Jyväsmetro goes Helsinki
+DESCRIPTION:\n \n  \nJyväsmetro rantautuu nyt Helsinkiin.  \n  \nTarjoamme metropalveluita nyt myös pääkaupunkiseudulla ennen länsimetron valmistumista. \nTavoitteennamme on näyttää esimerkkiä myöskin helsingissä kuinka ensiluokkaista metropalvelua Jyväskylästä saa. \nLinkki Jyväskylä ry:n Excursion osallistujille tämä tapahtuma kuuluu excursion hintaan. \nExcursion tapahtuma: https://fi-fi.facebook.com/events/256462614861657/ \nKanssamme metrossa matkustaa TKO-äly. \n\n\n
+URL:http://linkkijkl.fi/event/jyvasmetro-goes-helsinki/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Helsinki:20171005T170000
+DTEND;TZID=Europe/Helsinki:20171005T233000
+DTSTAMP:20171001T144543
+CREATED:20170807T105704Z
+LAST-MODIFIED:20170807T105704Z
+UID:3566-1507222800-1507246200@linkkijkl.fi
+SUMMARY:Kauppakadun appro
+DESCRIPTION:Legendaariset approt! \n
+URL:http://linkkijkl.fi/event/kauppakadun-appro/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20171018
+DTEND;VALUE=DATE:20171020
+DTSTAMP:20171001T144543
+CREATED:20170807T110215Z
+LAST-MODIFIED:20170807T110215Z
+UID:3570-1508284800-1508543999@linkkijkl.fi
+SUMMARY:ATK-YTP
+DESCRIPTION:Linkki lähtee ATK-YTP:lle Tampereelle! \nLisää tietoa tästä tulossa tänne myöhemmin. \n
+URL:http://linkkijkl.fi/event/atk-ytp/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Helsinki:20171018T080000
+DTEND;TZID=Europe/Helsinki:20171020T170000
+DTSTAMP:20171001T144543
+CREATED:20170919T110217Z
+LAST-MODIFIED:20170920T080640Z
+UID:3726-1508313600-1508518800@linkkijkl.fi
+SUMMARY:Linkki goes ATK-YTP
+DESCRIPTION:\n \nOn aika taas vuosittaisen ATK-YTP:n eli automaattisentietojenkäsittelyn yhteistoimintapäivien.  \nTänä vuonna nämä päivät järjestetään Tampereen kaupungissa. \n\nLinkki lähtee tällä kertaa isolla porukalla Tampereelle näyttämään Jyväskyläläisten tietoteknikkojen mahdin. \n  \nOhjelma on suurin piirtein seuraava: \n18.10. \n9:00 Majoitus aukeaa \n11:00 Majoitus sulkeutuu \n12:00-16:30 Luentoja \n(14:00) TiToL ry:n liittokokous \n16:30 Yrityspaneelikeskustelu \n17:30 Rastisuunnistus \n(18:00 Alkoholiton lautapeli-ilta) \n20:00 Jatkot Messukylän työväentalolla \n21:00 majoitus aukeaa \n23:00 Jatkojenjatkot ravintola Roosterissa \n  \n19.10. \n9:00 GoForen darra \n11:00 Majoitus sulkeutuu \n12:00-17:30 Luentoja \n18:00 IT-Rääkki \n20:00 Jatkot Media54:n saunalla \n21:00 Majoitus aukeaa \n23:00 Jatkojenjatkot Kolmiobileissä \n  \n20.10. \n11:00 Majoitus sulkeutuu \n  \nIlmoittautuminen tähän huikeaan tänä vuonna Tampereella järjestettävään tapahtumaan maksaa 15 euroa. Sisältäen majoituksen ja kuljetuksen(jos ilmoittautujia tulee tarpeeksi). \nIlmoittautuminen aukeaa 20.9. klo 14:00 \nTäältä: https://goo.gl/forms/NQlvTEXenXp4kATx2 \nTapahtuman virallinen Facebook-event löytyy täältä. \n  \nlyhyesti: \n  \nMITÄ: ATK-yhteistoimintapäivät \nMISSÄ: Tampere \nMILLOIN: 18-20.2017 \nMIKSI: Yhteistoiminta on kivaa. \n
+URL:http://linkkijkl.fi/event/linkki-goes-atk-ytp/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20171023
+DTEND;VALUE=DATE:20171023
+DTSTAMP:20171001T144543
+CREATED:20170916T195144Z
+LAST-MODIFIED:20170916T195402Z
+UID:3713-1508716800-1508803199@linkkijkl.fi
+SUMMARY:Linkin verenluovutuspäivä
+DESCRIPTION: \n  \nTehdään yhdessä hyvä teko\, ja mennään luovuttamaan linkin Verijumalan johdolla verta! \n \n
+URL:http://linkkijkl.fi/event/linkin-verenluovutuspaiva/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20171023
+DTEND;VALUE=DATE:20171029
+DTSTAMP:20171001T144543
+CREATED:20170926T101919Z
+LAST-MODIFIED:20170926T102051Z
+UID:3775-1508716800-1509321599@linkkijkl.fi
+SUMMARY:Linkin Liikuntaviikko
+DESCRIPTION: \nLinkin liikuntaviikko! \nJoka päivä luvassa jotain huippua aktiviteettia. \nNyt on mahdollisuus mennä yhdessä liikkumaan ikioman liikuntatutorimme Eetun ja tapahtumavastaavien johdolla. \nKaikki mukaan liikkumaan! \nLisätietoja myöhemmin. \n
+URL:http://linkkijkl.fi/event/linkin-liikuntaviikko/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Helsinki:20171026T180000
+DTEND;TZID=Europe/Helsinki:20171026T220000
+DTSTAMP:20171001T144543
+CREATED:20170913T100417Z
+LAST-MODIFIED:20170913T100417Z
+UID:3693-1509040800-1509055200@linkkijkl.fi
+SUMMARY:Luonnontieteellinen beerpong
+DESCRIPTION: \nLuonnontieteellinen beerpong-turnaus!\nYhdessä Ynnän\, Syrren ja Radikaalin kanssa Metallisaunalla. \n  \n
+URL:http://linkkijkl.fi/event/luonnontieteellinen-beerpong/
+LOCATION:Kalevankatu 4\, Jyväskylä
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Helsinki:20171101T170000
+DTEND;TZID=Europe/Helsinki:20171101T220000
+DTSTAMP:20171001T144543
+CREATED:20170807T110523Z
+LAST-MODIFIED:20170807T110523Z
+UID:3572-1509555600-1509573600@linkkijkl.fi
+SUMMARY:Luonnontieteelliset suursitsit
+DESCRIPTION:Suursitsit muiden luonnontieteilijöiden kanssa Aalto-salissa! \nLisäinfoa myöhemmin. \n
+URL:http://linkkijkl.fi/event/luonnontieteelliset-suursitsit/
+END:VEVENT
+END:VCALENDAR
