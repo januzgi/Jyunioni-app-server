@@ -92,7 +92,8 @@ function extractEventsData($file)
             for ($i = 0; $i < $eventsCount; $i++) {
                 
                 // If the calendar ends
-                if (strpos($buffer, "END:VCALENDAR") !== false) break;
+                if (strpos($buffer, "END:VCALENDAR") !== false)
+                    break;
                 
                 while (true) {
                     if (strpos($buffer, "DTSTART;") !== false) {
@@ -102,7 +103,7 @@ function extractEventsData($file)
                         while (true) {
                             if (strpos($buffer, "DTEND;") !== false) {
                                 // Parse event ending time
-                                $eventTimeEnd = extractTime($buffer);
+                                $eventTimeEnd   = extractTime($buffer);
                                 $eventTimestamp = extractTimestamp($eventTimeStart, $eventTimeEnd);
                                 
                                 while (true) {
@@ -146,13 +147,13 @@ function extractEventsData($file)
                     }
                     $buffer = fgets($handle);
                 }
-
+                
                 // Add the event's data to the array
                 array_push($extractedEventsData, $eventName, $eventTimestamp, $eventUrl, $eventInformation);
-
+                
                 break;
             }
-        }       
+        }
         
         // In case of an error with the fgets() method
         if (!feof($handle)) {
@@ -171,42 +172,44 @@ function extractEventsData($file)
 
 
 # Extract content after ':' char
-function extractField($line) {
+function extractField($line)
+{
     // Find the position of ':', take a substring after it to the end of line and trim whitespace.
     $result = trim(substr($line, strpos($line, ":") + 1));
-
+    
     return $result;
 }
 
 
 # Extract timestamps
-function extractTime($line) {
-
-    $date = "";
-    $time = "";
+function extractTime($line)
+{
+    
+    $date   = "";
+    $time   = "";
     $result = "";
-
+    
     $line = extractField($line);
     // Line is now this format: "20170723T170000" or "20170829"
-
+    
     // If the line contains the date and the hours, for example: "20170723T170000"
     if (strpos($line, "T") !== false) {
         $date = strtok($line, "T");
         $time = substr($line, strpos($line, "T") + 1, 4);
-
+        
         $result = $date . " " . $time;
         // echo $result = "20170723 1700"
-
+        
         $result = date("j.n. G:i", strtotime($result));
         // echo $result = "23.7. 17:00"
-
+        
         return $result;
     }
-
+    
     // If the line is without the 'T', it contains only the date. For example: "20170829"
     $result = date("j.n.", strtotime($line));
     // echo $result = "29.8."
-
+    
     return $result;
 }
 
@@ -218,61 +221,39 @@ function extractTime($line) {
 # Example input: "25.9. 17:00", "25.9. 23:00"
 # Example output: "25.9. 17:00 - 23:00"
 #
-function extractTimestamp($startTime, $endTime) {
+function extractTimestamp($startTime, $endTime)
+{
     $result = $startTime . " - " . $endTime;
-
+    
     $startDay = substr($startTime, 0, strpos($startTime, "."));
-    $endDay = substr($endTime, 0, strpos($endTime, "."));
-
+    $endDay   = substr($endTime, 0, strpos($endTime, "."));
+    
     // Check if it's only one day event.
     if (strcmp($startDay, $endDay) === 0) {
-
+        
         // Check if the event has starting or ending hours. Then return one date with hours.
         if (strpos($startTime, ":") !== false || strpos($endTime, ":") !== false) {
             // echo $startTime . " - " . $endTime = "25.9. 17:00 - 25.9. 23:00"
-
+            
             $result = $startTime . " - " . substr($endTime, strrpos($endTime, " "));
             // echo $result = "25.9. 17:00 - 23:00"
         }
     }
-
+    
     return $result;
 }
 
 
 
 # Extracts the event information field
-function extractInformation($information) {
+function extractInformation($information)
+{
     $result = substr($information, strpos($information, ":") + 1);
-        // Replace '\n' and '\' char's in the information. Delete whitespace.
+    // Replace '\n' and '\' char's in the information. Delete whitespace.
     $result = str_replace("\\n", "\n", $result);
     $result = trim(str_replace("\\", "", $result));
-
+    
     return $result;
 }
 
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
