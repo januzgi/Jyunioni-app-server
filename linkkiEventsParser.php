@@ -16,7 +16,7 @@ $LINKKI_THIS_MONTH_EVENTS_URL .= $month;
 $LINKKI_NEXT_MONTH_EVENTS_URL .= $nextMonth;
 
 
-// Get Linkki's this & next months contents to a raw data .txt file
+// Get Linkki's this & next months contents to linkkiRawEventData.txt file
 $content = file_get_contents($LINKKI_THIS_MONTH_EVENTS_URL);
 $content .= file_get_contents($LINKKI_NEXT_MONTH_EVENTS_URL);
 
@@ -164,7 +164,7 @@ function extractEventsData($file)
         fclose($handle);
         
         
-        // Write the results into a .JSON file.
+        // Write the results into a .json file.
         $fp = fopen('/Users/JaniS/Sites/Jyunioni server/Parsed events/linkkiEvents.json', 'w');
         fwrite($fp, json_encode($extractedEventsData, JSON_PRETTY_PRINT));
         fclose($fp);
