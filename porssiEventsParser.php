@@ -3,10 +3,33 @@
 # URL
 $PORSSI_EVENTS_URL = "http://www.porssiry.fi/tapahtumat/";
 
+# FILE
+$rawEventDataFile = '/Users/JaniS/Sites/Jyunioni server/Raw event data/porssiRawEventData.txt';
+
+
 // Get Porssi's "css-events-list" HTML div's URL list to a porssiRawUrlData.json file
 // The event's page list in http://www.porssiry.fi/tapahtumat/ goes to page 2 after 20 events.
 // So only fetch the 20 first and not the url "http://www.porssiry.fi/tapahtumat/?pno=2"
 fetchUrls($PORSSI_EVENTS_URL);
+
+
+// Using the list of URL's for each event, get each event's data from it's own event page and create the .json with event attributes.
+$porssiUrlsJson = file_get_contents("/Users/JaniS/Sites/Jyunioni server/Raw event data/porssiRawUrlData.json");
+
+// Decode the .json into an array
+$porssiEventUrls = json_decode($porssiUrlsJson, true);
+
+// Fetch each event's data from the event's page
+foreach ($porssiEventUrls as $url) {
+	echo "<pre>" . print_r($url, true) . "</pre>";
+
+
+}
+
+
+
+
+
 
 
 function fetchUrls($url)
@@ -53,31 +76,12 @@ function fetchUrls($url)
     }
     
     // Write the array of links into the .json file
-    $fp = fopen('/Users/JaniS/Sites/Jyunioni server/Raw event data/porssiRawUrlData.json', 'w');
+    $fp = fopen("/Users/JaniS/Sites/Jyunioni server/Raw event data/porssiRawUrlData.json", "w");
     if (fwrite($fp, json_encode($links, JSON_PRETTY_PRINT)) !== false) {
         echo "porssiRawUrlData.json written succesfully." . "<br>";
     }
     fclose($fp);
 }
-
-
-
-/*
-
-Event porssiEvent = null;
-
-* Fetch each event's data using the URL array to create the Event objects.
-// The event's page list in http://www.porssiry.fi/tapahtumat/ goes to page 2 after 20 events.
-// So only fetch the 20 first and not the url "http://www.porssiry.fi/tapahtumat/?pno=2"
-for (int j = 0; j < porssiEventUrls.size() - 2; j++) {
-porssiUrl = porssiEventUrls.get(j);
-
-// Extract relevant fields from the HTTP response and create a list of Porssi's Events
-porssiEvent = porssiDetailsParser.extractPorssiEventDetails(porssiUrl);
-eventsPorssi.add(porssiEvent);
-}
-
-*/
 
 
 ?>
