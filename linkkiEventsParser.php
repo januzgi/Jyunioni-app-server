@@ -149,7 +149,16 @@ function extractEventsData($file)
                 }
                 
                 // Add the event's data to the array
-                array_push($extractedEventsData, $eventName, $eventTimestamp, $eventUrl, $eventInformation);
+                $tmp = array(
+                    "eventName" => $eventName,
+                    "eventTimestamp" => $eventTimestamp,
+                    "eventUrl" => $eventUrl,
+                    "eventInformation" => $eventInformation
+                );
+                
+                array_push($extractedEventsData, $tmp);
+                
+                // array_push($extractedEventsData, $eventName, $eventTimestamp, $eventUrl, $eventInformation);
                 
                 break;
             }
@@ -163,11 +172,11 @@ function extractEventsData($file)
         // Close the handle from taking resources
         fclose($handle);
         
-        
         // Write the results into a .json file.
         $fp = fopen('/Users/JaniS/Sites/Jyunioni server/Parsed events/linkkiEvents.json', 'w');
         fwrite($fp, json_encode($extractedEventsData, JSON_PRETTY_PRINT));
         fclose($fp);
+        
     }
     
 }
