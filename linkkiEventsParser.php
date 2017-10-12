@@ -1,3 +1,4 @@
+
 <?php
 
 # URLs
@@ -53,7 +54,7 @@ function extractEventsData($file)
     $eventUrl         = "";
     
     // Create the array for the extracted event data
-    $extractedEventsData = array();
+    $extractedEventsData = "LINKKI\n";
     
     
     # Count the amount of Events in the file. Open the file for reading only.
@@ -75,6 +76,7 @@ function extractEventsData($file)
         fclose($handle);
     }
     
+    $count = -1;
     
     # Open the file for reading only. Get the different event values from the file
     $handle = @fopen("$file", "r");
@@ -121,6 +123,7 @@ function extractEventsData($file)
                                                         
                                                         // Event's information ends on the next line so hop to it and break the for loop back to the while loop.
                                                         $buffer = fgets($handle);
+                                                        $count++;
                                                         break;
                                                         
                                                     }
@@ -148,17 +151,12 @@ function extractEventsData($file)
                     $buffer = fgets($handle);
                 }
                 
-                // Add the event's data to the array
-                $tmp = array(
-                    "eventName" => $eventName,
-                    "eventTimestamp" => $eventTimestamp,
-                    "eventUrl" => $eventUrl,
-                    "eventInformation" => $eventInformation
-                );
-                
-                array_push($extractedEventsData, $tmp);
-                
-                // array_push($extractedEventsData, $eventName, $eventTimestamp, $eventUrl, $eventInformation);
+                $extractedEventsData .= 
+                    "\n" . "eventName: " . $eventName . "\n" . 
+                    "eventTimestamp: " . $eventTimestamp . "\n" . 
+                    "eventUrl: " . $eventUrl . "\n" . 
+                    "eventInformation: " . $eventInformation  . "\n\n" . 
+                    "END_OF_EVENT" . "\n\n";
                 
                 break;
             }
@@ -171,11 +169,13 @@ function extractEventsData($file)
         
         // Close the handle from taking resources
         fclose($handle);
+
+        $eventDataFile = '/Users/JaniS/Sites/Jyunioni server/Parsed events/linkkiEvents.txt';
         
-        // Write the results into a .json file.
-        $fp = fopen('/Users/JaniS/Sites/Jyunioni server/Parsed events/linkkiEvents.json', 'w');
-        fwrite($fp, json_encode($extractedEventsData, JSON_PRETTY_PRINT));
-        fclose($fp);
+        // Write the results into a .txt file.
+        if (file_put_contents($eventDataFile, $extractedEventsData) !== false) {
+            echo "<br>Linkki's events data written succesfully to:<br><br>" . $eventDataFile . "<br>";
+        }
         
     }
     

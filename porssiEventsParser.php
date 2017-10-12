@@ -31,11 +31,20 @@ getRawEventData($porssiEventUrls);
 function getRawEventData($urls)
 {
     // All different events data will be put into this string
-    $eventPagesContents = "";
+    $eventPageContents = "";
+    // A temporary variable for single events raw data
+    $tmp               = "";
+    
+    // The parsed event details will be put into this string
+    $eventDetails = "PORSSI\n";
     
     
     foreach ($urls as $url) {
+        
         // Get the content of the site
+        // Make sure the content of the site is retrieved before continuing
+        // $html = null;
+        
         $html = file_get_contents($url);
         
         // Create a new DOMDocument instance
@@ -45,21 +54,251 @@ function getRawEventData($urls)
         @$dom->loadHTML($html);
         
         // More about the xpath query usage: http://www.the-art-of-web.com/php/html-xpath-query/
-        $xpath    = new DOMXpath($dom);
-        $contents = $xpath->query('//div[@id="content"]');
+        $xpath         = new DOMXpath($dom);
+        $xpath_results = $xpath->query('//div[@id="content"]');
         // $contents is an instance of DOMNodeList
         
-        // https://stackoverflow.com/questions/15807314/how-to-convert-domnodelist-object-into-array
+        // Put the HTML from the page into this single events raw data string
+        $tmp = $dom->saveHTML($xpath_results->item(0));
+        // Then add it to the all raw data string
+        $eventPageContents .= $tmp;
         
-        foreach ($contents as $item) {      
-            // Put the node's content to a string
-            $eventPagesContents .= $item->nodeValue;
-            $eventPagesContents .= $url;
-        }
+        // Parse the event details from the HTML
+        $eventDetails .= extractPorssiEventDetails($tmp, $url);
     }
     
-    echo "<pre>" . print_r($eventPagesContents, true) . "</pre>";
     
+    $porssiRawEventData = "/Users/JaniS/Sites/Jyunioni server/Raw event data/porssiRawEventData.html";
+    
+    // Write the raw data results into porssiRawEventData.txt file.
+    if (file_put_contents($porssiRawEventData, $tmp) !== false) {
+        echo "<br><b><i>Pörssi's raw events data written succesfully to:</i></b><br><br>" . $porssiRawEventData . "<br>";
+    }
+    
+    
+    $porssiEvents = "/Users/JaniS/Sites/Jyunioni server/Parsed events/porssiEvents.txt";
+    
+    // Write the parsed events into porssiEvents.txt file.
+    if (file_put_contents($porssiEvents, $eventDetails) !== false) {
+        echo "<br><b><i>Pörssi's parsed events data written succesfully to:</i></b><br><br>" . $porssiEvents . "<br>";
+    }
+    
+}
+
+
+function extractPorssiEventDetails($rawInformation, $eventUrl)
+{
+    
+    // Different event attributes, url is given as a parameter
+    $eventName             = "";
+    $startDate             = "";
+    $endDate               = "";
+    $eventTimestamp        = "";
+    $eventInformation      = "";
+    // How many lines of event information is shown
+    $eventInformationLines = 5;
+    
+    // Skim through rawInformation line by line
+    // Idea from: https://stackoverflow.com/questions/1462720/iterate-over-each-line-in-a-string-in-php
+    $newline = "\r\n";
+    $line    = strtok($rawInformation, $newline);
+    
+    while ($line !== false) {
+        // Get the string until newline character
+        $line = strtok($newline);
+        
+        while (true) {
+            if (strpos($line, "<h1>") !== false) {
+                $eventName = extractName($line);
+                
+                while (true) {
+                    if (strpos($line, "dashicons dashicons-calendar-alt") !== false) {
+                        // Go to the next line
+                        $line      = strtok($newline);
+                        $startDate = extractDate($line);
+                        
+                        // Go two lines onwards, endDate can be empty.
+                        $line    = strtok($newline);
+                        $line    = strtok($newline);
+                        $endDate = extractDate($line);
+                        
+                        $eventTimestamp = extractTimestamp($startDate, $endDate);
+                        
+                        while (true) {
+                            if (strpos($line, "dashicons dashicons-clock") !== false) {
+                                // Go to the next line
+                                $line           = strtok($newline);
+                                $eventTimestamp = extractHoursToTimestamp($line, $eventTimestamp);
+                                
+                                while (true) {
+                                    if (strpos($line, "<div class=\"row\" data-equalizer ") !== false) {
+                                        // Skip the line if it contains an image
+                                        if (strpos($line, "<img") !== false) {
+                                            $line = strtok($newline);
+                                        }
+                                        
+                                        // Go one line forward to the actual content
+                                        $line = strtok($newline);
+                                        
+                                        for ($j = 0; $j < $eventInformationLines; $j++) {
+                                            $line = strtok($newline);
+                                            
+                                            // Skip the line if it contains an image
+                                            if (strpos($line, "<img") !== false) {
+                                                $line = strtok($newline);
+                                            }
+                                            
+                                            // Check if the line contains "<div" elements, then go straight to parsing the information
+                                            if (strpos($line, "<div") !== false) {
+                                                $eventInformation = extractEventInformation($eventInformation);
+                                                break;
+                                            }
+                                            
+                                            // Check if the line contains "</div" elements, then go straight to parsing the information
+                                            if (strpos($line, "</div") !== false) {
+                                                $eventInformation = extractEventInformation($eventInformation);
+                                                break;
+                                            }
+                                            
+                                            $eventInformation .= $line;
+                                        }
+                                        
+                                        $eventInformation = extractEventInformation($eventInformation);
+                                        break;
+                                    }
+                                    $line = strtok($newline);
+                                }
+                                break;
+                            }
+                            $line = strtok($newline);
+                        }
+                        break;
+                    }
+                    $line = strtok($newline);
+                }
+                break;
+            }
+            $line = strtok($newline);
+        }
+        break;
+    }
+    
+    
+    return "\neventName: " . $eventName . "\n" . "eventTimestamp: " . $eventTimestamp . "\n" . "eventUrl: " . $eventUrl . "\n" . "eventInformation: " . $eventInformation . "\n\n" . "END_OF_EVENT" . "\n\n";
+}
+
+
+
+function extractName($line)
+{
+    // Strip any html elements. Also decode any html chars like &amp;'s (&'s) etc..
+    return trim(htmlspecialchars_decode((strip_tags($line))));
+}
+
+
+function extractDate($line)
+{
+    
+    // Example inputs:
+    // pe 10.11.2017
+    // </div>
+    // - la 11.11.2017
+    
+    // If the string contains "</div>" there won't be date information
+    if (strpos($line, "</div>") !== false) {
+        return "empty";
+    }
+    
+    return $line;
+}
+
+
+function extractTimestamp($startDate, $endDate)
+{
+    
+    // If it's only one day event, then $endDate === "empty"
+    if (strcmp($endDate, "empty") === 0) {
+        $startDate = trim($startDate);
+        
+        // Substring the shortened weekday off
+        $startDate = substr($startDate, strrpos($startDate, " "));
+        // Substring the year off
+        $startDate = trim(substr($startDate, 0, -4));
+        
+        return $startDate;
+    }
+    
+    // Substring both startDate and endDate and return them as a timestamp
+    $startDate = trim($startDate);
+    $endDate   = trim($endDate);
+    
+    // Substring the shortened weekday off
+    $startDate = substr($startDate, strrpos($startDate, " "));
+    $endDate   = substr($endDate, strrpos($endDate, " "));
+    
+    // Substring the year off
+    $startDate = substr($startDate, 0, -4);
+    $endDate   = substr($endDate, 0, -4);
+    
+    return trim($startDate) . " - " . trim($endDate);
+}
+
+
+
+function extractHoursToTimestamp($line, $eventTimestamp)
+{
+    
+    // If the event doesn't have hours, then $line === "00:00"
+    if (strcmp(trim($line), "00:00") === 0) {
+        return $eventTimestamp;
+    }
+    
+    // Check if the hours contain letters, then just return $eventTimestamp
+    if (preg_match("/[a-z]/i", $line)) {
+        return $eventTimestamp;
+    }
+    
+    // Check if it's a 2 day event
+    if (strpos($eventTimestamp, " - ") !== false) {
+        // Example input: 
+        // 06:30 - 23:00
+        // or even "Koko päivä päivä"
+        
+        // Add the hours to the timestamp
+        // Substring the hours for the startHours and endHours. Trim them at the same time.
+        $startHours = trim(substr($line, 0, strpos($line, " -")));
+        $endHours   = substr($line, strrpos($line, " ") + 1);
+        
+        // Substring the eventTimestamp
+        $startDate = substr($eventTimestamp, 0, strpos($eventTimestamp, " -"));
+        $endDate   = substr($eventTimestamp, strrpos($eventTimestamp, " ") + 1);
+        
+        // Remake the $eventTimestamp
+        $eventTimestamp = $startDate . " " . $startHours;
+        $eventTimestamp .= " - " . $endDate . " " . $endHours;
+        
+        return $eventTimestamp;
+    }
+
+    // If the event is just on one day
+    return $eventTimestamp . $line;
+}
+
+
+function extractEventInformation($eventInformation)
+{
+    // Replace all html tags
+    $eventInformation = trim(strip_tags($eventInformation));
+    
+    // If there's no content, add this
+    if ($eventInformation === "") {
+        $eventInformation = "\n...Katso lisää tapahtumasivulta!";
+    }
+    
+    // Decode any html chars like &amp;'s (&'s) etc..
+    $eventInformation = htmlspecialchars_decode($eventInformation);
+    
+    return $eventInformation;
 }
 
 
@@ -67,8 +306,13 @@ function getRawEventData($urls)
 
 function fetchUrls($url)
 {
-    // Get the content of the site
+    // Get the contents of the site
+    // Make sure the content of the site is retrieved before continuing
+    //$html = null;
+    
+    // while(!$html) {
     $html = file_get_contents($url);
+    // }
     
     // Create a new DOMDocument instance
     $dom = new DOMDocument();
@@ -111,7 +355,7 @@ function fetchUrls($url)
     // Write the array of links into the .json file
     $fp = fopen("/Users/JaniS/Sites/Jyunioni server/Raw event data/porssiRawUrlData.json", "w");
     if (fwrite($fp, json_encode($links, JSON_PRETTY_PRINT)) !== false) {
-        echo "porssiRawUrlData.json written succesfully." . "<br>";
+        echo "<b><i>porssiRawUrlData.json written succesfully.</i></b>" . "<br>";
     }
     fclose($fp);
 }

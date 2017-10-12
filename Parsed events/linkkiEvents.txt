@@ -1,0 +1,323 @@
+LINKKI
+
+eventName: Chill IoT-workshop
+eventTimestamp: 25.9. 17:00 -  23:00
+eventUrl: http://linkkijkl.fi/event/junction-pre-event/
+eventInformation:   
+On September 25th Junction comes to gather local tech enthusiasts and creators for a day of hacking at Jyväskylä with Linkki Jyväskylä ry & JES! ⚡️🚀 
+Junction Roadtrip is a series of events hosted together by Junction and local co-hosts around Finland. The idea is to bring tech enthusiasts together for hacking and learning. The Roadtrip events include an IoT Workshop with introductory presentations by Junction and local co-hosts and the day will be closed with an epic Code Golf Tournament! This is something you don’t want to miss! 😎😎 
+Register for IoT Workshop: hackjunction.typeform.com/to/pUx1GS! 
+—— 
+SCHEDULE
+17:00 Opening
+17:15 IoT Workshop
+20:15 Presentations
+21:00 Epic Coding Tournament
+23:00 Closing the event 
+IOT WORKSHOP
+Do you know how to code, but hardware feels hard? Even the toughest coders might not understand hardware. In this workshop participants will have the chance to build their own low-powered weather station and code it to work over the Internet. This is your chance to improve your hardware skills in a great atmosphere while learning with others! 
+PRESENTATIONS
+After the workshop it’s time to cool down with food and drinks! Presentations will include intro to his year’s Junction as well as other interesting topics. 
+CODING TOURNAMENT
+Last but definitely not least, the evening will end with an epic Code Golf Tournament. In the tournament teams will solve fun coding challenges within time limits – further information TBA! 
+JUNCTION
+Junction is a student-driven community which fosters the culture of creating among young and ambitious hackers. Junction organizes annually multiple events which brings new and interesting technology to the hands of young creators. Junction also annually organizes the biggest hackathon in Europe! 
+This year’s Junction 2017 will be held on November 24-26th in Helsinki Area. Applications are open NOW! 🚀 
+Read more about Junction and APPLY NOW at hackjunction.com
+
+END_OF_EVENT
+
+
+eventName: Fuksiaiset
+eventTimestamp: 27.9. 17:00 -  23:00
+eventUrl: http://linkkijkl.fi/event/fuksiaiset/
+eventInformation: On aika taas fuksiaisten!
+  
+Tämä on tapahtuma mitä kenenkään fuksin ei kannata missata: 
+  
+Nyt on vihdoin aika opettaa fuksit tavoille ja katsoa kuka heistä oikeasti osaa pelata elämäm peliä! 
+Nyt erotellaan gamerit casuaaleista, kun kierretään erinäisiä minipelejä Jyväskylän keskustan tuntumassa. Tartu siis ohjaimeen, paina mitä tahansa näppäintä ja tee uusi piste-ennätys! 
+  
+Teemana on siis pelit, eli fuksien on määrä pistää päälle jokin video-, lauta- tms.peliin liittyvä skin. Tällä kertaa skinit eivät ole vain kosmeettisia, vaan voivat myös vaikuttaa onnistumiseesi. 
+  
+Kierroksella tulee vastaan useita minibosseja, joita varten on hyvä sanoa vihjeenä: lahjukset yleensä laskevat vaikeustasoa tavoitellessasi parasta tulosta. Joskus pitkässä nurmikossa kulkiessasi on myös mahdollista törmätä joihinkin äärimmäisen harvinaisiin suurempiin satunnaiskohtaamisiin. Kukistamalla (lahjomalla) nämä voit ansaita vielä ylimääräisiä pisteitä! 
+Älä huoli kuitenkaan, sillä alueella valvoo myös pelastava enkeli, joka käyttää parannusloitsua, mikäli tarve vaatii. Suositeltavaa on kuitenkin ottaa myös omia parannusjuomia mukaan. 
+  
+Peli ei vaadi ennakkotilausta. 
+Pikamatkusta oman ainejärjestösi Start Zonelle klo 17:00 
+Ynnä&Linkki: MaA- ja MaD-rakennuksien välistä 
+  
+Jatkoina toimii Arcade-luola Escape, jonne siirtyminen tapahtuu noin klo 22 aikoihin, rastiradan jälkeen. Alussa saamallasi pelimerkillä pääset sisään ja talletat ylimääräiset esineesi ilmaiseksi. (Hox! Max carry weight!) 
+  
+lyhyesti: 
+
+MITÄ: Fuksiaiset!
+MISSÄ: MaA- ja MaD-rakennuksien välistä
+MILLOIN: 27.9. klo 17-22
+PUKUKOODI: Pelit!
+MIKSI: Fuksit tuli.
+
+END_OF_EVENT
+
+
+eventName: Linkin Excu Helsinkiin
+eventTimestamp: 28.9. - 30.9.
+eventUrl: http://linkkijkl.fi/event/linkin-excu-helsinkiin/
+eventInformation:   
+Linkin eeppinen Excursio Helsinkiin. 
+Matkaohjelmaan kuuluu mm. torstain yritysvierailu Wunderdogin ja IBM:n luona ja perjantain Tietoon tutustuminen. 
+Tätä retkeä ei kannata missään tapauksessa missata! 
+Tämä excursio maksaa 25 euroa per osallistuja. 
+Excun hintaan sisältyy mm. majoitus ja bussikuljetus Jyväskylä-Helsinki-Jyväskylä. 
+Ilmoittautumiskanta aukeaa lauantaina 9.9. klo 14:00 ja sulkeutuu
+16.9. klo 14:00 taikka kannan täyttyessä. 
+Linkki ilmoittautumiskantaan: https://goo.gl/forms/he5XSk9WMgozruae2 
+lyhyesti: 
+MITÄ: Linkin epic Excursio Helsinkiin
+MISSÄ: Pääkaupunkiseutu
+MILLOIN: 28-29.9.
+MIKSI: Retket on kivoja. 
+  
+Kuulimme huhua myös että Metro löytyy Pääkaupunkiseudulta.
+
+END_OF_EVENT
+
+
+eventName: Jyväsmetro goes Helsinki
+eventTimestamp: 28.9. 18:30 - 29.9. 1:00
+eventUrl: http://linkkijkl.fi/event/jyvasmetro-goes-helsinki/
+eventInformation:   
+Jyväsmetro rantautuu nyt Helsinkiin.  
+  
+Tarjoamme metropalveluita nyt myös pääkaupunkiseudulla ennen länsimetron valmistumista. 
+Tavoitteennamme on näyttää esimerkkiä myöskin helsingissä kuinka ensiluokkaista metropalvelua Jyväskylästä saa. 
+Linkki Jyväskylä ry:n Excursion osallistujille tämä tapahtuma kuuluu excursion hintaan. 
+Excursion tapahtuma: https://fi-fi.facebook.com/events/256462614861657/ 
+Kanssamme metrossa matkustaa TKO-äly.
+
+END_OF_EVENT
+
+
+eventName: Kauppakadun appro
+eventTimestamp: 5.10. 17:00 -  23:30
+eventUrl: http://linkkijkl.fi/event/kauppakadun-appro/
+eventInformation: Legendaariset approt!
+
+END_OF_EVENT
+
+
+eventName: Linkki goes ATK-YTP
+eventTimestamp: 18.10. 8:00 - 20.10. 17:00
+eventUrl: http://linkkijkl.fi/event/linkki-goes-atk-ytp/
+eventInformation: On aika taas vuosittaisen ATK-YTP:n eli automaattisentietojenkäsittelyn yhteistoimintapäivien.  
+Tänä vuonna nämä päivät järjestetään Tampereen kaupungissa. 
+
+Linkki lähtee tällä kertaa isolla porukalla Tampereelle näyttämään Jyväskyläläisten tietoteknikkojen mahdin. 
+  
+Ohjelma on suurin piirtein seuraava: 
+18.10. 
+9:00 Majoitus aukeaa 
+11:00 Majoitus sulkeutuu 
+12:00-16:30 Luentoja 
+(14:00) TiToL ry:n liittokokous 
+16:30 Yrityspaneelikeskustelu 
+17:30 Rastisuunnistus 
+(18:00 Alkoholiton lautapeli-ilta) 
+20:00 Jatkot Messukylän työväentalolla 
+21:00 majoitus aukeaa 
+23:00 Jatkojenjatkot ravintola Roosterissa 
+  
+19.10. 
+9:00 GoForen darra 
+11:00 Majoitus sulkeutuu 
+12:00-17:30 Luentoja 
+18:00 IT-Rääkki 
+20:00 Jatkot Media54:n saunalla 
+21:00 Majoitus aukeaa 
+23:00 Jatkojenjatkot Kolmiobileissä 
+  
+20.10. 
+11:00 Majoitus sulkeutuu 
+  
+Ilmoittautuminen tähän huikeaan tänä vuonna Tampereella järjestettävään tapahtumaan maksaa 15 euroa. Sisältäen majoituksen ja kuljetuksen(jos ilmoittautujia tulee tarpeeksi). 
+Ilmoittautuminen aukeaa 20.9. klo 14:00 
+Täältä: https://goo.gl/forms/NQlvTEXenXp4kATx2 
+Tapahtuman virallinen Facebook-event löytyy täältä. 
+  
+lyhyesti: 
+  
+MITÄ: ATK-yhteistoimintapäivät 
+MISSÄ: Tampere 
+MILLOIN: 18-20.2017 
+MIKSI: Yhteistoiminta on kivaa.
+
+END_OF_EVENT
+
+
+eventName: Linkin verenluovutuspäivä
+eventTimestamp: 23.10. - 24.10.
+eventUrl: http://linkkijkl.fi/event/linkin-verenluovutuspaiva/
+eventInformation:   
+Tehdään yhdessä hyvä teko, ja mennään luovuttamaan linkin Verijumalan johdolla verta! 
+Kiinnostuneet ilmoittautukaa tapahtumaan.
+Lähtö Agoralta klo 16:00 keskustaan päin. 
+Käy liittymässä myös Linkki Jyväskylä ry:n veriryhmään:https://www.facebook.com/groups/203464333343745/
+
+END_OF_EVENT
+
+
+eventName: Linkin Liikuntaviikko
+eventTimestamp: 23.10. - 30.10.
+eventUrl: http://linkkijkl.fi/event/linkin-liikuntaviikko/
+eventInformation: Linkin liikuntaviikko! 
+Joka päivä luvassa jotain huippua aktiviteettia. 
+Nyt on mahdollisuus mennä yhdessä liikkumaan ikioman liikuntatutorimme Eetun ja tapahtumavastaavien johdolla. 
+Kaikki mukaan liikkumaan! 
+Lisätietoja myöhemmin.
+
+END_OF_EVENT
+
+
+eventName: Luonnontieteellinen Beer Pong-turnaus
+eventTimestamp: 26.10. 18:00 -  22:00
+eventUrl: http://linkkijkl.fi/event/luonnontieteellinen-beerpong/
+eventInformation: Luonnontieteellinen beerpong-turnaus!
+Kohta selviää ketkä ovat niitä luonnontieteilijöistä kovimpia beer pongaajia,
+sillä luonnontieteellinnen beer pong-turnaus on pian täällä 26.10.
+
+Ilmoittautuminen tähän eeppiseen mittelöön aukeaa lauantaina 14.10. klo 12:00 
+ja päättyy sunnuntaina 22.10. klo 23:59.
+
+Ilmoittautuminen joukkueittain tapahtuu osoitteessa: http://ynna.fi/tapahtumat/luonnontieteellinen-beer-pong-turnaus/
+
+
+Tapahtuma pidetään Metalli74-saunalla osoitteessa Kalevankatu 4.
+Joukkueet ovat 2-4 hlö ja pelien aikana kaksi pelaajaa heittää, loput ovat vaihdossa.
+Pelaajia ei saa vaihtaa erän aikana.
+Joukkueen ilmoittautuminen kustantaa 10 euroa /joukkue, johon sisältyy mm. peleihin tarvittavia juomia.
+Jokaiselle ainejärjestölle on varattu neljä joukkuetta, joten ole ilmoittautumisessa nopea, sillä nopeat syövät tässä nyt hitaat!
+Olemme varanneet yhden joukkueen kokonaan fukseille, joten fuksitkin innokkaina mukaan kisaamaan.
+Viralliset säännöt: https://bpong.com/wsobp/official-rules-of-the-world-series-of-beer-pong/
+
+Saunalle saa tulla toki myöskin vain kannustamaan linkkarit voittoon, sekä saunomaan.
+Muista tapahtuma on OPPM eli siis Oma Pullo ja Pyyhe Mukaan.
+ 
+Facebook-event löytyy täältä.
+
+ 
+lyhyesti:
+ 
+
+MITÄ: Beerpong-turnaus.
+MISSÄ: Metalli74-sauna, Kalevankatu 4.
+MILLOIN: 26.10. klo 18:00-23:59
+MIKSI: On aika selvittää ketkä ovat beerpongauksen kingejä.
+MITÄ MAKSAA: Joukkueen ilmoittautuminen 10 euroa /joukkue, johon sisältyy peleihin tarvittavia juomia. Saunominen ja kannustus on ilmaista.
+
+
+Kaikki sankoin joukoin näyttämään kuinka Linkki osaa pelata!
+
+END_OF_EVENT
+
+
+eventName: Kyykkää ja Saunaa Fokuksen kanssa
+eventTimestamp: 30.10. 16:00 -  23:30
+eventUrl: http://linkkijkl.fi/event/kyykka-ja-saunailta-fokuksen-kanssa/
+eventInformation: Nyt päästään Kyykkäämään! 
+Kyykän jälkeen Opinkiven sauna on lämmin inokkaille linkkareille ja fokuslaisille. 
+Tarkat infot julkaistaan tähän myöhemmin.
+
+END_OF_EVENT
+
+
+eventName: Luonnontieteelliset suursitsit
+eventTimestamp: 1.11. 17:00 -  22:00
+eventUrl: http://linkkijkl.fi/event/luonnontieteelliset-suursitsit/
+eventInformation: Nyt sitsataan suuresti sillä sitsaavat voimansa yhdistävät Linkki, Ynnä, Syrinx ja Radikaali . 
+Sitsit järjestetään Aalto-Salissa.
+Ja ovatkin siis OPM eli Oma Pullo Mukaan. 
+Teemana on Halloween, joten muista pukeutua sitseille teeman mukaisesti! 
+Ilmoittautuminen aukeaa 16.10. klo 12:00 ja sulkeutuu 25.10 klo 12:00.
+Linkki ilmoittautumiskantaan julkaistaan tähän myöhemmin. 
+lyhyesti:
+
+MITÄ: Suursitsit luonnontieteilijöille
+MISSÄ: Aalto-Sali
+MILLOIN: 1.11. klo 18:00-23:00 
+Jatkot järjestetään Freetimessä, jonne pääsee tapahtuman haalarimerkillä ilmaiseksi sisään!
+
+END_OF_EVENT
+
+
+eventName: Kyykkää ja Saunaa Fokuksen kanssa
+eventTimestamp: 30.10. 16:00 -  23:30
+eventUrl: http://linkkijkl.fi/event/kyykka-ja-saunailta-fokuksen-kanssa/
+eventInformation: Nyt päästään Kyykkäämään! 
+Kyykän jälkeen Opinkiven sauna on lämmin inokkaille linkkareille ja fokuslaisille. 
+Tarkat infot julkaistaan tähän myöhemmin.
+
+END_OF_EVENT
+
+
+eventName: Luonnontieteelliset suursitsit
+eventTimestamp: 1.11. 17:00 -  22:00
+eventUrl: http://linkkijkl.fi/event/luonnontieteelliset-suursitsit/
+eventInformation: Nyt sitsataan suuresti sillä sitsaavat voimansa yhdistävät Linkki, Ynnä, Syrinx ja Radikaali . 
+Sitsit järjestetään Aalto-Salissa.
+Ja ovatkin siis OPM eli Oma Pullo Mukaan. 
+Teemana on Halloween, joten muista pukeutua sitseille teeman mukaisesti! 
+Ilmoittautuminen aukeaa 16.10. klo 12:00 ja sulkeutuu 25.10 klo 12:00.
+Linkki ilmoittautumiskantaan julkaistaan tähän myöhemmin. 
+lyhyesti:
+
+MITÄ: Suursitsit luonnontieteilijöille
+MISSÄ: Aalto-Sali
+MILLOIN: 1.11. klo 18:00-23:00 
+Jatkot järjestetään Freetimessä, jonne pääsee tapahtuman haalarimerkillä ilmaiseksi sisään!
+
+END_OF_EVENT
+
+
+eventName: Syysristeily
+eventTimestamp: 8.11. - 10.11.
+eventUrl: http://linkkijkl.fi/event/risteily/
+eventInformation: Lähdemme taas syksyllä valtamaan trooppisen Itämeren.
+Matkalle lähtee myös Magna Carta, Astérix, Sane ja Emile!
+Matka lähtee Jyväskylästä 8.11 kello 14.00 ja kello 20.15 lähdemmikin seilaamaan Itämerta pitkin. 
+Tämä trooppinen risteily maksaa 25 euroa/henkilö.
+Lisämaksusta voi tilata itselleen myös ruokailun laivalle. 
+Ilmoittautuminen alkaa tälle risteilylle 21.9. klo 10:00 ja päättyy 7.10 klo 12:00
+Jos olet Linkkari klikkaa itsesi risteilylle täältä https://goo.gl/forms/9ZTDTXk0FTrETHeP2 
+Lisää infoa myöhemmin!
+
+END_OF_EVENT
+
+
+eventName: Sitsit
+eventTimestamp: 15.11. 18:00 -  23:30
+eventUrl: http://linkkijkl.fi/event/sitsit/
+eventInformation: Sitsit Aalto-salissa Parkun, Stimuluksen ja Emilen kanssa. 
+Lisää infoa myöhemmin!
+
+END_OF_EVENT
+
+
+eventName: Gofore yritysvierailu
+eventTimestamp: 16.11. 17:00 -  19:00
+eventUrl: http://linkkijkl.fi/event/gofore-yritysvierailu/
+eventInformation: Yritysvierailu Goforelle! 
+Lisätietoja myöhemmin.
+
+END_OF_EVENT
+
+
+eventName: Luonnontieteelliset lanit
+eventTimestamp: 17.11. - 20.11.
+eventUrl: http://linkkijkl.fi/event/luonnontieteelliset-lanit/
+eventInformation: Sillä emme Lillukkaan vähään aikaan pääse Linkin kesken pelailemaan, päätimme yhdistää lanittavat voimamme Ynnän ja Radikaalin kanssa. 
+Tämän syksyn laneista tulee siis hiukan suuremmat ja sitäkin hauskemmat kuin yleensä! 
+Lanipaikka julkistetaan myöhemmin, 
+mutta varaa paikka kalenteristasi sillä tätä eventtiä ei kannata missata!
+
+END_OF_EVENT
+
