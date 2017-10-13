@@ -1,7 +1,5 @@
 <?php
 
-// http://localhost/~JaniS/Jyunioni%20server/porssiEventsParser.php
-
 # URL
 $PORSSI_EVENTS_URL = "http://www.porssiry.fi/tapahtumat/";
 
@@ -72,7 +70,7 @@ function getRawEventData($urls)
     
     // Write the raw data results into porssiRawEventData.txt file.
     if (file_put_contents($porssiRawEventData, $tmp) !== false) {
-        echo "<br><b><i>Pörssi's raw events data written succesfully to:</i></b><br><br>" . $porssiRawEventData . "<br>";
+        echo "<br><b><i>Pörssi's raw events data written succesfully to: </i></b>" . $porssiRawEventData . "<br>";
     }
     
     
@@ -80,15 +78,13 @@ function getRawEventData($urls)
     
     // Write the parsed events into porssiEvents.txt file.
     if (file_put_contents($porssiEvents, $eventDetails) !== false) {
-        echo "<br><b><i>Pörssi's parsed events data written succesfully to:</i></b><br><br>" . $porssiEvents . "<br>";
+        echo "<br><b><i>Pörssi's parsed events data written succesfully to: </i></b>" . $porssiEvents . "<br>";
     }
-    
 }
 
 
 function extractPorssiEventDetails($rawInformation, $eventUrl)
 {
-    
     // Different event attributes, url is given as a parameter
     $eventName             = "";
     $startDate             = "";
@@ -147,7 +143,12 @@ function extractPorssiEventDetails($rawInformation, $eventUrl)
                                             if (strpos($line, "<img") !== false) {
                                                 $line = strtok($newline);
                                             }
-                                            
+
+                                            // If the line contains "<strong>" add a newline instead
+                                            if (strpos($line, "<strong>") !== false) {
+                                            	$line .= "\n";
+                                            }
+
                                             // Check if the line contains "<div" elements, then go straight to parsing the information
                                             if (strpos($line, "<div") !== false) {
                                                 $eventInformation = extractEventInformation($eventInformation);
@@ -160,7 +161,7 @@ function extractPorssiEventDetails($rawInformation, $eventUrl)
                                                 break;
                                             }
                                             
-                                            $eventInformation .= $line;
+                                            $eventInformation .= $line . "\n";
                                         }
                                         
                                         $eventInformation = extractEventInformation($eventInformation);
@@ -182,6 +183,9 @@ function extractPorssiEventDetails($rawInformation, $eventUrl)
         }
         break;
     }
+
+    // Delete mystical whitepsace from $eventTimestamp
+    $eventTimestamp = preg_replace("/[[:blank:]]+/"," ", $eventTimestamp);
     
     
     return "\neventName: " . $eventName . "\n" . "eventTimestamp: " . $eventTimestamp . "\n" . "eventUrl: " . $eventUrl . "\n" . "eventInformation: " . $eventInformation . "\n\n" . "END_OF_EVENT" . "\n\n";
@@ -290,11 +294,6 @@ function extractEventInformation($eventInformation)
     // Replace all html tags
     $eventInformation = trim(strip_tags($eventInformation));
     
-    // If there's no content, add this
-    if ($eventInformation === "") {
-        $eventInformation = "\n...Katso lisää tapahtumasivulta!";
-    }
-    
     // Decode any html chars like &amp;'s (&'s) etc..
     $eventInformation = htmlspecialchars_decode($eventInformation);
     
@@ -351,11 +350,13 @@ function fetchUrls($url)
             array_pop($links);
         }
     }
+
+    $porssiRawUrlDataJson = "/Users/JaniS/Sites/Jyunioni server/Raw event data/porssiRawUrlData.json";
     
     // Write the array of links into the .json file
-    $fp = fopen("/Users/JaniS/Sites/Jyunioni server/Raw event data/porssiRawUrlData.json", "w");
+    $fp = fopen($porssiRawUrlDataJson, "w");
     if (fwrite($fp, json_encode($links, JSON_PRETTY_PRINT)) !== false) {
-        echo "<b><i>porssiRawUrlData.json written succesfully.</i></b>" . "<br>";
+        echo "<b><i>porssiRawUrlData.json written succesfully to: </i></b>" . $porssiRawUrlDataJson . "<br>";
     }
     fclose($fp);
 }

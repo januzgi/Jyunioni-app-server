@@ -3,31 +3,42 @@ PORSSI
 eventName: Hallitushaku
 eventTimestamp: 02.10. - 13.10.
 eventUrl: http://www.porssiry.fi/events/hallitushaku/
-eventInformation: Haku Pörssin hallitukseen 2018 on auki 2.-13.10. Uusi hallitus valitaan Pörssin syyskokouksessa 1.11.2017.Lisätietoja
+eventInformation: Haku Pörssin hallitukseen 2018 on auki 2.-13.10. Uusi hallitus valitaan Pörssin syyskokouksessa 1.11.2017.
+Lisätietoja
 
 END_OF_EVENT
 
 
 eventName: NESU-Jyväskylä: Case Competition
-eventTimestamp: 12.10.     10:00 - 18:00
+eventTimestamp: 12.10. 10:00 - 18:00
 eventUrl: http://www.porssiry.fi/events/nesu-jyvaskyla-case-competition/
-eventInformation:  Tapahtuma on valitettavasti peruttu!
+eventInformation:  
+Tapahtuma on valitettavasti peruttu!
 
 END_OF_EVENT
 
 
 eventName: Viestijät & Kylterit – Helsingin excu
-eventTimestamp: 13.10.     06:45 - 23:00
+eventTimestamp: 13.10. 06:45 - 23:00
 eventUrl: http://www.porssiry.fi/events/viestijat-kylterit-excu/
-eventInformation: Viestijöiden ja kyltereiden yhteistyö jatkuu! Lokakuun puolessa välissä Imago, Parku, Lööppi ja Pörssi suuntaavat yhteisexcursiolle Helsinkiin vierailemaan markkinoinnin, viestinnän ja media-alan yrityksiin. Luvassa on myös poikkitieteellistä tutustumista uusiin tuttavuuksiin huikean iltaohjelman parissa!Yhteisexcursio järjestetään perjantaina 13. lokakuuta. Bussikyyti Helsinkiin lähtee Matkakeskukselta klo 6.45, ja takaisin Jyväskylään lähdemme noin kello 23. Excursiolle voi matkustaa myös omin kyydein, mutta osallistumismaksu on sama myös itsenäisesti matkustaville. Liikkuminen Helsingissä kohteiden ja iltaohjelmapaikan välillä tapahtuu omatoimisesti.Yritysvierailuja on sovittu yhteensä neljään kohteeseen, joista jokainen pääsee osallistumaan kahteen. Ilmoittautumisen yhteydessä osallistuja valitsee mieluisimman kohteen aamu- ja iltapäivältä. Kuhunkin kohteeseen kiintiö on 30 osallistujaa ja paikat täytetään ilmoittautumisjärjestyksessä.Aamupäivän kohteet (aloitus klo 11):
+eventInformation: Viestijöiden ja kyltereiden yhteistyö jatkuu! Lokakuun puolessa välissä Imago, Parku, Lööppi ja Pörssi suuntaavat yhteisexcursiolle Helsinkiin vierailemaan markkinoinnin, viestinnän ja media-alan yrityksiin. Luvassa on myös poikkitieteellistä tutustumista uusiin tuttavuuksiin huikean iltaohjelman parissa!
+Yhteisexcursio järjestetään perjantaina 13. lokakuuta. Bussikyyti Helsinkiin lähtee Matkakeskukselta klo 6.45, ja takaisin Jyväskylään lähdemme noin kello 23. Excursiolle voi matkustaa myös omin kyydein, mutta osallistumismaksu on sama myös itsenäisesti matkustaville. Liikkuminen Helsingissä kohteiden ja iltaohjelmapaikan välillä tapahtuu omatoimisesti.
+
+Yritysvierailuja on sovittu yhteensä neljään kohteeseen, joista jokainen pääsee osallistumaan kahteen. Ilmoittautumisen yhteydessä osallistuja valitsee mieluisimman kohteen aamu- ja iltapäivältä. Kuhunkin kohteeseen kiintiö on 30 osallistujaa ja paikat täytetään ilmoittautumisjärjestyksessä.
+Aamupäivän kohteet (aloitus klo 11):
 
 END_OF_EVENT
 
 
 eventName: Syksyn vaihtoilta
-eventTimestamp: 16.10.     16:00 - 18:00
+eventTimestamp: 16.10. 16:00 - 18:00
 eventUrl: http://www.porssiry.fi/events/syksyn-vaihtoilta/
-eventInformation: Lokakuussa järjestetään taas vaihtoilta JSBE:n asiaosuuden ja puhujien kera. Tule kuuntelemaan unohtumattomia tarinoita ja kokemuksia meidän opiskelijoiden vaihdoista. Aiheena on Euroopan ulkopuoliset kohteet. Osallistujille tarjolla kahvia ja 30. ensimmäiselle sämpylät.Puhujat: Juho-Tuomas Järvikangas; ChileVille Mikkonen; KanadaJuho-Antti Hyyppä; Australia
+eventInformation: Lokakuussa järjestetään taas vaihtoilta JSBE:n asiaosuuden ja puhujien kera. Tule kuuntelemaan unohtumattomia tarinoita ja kokemuksia meidän opiskelijoiden vaihdoista. Aiheena on Euroopan ulkopuoliset kohteet. Osallistujille tarjolla kahvia ja 30. ensimmäiselle sämpylät.
+Puhujat: 
+
+Juho-Tuomas Järvikangas; Chile
+Ville Mikkonen; Kanada
+Juho-Antti Hyyppä; Australia
 
 END_OF_EVENT
 
@@ -35,15 +46,21 @@ END_OF_EVENT
 eventName: Viini-ilta KESE:n kanssa
 eventTimestamp: 17.10.
 eventUrl: http://www.porssiry.fi/events/viini-ilta-kesen-kanssa/
-eventInformation: Uppoudu viinien ja juustojen saloihin Keski-Suomen Ekonomien seurassa. Keski-Suomen Ekonomit toivottavat lämpimästi tervetulleiksi maisterivaiheessa opiskelevat Pörssin sekä Dumpin opiskelijat yhteiseen viinitasting-iltaan tiistaina 17.10. klo 17:30 Ravintola Figaron Winebistroon.Tarjolla on juustoportviinitastingin makuja ja mahtava tilaisuus verkostoitua ja vaihtaa viimeiset kuulumiset opiskelujen maailmasta sekä työelämästä. Tarjolla on kolmea eri viiniä juustoineen, joista ravintolapäällikkö kertoo paikalla meille lisää.Huomaathan, että tapahtuma on tarkoitettu ensisijaisesti maisteriopiskelijoille ja paikkoja on rajoitetusti. Tapahtuma on Ekonomien opiskelijajäsenille maksuton.
+eventInformation: Uppoudu viinien ja juustojen saloihin Keski-Suomen Ekonomien seurassa.
+ 
+Keski-Suomen Ekonomit toivottavat lämpimästi tervetulleiksi maisterivaiheessa opiskelevat Pörssin sekä Dumpin opiskelijat yhteiseen viinitasting-iltaan tiistaina 17.10. klo 17:30 Ravintola Figaron Winebistroon.
+Tarjolla on juustoportviinitastingin makuja ja mahtava tilaisuus verkostoitua ja vaihtaa viimeiset kuulumiset opiskelujen maailmasta sekä työelämästä. Tarjolla on kolmea eri viiniä juustoineen, joista ravintolapäällikkö kertoo paikalla meille lisää.
+Huomaathan, että tapahtuma on tarkoitettu ensisijaisesti maisteriopiskelijoille ja paikkoja on rajoitetusti. Tapahtuma on Ekonomien opiskelijajäsenille maksuton.
 
 END_OF_EVENT
 
 
 eventName: Liikuntakokeilu CrossFit Jyväskylä
-eventTimestamp: 18.10.     18:15 - 19:45
+eventTimestamp: 18.10. 18:15 - 19:45
 eventUrl: http://www.porssiry.fi/events/liikuntakokeilu-crossfit-jyvaskyla/
-eventInformation: Tervetuloa tutustumaan CrossFit Jyväskyään!18.10. CrossFit Jyväskylä tarjoaa pörssiläisille mahdollisuuden tulla tutustumaan CrossFitin saloihin. Tässä ilmaisessa tapahtumassa on CrossFit- treenin lisäksi luvassa huokeita liittymistarjouksia, joita osallistujat pääsevät hyödyntämään. Mukaan tarvitset vain sisäurheiluvarusteet ja juomapullon!MITÄ: Liikuntakokeilu CrossFit JyväskyläänMISSÄ: Kympinkatu 3, 40320 JyväskyläMILLOIN: 18.10. kello 18.15HINTA: ILMAINEN!
+eventInformation: Tervetuloa tutustumaan CrossFit Jyväskyään!
+18.10. CrossFit Jyväskylä tarjoaa pörssiläisille mahdollisuuden tulla tutustumaan CrossFitin saloihin. Tässä ilmaisessa tapahtumassa on CrossFit- treenin lisäksi luvassa huokeita liittymistarjouksia, joita osallistujat pääsevät hyödyntämään. Mukaan tarvitset vain sisäurheiluvarusteet ja juomapullon!
+MITÄ: Liikuntakokeilu CrossFit JyväskyläänMISSÄ: Kympinkatu 3, 40320 JyväskyläMILLOIN: 18.10. kello 18.15HINTA: ILMAINEN!
 
 END_OF_EVENT
 
@@ -51,23 +68,40 @@ END_OF_EVENT
 eventName: Pörstimin Köpis-excu
 eventTimestamp: 19.10. 12:00 - 23.10. 21:00
 eventUrl: http://www.porssiry.fi/events/porstimin-kopis-excu/
-eventInformation: KLAR, PARAT, START – Lad os nu gå!Tänä vuonna Pörstimin reissukuume kohdistuu Köpikseen!Kyllä – luit aivan oikein, Pörstimin! Lähdemme ulkomaan excursiolle Pörssin ja Optimin yhteisvoimin Tanskan kuvankauniiseen pääkaupunkiin Kööpenhaminaan. Matkaan kohti Kööpenhaminaa lähdemme torstaina 19.10. klo 12.00 Matkakeskukselta . Palaamme Jyväskylään seuraavana maanataina 23.10. klo 21.00.Tällä reissulla on mahdollista vierailla Danske Bankin pääkonttorilla, tutustua kaupunkiin ja nauttia hyvästä ruoasta ja juomasta. Ja mikä parasta, tämän kaiken voi tehdä yhdessä kylterisiskojen ja -veljien kanssa!Excun alustava ohjelma:
+eventInformation: KLAR, PARAT, START – Lad os nu gå!
+Tänä vuonna Pörstimin reissukuume kohdistuu Köpikseen!
+Kyllä – luit aivan oikein, Pörstimin! Lähdemme ulkomaan excursiolle Pörssin ja Optimin yhteisvoimin Tanskan kuvankauniiseen pääkaupunkiin Kööpenhaminaan. Matkaan kohti Kööpenhaminaa lähdemme torstaina 19.10. klo 12.00 Matkakeskukselta . Palaamme Jyväskylään seuraavana maanataina 23.10. klo 21.00.
+
+Tällä reissulla on mahdollista vierailla Danske Bankin pääkonttorilla, tutustua kaupunkiin ja nauttia hyvästä ruoasta ja juomasta. Ja mikä parasta, tämän kaiken voi tehdä yhdessä kylterisiskojen ja -veljien kanssa!
+Excun alustava ohjelma:
 
 END_OF_EVENT
 
 
 eventName: Sijoituskerhon toinen tapaaminen + OPTIO-ilta
-eventTimestamp: 25.10.     17:30 - 22:30
+eventTimestamp: 25.10. 17:30 - 22:30
 eventUrl: http://www.porssiry.fi/events/sijoiturkerhon-toinen-tapaaminen-optio-ilta/
-eventInformation: Sijoituskerhon toisella tapaamisella puhumme opintolainasta ja sen erityisominaisuuksista, opintotukien tulorajoista ja sijoittamiseen vaikuttavista veroista. Käymme myös läpi sijoituskohteiden analysointia ja sijoituspäätöksissä käytettäviä välineitä aina tunnusluvuista rahoitusmaailman erilaisiin mittareihin asti. Sijoituskerhon toinen tapaaminen tuo varmuutta sijoituspäätösten tekemiseen ja oikeiden kohteiden analysointiin. Mitä: Sijoituskerhon toinen tapaamien + OPTIO-ilta (Osakkeille Parempaa Tuottoa Illalla Oluella)Missä: Tarkemmista tapahtumapaikoista lisätietoa pian!Milloin: Sijoitusluento klo 17.30 ja OPTIO klo 19.00, keskiviikkona 25.10
+eventInformation: Sijoituskerhon toisella tapaamisella puhumme opintolainasta ja sen erityisominaisuuksista, opintotukien tulorajoista ja sijoittamiseen vaikuttavista veroista. Käymme myös läpi sijoituskohteiden analysointia ja sijoituspäätöksissä käytettäviä välineitä aina tunnusluvuista rahoitusmaailman erilaisiin mittareihin asti. Sijoituskerhon toinen tapaaminen tuo varmuutta sijoituspäätösten tekemiseen ja oikeiden kohteiden analysointiin.
+ 
+Mitä: Sijoituskerhon toinen tapaamien + OPTIO-ilta (Osakkeille Parempaa Tuottoa Illalla Oluella)
+
+Missä: Tarkemmista tapahtumapaikoista lisätietoa pian!
+
+Milloin: Sijoitusluento klo 17.30 ja OPTIO klo 19.00, keskiviikkona 25.10
 
 END_OF_EVENT
 
 
 eventName: Nuoret Ekonomit -kiertue
-eventTimestamp: 26.10.     17:00 - 20:30
+eventTimestamp: 26.10. 17:00 - 20:30
 eventUrl: http://www.porssiry.fi/events/nuoret-ekonomit-kiertue/
-eventInformation: Nuoret Ekonomit: Mainetta ja mammonaa – Mikä on arvokasta sinulle ja työnantajalle? Lämpimästi tervetuloa Nuorten Ekonomien iltaan! Tilaisuus on tarkoitettu sinulle urasi alkuvaiheessa oleva ekonomi tai KylteriPlus-palvelupaketin hankkinut kylteri. Opi palkkaneuvottelun taktiikat – ymmärrä arvosi työmarkkinoilla!
+eventInformation: Nuoret Ekonomit: Mainetta ja mammonaa – Mikä on arvokasta sinulle ja työnantajalle?
+
+ 
+Lämpimästi tervetuloa Nuorten Ekonomien iltaan! Tilaisuus on tarkoitettu sinulle urasi alkuvaiheessa oleva ekonomi tai KylteriPlus-palvelupaketin hankkinut kylteri.
+
+ 
+Opi palkkaneuvottelun taktiikat – ymmärrä arvosi työmarkkinoilla!
 
 END_OF_EVENT
 
@@ -75,39 +109,51 @@ END_OF_EVENT
 eventName: Alumniaiset 2017
 eventTimestamp: 28.10.
 eventUrl: http://www.porssiry.fi/events/alumniaiset-2017/
-eventInformation: Perinteiset Alumniaiset kokoavat jo viidennen kerran Pörssin alumnit yhteen. Pe 27.10. vietetään Yliopistopäiviä kauppakorkeakoulun 50-vuotisjuhlan hengessä (lisätiedot perjantain ohjelmasta täältä ja la 28.10. pärähtää käyntiin kauan odotetut alumniaiset!Joka vuosi hienosti kehittynyt päivän ohjelmasisältö tarjoaa tänä vuonna katsauksen digitalisaation mahdollisuuksiin. Päivän mielenkiintoisen ohjelman lisäksi on tarjolla nostalgiapisteitä sekä tietysti yleistä selkääntaputtelua ja muistojen verestämistä rennon ja riehakkaan iltajuhlan parissa. Tervetuloa alumnien lämpimään kohtaamiseen nostalgisessa ympäristössä!
+eventInformation: Perinteiset Alumniaiset kokoavat jo viidennen kerran Pörssin alumnit yhteen. Pe 27.10. vietetään Yliopistopäiviä kauppakorkeakoulun 50-vuotisjuhlan hengessä (lisätiedot perjantain ohjelmasta täältä ja la 28.10. pärähtää käyntiin kauan odotetut alumniaiset!
+
+Joka vuosi hienosti kehittynyt päivän ohjelmasisältö tarjoaa tänä vuonna katsauksen digitalisaation mahdollisuuksiin. Päivän mielenkiintoisen ohjelman lisäksi on tarjolla nostalgiapisteitä sekä tietysti yleistä selkääntaputtelua ja muistojen verestämistä rennon ja riehakkaan iltajuhlan parissa. Tervetuloa alumnien lämpimään kohtaamiseen nostalgisessa ympäristössä!
 
 END_OF_EVENT
 
 
 eventName: Pörssi & Dumppi Speedmeet with Wings & Fries
-eventTimestamp: 31.10.     19:00 - 23:30
+eventTimestamp: 31.10. 19:00 - 23:30
 eventUrl: http://www.porssiry.fi/events/porssi-dumppi-speedmeet-wings-fries/
-eventInformation: Has it been too long since you have had wings & fries? Don’t worry!  Pörssi and Dumppi will meet on Tuesday 31.11. at 19 o’clock in Sohwi over delicious wings & fries. Come and enjoy good food, good company and a relaxed mood. See you there!HOW MUCH: Drinks:Red/ wihte wine 12cl 3,20 €
+eventInformation: Has it been too long since you have had wings & fries? Don’t worry!  Pörssi and Dumppi will meet on Tuesday 31.11. at 19 o’clock in Sohwi over delicious wings & fries. Come and enjoy good food, good company and a relaxed mood. See you there!
+HOW MUCH: 
+Drinks:
+
+
+Red/ wihte wine 12cl 3,20 €
 
 END_OF_EVENT
 
 
 eventName: Pörssi ry:n sääntömääräinen syyskokous
-eventTimestamp: 01.11.     16:00 - 22:00
+eventTimestamp: 01.11. 16:00 - 22:00
 eventUrl: http://www.porssiry.fi/events/porssi-ryn-saantomaarainen-syyskokous-2/
-eventInformation: ...Katso lisää tapahtumasivulta!
+eventInformation: 
 
 END_OF_EVENT
 
 
 eventName: Kakkua ja skumppaa Selkkarissa
-eventTimestamp: 06.11.     14:00 - 17:30
+eventTimestamp: 06.11. 14:00 - 17:30
 eventUrl: http://www.porssiry.fi/events/kakkua-ja-skumppaa-selkkarissa-2/
-eventInformation: Vuosijuhlaviikko alkaa perinteikkäästi maljan nostolla 49-vuotiaan Pörssi ry:n kunniaksi. Jokainen on tervetullut Selkkariin aloittamaan vuosijuhlaviikkoa hyvässä hengessä.Tervetuloa!
+eventInformation: Vuosijuhlaviikko alkaa perinteikkäästi maljan nostolla 49-vuotiaan Pörssi ry:n kunniaksi. Jokainen on tervetullut Selkkariin aloittamaan vuosijuhlaviikkoa hyvässä hengessä.
+Tervetuloa!
 
 END_OF_EVENT
 
 
 eventName: Tanssi-ja etiketti-ilta
-eventTimestamp: 06.11.     17:30 - 20:00
+eventTimestamp: 06.11. 17:30 - 20:00
 eventUrl: http://www.porssiry.fi/events/kakkua-ja-skumppaa-selkkarissa/
-eventInformation: Vujuviikko rävähtää käyntiin maanantaina 6.11. klo 17.30 alkaen perinteisellä tanssi- ja etiketti-illalla.  Illan ensimmäisessä osiossa käydään läpi iltajuhlan etikettiä ja tapoja  ja toisessa syvennytään tanssin maailmaan. Tapahtuma on suositeltava etenkin ensimmäistä kertaa vujuille osallistuville, jotta arvokkaan iltajuhlan etiketti ja tavat tulevat tutuiksi. Myös tanssiosion avulla hioutuu tavallisesta tallaajastakin parkettien partaveitsi.Tapahtuma ei maksa mitään eikä tapahtumaan ole ilmoittautumista. Saavu vain rohkeasti paikalle.Huom! Vujujen etikettiä kunnioittavan juhlanauhan voit lunastaa illan aikana 5 euron panttia vastaan. Nauhan voit hakea myös Pörssin toimistolta, jos et pääse illalla paikalle.
+eventInformation: Vujuviikko rävähtää käyntiin maanantaina 6.11. klo 17.30 alkaen perinteisellä tanssi- ja etiketti-illalla.  Illan ensimmäisessä osiossa käydään läpi iltajuhlan etikettiä ja tapoja  ja toisessa syvennytään tanssin maailmaan. Tapahtuma on suositeltava etenkin ensimmäistä kertaa vujuille osallistuville, jotta arvokkaan iltajuhlan etiketti ja tavat tulevat tutuiksi. Myös tanssiosion avulla hioutuu tavallisesta tallaajastakin parkettien partaveitsi.
+
+Tapahtuma ei maksa mitään eikä tapahtumaan ole ilmoittautumista. Saavu vain rohkeasti paikalle.
+
+Huom! Vujujen etikettiä kunnioittavan juhlanauhan voit lunastaa illan aikana 5 euron panttia vastaan. Nauhan voit hakea myös Pörssin toimistolta, jos et pääse illalla paikalle.
 
 END_OF_EVENT
 
@@ -129,9 +175,14 @@ END_OF_EVENT
 
 
 eventName: Vuosijuhlasitsit
-eventTimestamp: 09.11.     17:30 - 22:00
+eventTimestamp: 09.11. 17:30 - 22:00
 eventUrl: http://www.porssiry.fi/events/vuosijuhlasitsit/
-eventInformation: LINNAN JUHLATOn taas aika juhlia akateemisen pöytäjuhlan merkeissä. Kyseessä on siis tasavallan presidentin vuosittain Pörssin vujuviikolla järjestämä juhla, jonne kutsutaan valtion, kuntien ja talouselämän edustajia, sekä erinäisiä vuoden aikana ansioituneita henkilöitä, kuten taiteilijoita, urheilijoita ja nopeita F5 rämpyttäjiä. Juhla järjestetään Presidentinlinnassa, eli Club Escapessa Jyväskylässä. Linnanjuhliin on tapana pukeutua siististi ja juhlissa tulee käyttäytyä asianmukaisesti. Presidenttejä tulee kohdella kunnioittavasti, eikä heidän puheesta tule laskea leikkiä..Linnanjuhliin ovat tervetulleita kaikki Pörssiläiset vuosikurssista välittämättä. Sitseille osallistuminen ei edellytä, että olisi menossa Pörssi Ry:n vuosijuhlaan.Kansalaiset, medborgare! Sitseillä nähdään-Tarja
+eventInformation: LINNAN JUHLAT
+
+On taas aika juhlia akateemisen pöytäjuhlan merkeissä. Kyseessä on siis tasavallan presidentin vuosittain Pörssin vujuviikolla järjestämä juhla, jonne kutsutaan valtion, kuntien ja talouselämän edustajia, sekä erinäisiä vuoden aikana ansioituneita henkilöitä, kuten taiteilijoita, urheilijoita ja nopeita F5 rämpyttäjiä. Juhla järjestetään Presidentinlinnassa, eli Club Escapessa Jyväskylässä. Linnanjuhliin on tapana pukeutua siististi ja juhlissa tulee käyttäytyä asianmukaisesti. Presidenttejä tulee kohdella kunnioittavasti, eikä heidän puheesta tule laskea leikkiä..
+Linnanjuhliin ovat tervetulleita kaikki Pörssiläiset vuosikurssista välittämättä. Sitseille osallistuminen ei edellytä, että olisi menossa Pörssi Ry:n vuosijuhlaan.
+Kansalaiset, medborgare! Sitseillä nähdään
+-Tarja
 
 END_OF_EVENT
 
@@ -139,7 +190,9 @@ END_OF_EVENT
 eventName: Pörssi ry:n 49. vuosijuhlat
 eventTimestamp: 10.11. - 11.11.
 eventUrl: http://www.porssiry.fi/events/porssi-ryn-49-vuosijuhlat/
-eventInformation: Arvon Pörssiläinen, meillä on ilo kutsua Teidät Pörssi ry:n 49. vuosijuhlaan. Vuoden arvokkainta juhlaa juhlimme kylpylähotelli Cumulus Resort Laajavuoressa perjantaina 10.11.2017 kello 19.00 alkaen. Vuosijuhlassa nautitaan perinteiseen tapaan kolmen ruokalajin illallinen, kuullaan juhlapuheita, jaetaan Pörssi ry:n ansiomerkkejä sekä muita huomionosoituksia. Upean illan kruunaa Jyväskylän yliopiston puhallinorkesteri Puhkupillit, jonka säestämänä saamme nauttia tanssin huumasta. Iltajuhlasta matkustamme bussikyydein jatkoille. Jatkoilla on tarjolla virvokkeita sekä tanssimusiikkia. Pörssin kuuluisalle silliaamiaiselle lähdemme paikkaan X seuraavana aamuna 11.11. kello 12.00 Jyväskylän matkakeskukselta. Silliksellä on perinteisesti tarjolla ruokaa ja virvokkeita sekä elävää musiikkia. Mukaan kannattaa varata myös uima-asu ja pyyhe. Sitova ilmoittautuminen vuosijuhlaan alkaa keskiviikkona 11.10. klo 12.00 ja päättyy lauantaina 14.10. klo 16.00. Kaikkien vuosijuhlijoiden osallistuminen varmistetaan vielä sähköpostitse 18.10. Vuosijuhlat on tarkoitettu ensisijaisesti toisen ja sitä ylempien vuosikurssien opiskelijoille.Heti ilmoittautumisen auettua nettisivulle ilmestyy lomake, joka täytetään. Olit sitten Pörssin jäsen tai et, niin lomake on sama kaikille ilmoittautumaan aikoville.Ilmoittautumisessa etusijalla ovat Pörssin jäsenet sekä kutsuvieraiden avecit ilmoittautumisjärjestyksessä. Avec-kohdan ilmoittaminen ei automaattisesti takaa, että avec pääsee vujuille vaan molempien tulee mahtua kantaan.
+eventInformation: Arvon Pörssiläinen, meillä on ilo kutsua Teidät Pörssi ry:n 49. vuosijuhlaan. Vuoden arvokkainta juhlaa juhlimme kylpylähotelli Cumulus Resort Laajavuoressa perjantaina 10.11.2017 kello 19.00 alkaen. Vuosijuhlassa nautitaan perinteiseen tapaan kolmen ruokalajin illallinen, kuullaan juhlapuheita, jaetaan Pörssi ry:n ansiomerkkejä sekä muita huomionosoituksia. Upean illan kruunaa Jyväskylän yliopiston puhallinorkesteri Puhkupillit, jonka säestämänä saamme nauttia tanssin huumasta. Iltajuhlasta matkustamme bussikyydein jatkoille. Jatkoilla on tarjolla virvokkeita sekä tanssimusiikkia. Pörssin kuuluisalle silliaamiaiselle lähdemme paikkaan X seuraavana aamuna 11.11. kello 12.00 Jyväskylän matkakeskukselta. Silliksellä on perinteisesti tarjolla ruokaa ja virvokkeita sekä elävää musiikkia. Mukaan kannattaa varata myös uima-asu ja pyyhe. Sitova ilmoittautuminen vuosijuhlaan alkaa keskiviikkona 11.10. klo 12.00 ja päättyy lauantaina 14.10. klo 16.00. Kaikkien vuosijuhlijoiden osallistuminen varmistetaan vielä sähköpostitse 18.10. Vuosijuhlat on tarkoitettu ensisijaisesti toisen ja sitä ylempien vuosikurssien opiskelijoille.
+Heti ilmoittautumisen auettua nettisivulle ilmestyy lomake, joka täytetään. Olit sitten Pörssin jäsen tai et, niin lomake on sama kaikille ilmoittautumaan aikoville.
+Ilmoittautumisessa etusijalla ovat Pörssin jäsenet sekä kutsuvieraiden avecit ilmoittautumisjärjestyksessä. Avec-kohdan ilmoittaminen ei automaattisesti takaa, että avec pääsee vujuille vaan molempien tulee mahtua kantaan.
 
 END_OF_EVENT
 
@@ -153,7 +206,7 @@ END_OF_EVENT
 
 
 eventName: Sijoituskerhon excursio Helsinkiin
-eventTimestamp: 13.11.     06:30 - 23:00
+eventTimestamp: 13.11. 06:30 - 23:00
 eventUrl: http://www.porssiry.fi/events/sijoituskerhon-excursio-helsinkiin-3/
 eventInformation: Lisätietoa tulossa myöhemmin…
 

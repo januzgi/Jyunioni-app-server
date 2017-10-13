@@ -26,7 +26,7 @@ $rawDataFile = '/Users/JaniS/Sites/Jyunioni server/Raw event data/linkkiRawEvent
 
 // Write the contents back to a .txt file
 if (file_put_contents($rawDataFile, $content) !== false) {
-    echo "Linkki's raw events data written succesfully to:<br><br>" . $rawDataFile . "<br>";
+    echo "<b><i>Linkki's raw events data written succesfully to: </b></i>" . $rawDataFile . "<br>";
 }
 
 
@@ -174,7 +174,7 @@ function extractEventsData($file)
         
         // Write the results into a .txt file.
         if (file_put_contents($eventDataFile, $extractedEventsData) !== false) {
-            echo "<br>Linkki's events data written succesfully to:<br><br>" . $eventDataFile . "<br>";
+            echo "<br><b><i>Linkki's events data written succesfully to: </b></i>" . $eventDataFile . "<br>";
         }
         
     }
