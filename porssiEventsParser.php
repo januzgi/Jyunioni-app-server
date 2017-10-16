@@ -3,8 +3,8 @@
 # URL
 $PORSSI_EVENTS_URL = "http://www.porssiry.fi/tapahtumat/";
 
-# FILE
-$rawEventDataFile = '/Users/JaniS/Sites/Jyunioni server/Raw event data/porssiRawEventData.txt';
+// Set the default timezone to use.
+date_default_timezone_set('Europe/Helsinki');
 
 
 // Get Porssi's "css-events-list" HTML div's URL list to a porssiRawUrlData.json file
@@ -19,10 +19,8 @@ $porssiUrlsJson = file_get_contents("/Users/JaniS/Sites/Jyunioni server/Raw even
 // Decode the .json into an array
 $porssiEventUrls = json_decode($porssiUrlsJson, true);
 
-
 // Get the raw event data into porssiRawEventData.txt
 getRawEventData($porssiEventUrls);
-
 
 
 // Fetch each event's raw data from the event's page
@@ -40,9 +38,6 @@ function getRawEventData($urls)
     foreach ($urls as $url) {
         
         // Get the content of the site
-        // Make sure the content of the site is retrieved before continuing
-        // $html = null;
-        
         $html = file_get_contents($url);
         
         // Create a new DOMDocument instance
@@ -61,15 +56,15 @@ function getRawEventData($urls)
         // Then add it to the all raw data string
         $eventPageContents .= $tmp;
         
-        // Parse the event details from the HTML
+        // Parse the event details from the .txt
         $eventDetails .= extractPorssiEventDetails($tmp, $url);
     }
     
     
-    $porssiRawEventData = "/Users/JaniS/Sites/Jyunioni server/Raw event data/porssiRawEventData.html";
+    $porssiRawEventData = "/Users/JaniS/Sites/Jyunioni server/Raw event data/porssiRawEventData.txt";
     
     // Write the raw data results into porssiRawEventData.txt file.
-    if (file_put_contents($porssiRawEventData, $tmp) !== false) {
+    if (file_put_contents($porssiRawEventData, $eventPageContents) !== false) {
         echo "<br><b><i>Pörssi's raw events data written succesfully to: </i></b>" . $porssiRawEventData . "<br>";
     }
     
@@ -143,12 +138,12 @@ function extractPorssiEventDetails($rawInformation, $eventUrl)
                                             if (strpos($line, "<img") !== false) {
                                                 $line = strtok($newline);
                                             }
-
+                                            
                                             // If the line contains "<strong>" add a newline instead
                                             if (strpos($line, "<strong>") !== false) {
-                                            	$line .= "\n";
+                                                $line .= "\n";
                                             }
-
+                                            
                                             // Check if the line contains "<div" elements, then go straight to parsing the information
                                             if (strpos($line, "<div") !== false) {
                                                 $eventInformation = extractEventInformation($eventInformation);
@@ -183,9 +178,9 @@ function extractPorssiEventDetails($rawInformation, $eventUrl)
         }
         break;
     }
-
+    
     // Delete mystical whitepsace from $eventTimestamp
-    $eventTimestamp = preg_replace("/[[:blank:]]+/"," ", $eventTimestamp);
+    $eventTimestamp = preg_replace("/[[:blank:]]+/", " ", $eventTimestamp);
     
     
     return "\neventName: " . $eventName . "\n" . "eventTimestamp: " . $eventTimestamp . "\n" . "eventUrl: " . $eventUrl . "\n" . "eventInformation: " . $eventInformation . "\n\n" . "END_OF_EVENT" . "\n\n";
@@ -202,7 +197,6 @@ function extractName($line)
 
 function extractDate($line)
 {
-    
     // Example inputs:
     // pe 10.11.2017
     // </div>
@@ -219,32 +213,42 @@ function extractDate($line)
 
 function extractTimestamp($startDate, $endDate)
 {
+    // Example inputs:
+    // pe 01.11.2017
+    // - la 11.11.2017
     
     // If it's only one day event, then $endDate === "empty"
     if (strcmp($endDate, "empty") === 0) {
-        $startDate = trim($startDate);
+        $startDate = $startDate;
         
         // Substring the shortened weekday off
         $startDate = substr($startDate, strrpos($startDate, " "));
-        // Substring the year off
-        $startDate = trim(substr($startDate, 0, -4));
+        // echo $startDate = "01.11.2017";
+        
+        // Format the date and get the year and leading 0's off 
+        $startDate = str_replace(".", "-", $startDate);
+        $startDate = date("j.n.", strtotime($startDate));
+        // echo $startDate = "1.11."
         
         return $startDate;
     }
     
     // Substring both startDate and endDate and return them as a timestamp
-    $startDate = trim($startDate);
-    $endDate   = trim($endDate);
+    // $startDate = trim($startDate);
+    // $endDate   = trim($endDate);
     
     // Substring the shortened weekday off
     $startDate = substr($startDate, strrpos($startDate, " "));
     $endDate   = substr($endDate, strrpos($endDate, " "));
     
-    // Substring the year off
-    $startDate = substr($startDate, 0, -4);
-    $endDate   = substr($endDate, 0, -4);
+    // Format the dates and get the year and leading 0's off 
+    $startDate = str_replace(".", "-", $startDate);
+    $startDate = date("j.n.", strtotime($startDate));
     
-    return trim($startDate) . " - " . trim($endDate);
+    $endDate = str_replace(".", "-", $endDate);
+    $endDate = date("j.n.", strtotime($endDate));
+    
+    return $startDate . " - " . $endDate;
 }
 
 
@@ -283,83 +287,7 @@ function extractHoursToTimestamp($line, $eventTimestamp)
         
         return $eventTimestamp;
     }
-
+    
     // If the event is just on one day
     return $eventTimestamp . $line;
 }
-
-
-function extractEventInformation($eventInformation)
-{
-    // Replace all html tags
-    $eventInformation = trim(strip_tags($eventInformation));
-    
-    // Decode any html chars like &amp;'s (&'s) etc..
-    $eventInformation = htmlspecialchars_decode($eventInformation);
-    
-    return $eventInformation;
-}
-
-
-
-
-function fetchUrls($url)
-{
-    // Get the contents of the site
-    // Make sure the content of the site is retrieved before continuing
-    //$html = null;
-    
-    // while(!$html) {
-    $html = file_get_contents($url);
-    // }
-    
-    // Create a new DOMDocument instance
-    $dom = new DOMDocument();
-    
-    // Surpress errors with the '@' and load the String containing the pages HTML to the DOMDocument object
-    @$dom->loadHTML($html);
-    
-    
-    // More about the xpath query usage: http://www.the-art-of-web.com/php/html-xpath-query/
-    $xpath    = new DOMXpath($dom);
-    $articles = $xpath->query('.//div[@class="css-events-list"]');
-    // $articles is an instance of DOMNodeList
-    
-    // Get all links in div with id "css-events-list". Create an array instance.
-    $links = array();
-    
-    foreach ($articles as $container) {
-        $arr = $container->getElementsByTagName("a");
-        
-        // Put the elements content (the URL's) from href fields to an array
-        foreach ($arr as $item) {
-            $href = $item->getAttribute("href");
-            
-            // Add each link to the array
-            array_push($links, $href);
-        }
-    }
-    
-    // Check the second page of events if there is one. It will be at the end of the list.
-    if (strcmp(end($links), "/tapahtumat/?pno=2") === 0) {
-        // Delete the link to the second page from the links list.
-        array_pop($links);
-        
-        if (strcmp(end($links), "/tapahtumat/?pno=2") === 0) {
-            // Delete possible second link to the second page from the links list.
-            array_pop($links);
-        }
-    }
-
-    $porssiRawUrlDataJson = "/Users/JaniS/Sites/Jyunioni server/Raw event data/porssiRawUrlData.json";
-    
-    // Write the array of links into the .json file
-    $fp = fopen($porssiRawUrlDataJson, "w");
-    if (fwrite($fp, json_encode($links, JSON_PRETTY_PRINT)) !== false) {
-        echo "<b><i>porssiRawUrlData.json written succesfully to: </i></b>" . $porssiRawUrlDataJson . "<br>";
-    }
-    fclose($fp);
-}
-
-
-?>

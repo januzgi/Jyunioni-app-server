@@ -1,35 +1,5 @@
 PORSSI
 
-eventName: Hallitushaku
-eventTimestamp: 02.10. - 13.10.
-eventUrl: http://www.porssiry.fi/events/hallitushaku/
-eventInformation: Haku Pörssin hallitukseen 2018 on auki 2.-13.10. Uusi hallitus valitaan Pörssin syyskokouksessa 1.11.2017.
-Lisätietoja
-
-END_OF_EVENT
-
-
-eventName: NESU-Jyväskylä: Case Competition
-eventTimestamp: 12.10. 10:00 - 18:00
-eventUrl: http://www.porssiry.fi/events/nesu-jyvaskyla-case-competition/
-eventInformation:  
-Tapahtuma on valitettavasti peruttu!
-
-END_OF_EVENT
-
-
-eventName: Viestijät & Kylterit – Helsingin excu
-eventTimestamp: 13.10. 06:45 - 23:00
-eventUrl: http://www.porssiry.fi/events/viestijat-kylterit-excu/
-eventInformation: Viestijöiden ja kyltereiden yhteistyö jatkuu! Lokakuun puolessa välissä Imago, Parku, Lööppi ja Pörssi suuntaavat yhteisexcursiolle Helsinkiin vierailemaan markkinoinnin, viestinnän ja media-alan yrityksiin. Luvassa on myös poikkitieteellistä tutustumista uusiin tuttavuuksiin huikean iltaohjelman parissa!
-Yhteisexcursio järjestetään perjantaina 13. lokakuuta. Bussikyyti Helsinkiin lähtee Matkakeskukselta klo 6.45, ja takaisin Jyväskylään lähdemme noin kello 23. Excursiolle voi matkustaa myös omin kyydein, mutta osallistumismaksu on sama myös itsenäisesti matkustaville. Liikkuminen Helsingissä kohteiden ja iltaohjelmapaikan välillä tapahtuu omatoimisesti.
-
-Yritysvierailuja on sovittu yhteensä neljään kohteeseen, joista jokainen pääsee osallistumaan kahteen. Ilmoittautumisen yhteydessä osallistuja valitsee mieluisimman kohteen aamu- ja iltapäivältä. Kuhunkin kohteeseen kiintiö on 30 osallistujaa ja paikat täytetään ilmoittautumisjärjestyksessä.
-Aamupäivän kohteet (aloitus klo 11):
-
-END_OF_EVENT
-
-
 eventName: Syksyn vaihtoilta
 eventTimestamp: 16.10. 16:00 - 18:00
 eventUrl: http://www.porssiry.fi/events/syksyn-vaihtoilta/
@@ -116,6 +86,18 @@ Joka vuosi hienosti kehittynyt päivän ohjelmasisältö tarjoaa tänä vuonna k
 END_OF_EVENT
 
 
+eventName: Kyltereiden rekrytointiworkshop
+eventTimestamp: 28.10. 09:30 - 12:00
+eventUrl: http://www.porssiry.fi/events/kyltereiden-rekrytointiworkshop/
+eventInformation: Tervetuloa rekrytointiworkshoppiin hiomaan työnhaun taitojasi la 28.10 klo 9.30-12.00!
+
+Pörssin Alumnit ry:n joukoista löytyy myös raudan kovia rekrytointiammattilaisia. Haluamme jakaa ammattirekrytoijien vinkkejä Pörssiläisille, nyt ensimmäistä kertaa workshop-muodossa.
+Workshop sisältää konkreettisia harjoituksia esim. tuleviin työnhakuprosesseihin kesälle tai valmistumisen jälkeen.
+Workshopissa pääset:
+
+END_OF_EVENT
+
+
 eventName: Pörssi & Dumppi Speedmeet with Wings & Fries
 eventTimestamp: 31.10. 19:00 - 23:30
 eventUrl: http://www.porssiry.fi/events/porssi-dumppi-speedmeet-wings-fries/
@@ -130,7 +112,7 @@ END_OF_EVENT
 
 
 eventName: Pörssi ry:n sääntömääräinen syyskokous
-eventTimestamp: 01.11. 16:00 - 22:00
+eventTimestamp: 1.11. 16:00 - 22:00
 eventUrl: http://www.porssiry.fi/events/porssi-ryn-saantomaarainen-syyskokous-2/
 eventInformation: 
 
@@ -138,7 +120,7 @@ END_OF_EVENT
 
 
 eventName: Kakkua ja skumppaa Selkkarissa
-eventTimestamp: 06.11. 14:00 - 17:30
+eventTimestamp: 6.11. 14:00 - 17:30
 eventUrl: http://www.porssiry.fi/events/kakkua-ja-skumppaa-selkkarissa-2/
 eventInformation: Vuosijuhlaviikko alkaa perinteikkäästi maljan nostolla 49-vuotiaan Pörssi ry:n kunniaksi. Jokainen on tervetullut Selkkariin aloittamaan vuosijuhlaviikkoa hyvässä hengessä.
 Tervetuloa!
@@ -147,7 +129,7 @@ END_OF_EVENT
 
 
 eventName: Tanssi-ja etiketti-ilta
-eventTimestamp: 06.11. 17:30 - 20:00
+eventTimestamp: 6.11. 17:30 - 20:00
 eventUrl: http://www.porssiry.fi/events/kakkua-ja-skumppaa-selkkarissa/
 eventInformation: Vujuviikko rävähtää käyntiin maanantaina 6.11. klo 17.30 alkaen perinteisellä tanssi- ja etiketti-illalla.  Illan ensimmäisessä osiossa käydään läpi iltajuhlan etikettiä ja tapoja  ja toisessa syvennytään tanssin maailmaan. Tapahtuma on suositeltava etenkin ensimmäistä kertaa vujuille osallistuville, jotta arvokkaan iltajuhlan etiketti ja tavat tulevat tutuiksi. Myös tanssiosion avulla hioutuu tavallisesta tallaajastakin parkettien partaveitsi.
 
@@ -159,7 +141,7 @@ END_OF_EVENT
 
 
 eventName: Cocktail-koulutus
-eventTimestamp: 07.11.
+eventTimestamp: 7.11.
 eventUrl: http://www.porssiry.fi/events/cocktail-koulutus/
 eventInformation: Lisätietoja luvassa myöhemmin…
 
@@ -167,7 +149,7 @@ END_OF_EVENT
 
 
 eventName: Skumppajooga
-eventTimestamp: 08.11.
+eventTimestamp: 8.11.
 eventUrl: http://www.porssiry.fi/events/skumppajooga/
 eventInformation: Lisätietoja luvassa myöhemmin…
 
@@ -175,7 +157,7 @@ END_OF_EVENT
 
 
 eventName: Vuosijuhlasitsit
-eventTimestamp: 09.11. 17:30 - 22:00
+eventTimestamp: 9.11. 17:30 - 22:00
 eventUrl: http://www.porssiry.fi/events/vuosijuhlasitsit/
 eventInformation: LINNAN JUHLAT
 
