@@ -48,17 +48,17 @@
 </div>
     <div class="small-12 medium-6 large-6 columns" data-equalizer-watch>
         		<div class="em-location-map-container" style="position:relative; background: #CDCDCD; width: 100%; height: 100%;">
-   			<div class="em-location-map" id="em-location-map-92821" style="width: 100%; height: 100%;">
+   			<div class="em-location-map" id="em-location-map-e468e" style="width: 100%; height: 100%;">
    				Kartta latautuu...   			</div>
 		</div>
-   		<div class="em-location-map-info" id="em-location-map-info-92821" style="display:none; visibility:hidden;">
+   		<div class="em-location-map-info" id="em-location-map-info-e468e" style="display:none; visibility:hidden;">
    			<div class="em-map-balloon" style="font-size:12px;">
    				<div class="em-map-balloon-content">
 <strong>Agora</strong><br>Mattilanniemi 2 - Jyväskylä<br><a href="http://www.porssiry.fi/locations/agora-2/">Tapahtumat</a>
 </div>
    			</div>
    		</div>
-		<div class="em-location-map-coords" id="em-location-map-coords-92821" style="display:none; visibility:hidden;">
+		<div class="em-location-map-coords" id="em-location-map-coords-e468e" style="display:none; visibility:hidden;">
 			<span class="lat">62.2320331</span>
 			<span class="lng">25.73641509999993</span>
 		</div>
@@ -138,17 +138,17 @@ MITÄ MAKSAA: Ilmainen</p>
 </div>
     <div class="small-12 medium-6 large-6 columns" data-equalizer-watch>
         		<div class="em-location-map-container" style="position:relative; background: #CDCDCD; width: 100%; height: 100%;">
-   			<div class="em-location-map" id="em-location-map-1bcea" style="width: 100%; height: 100%;">
+   			<div class="em-location-map" id="em-location-map-0ffc3" style="width: 100%; height: 100%;">
    				Kartta latautuu...   			</div>
 		</div>
-   		<div class="em-location-map-info" id="em-location-map-info-1bcea" style="display:none; visibility:hidden;">
+   		<div class="em-location-map-info" id="em-location-map-info-0ffc3" style="display:none; visibility:hidden;">
    			<div class="em-map-balloon" style="font-size:12px;">
    				<div class="em-map-balloon-content">
 <strong>Figaro Restaurant &amp; Winebistro</strong><br>Asemakatu 2 - Jyväskylä<br><a href="http://www.porssiry.fi/locations/figaro-restaurant-winebistro-2/">Tapahtumat</a>
 </div>
    			</div>
    		</div>
-		<div class="em-location-map-coords" id="em-location-map-coords-1bcea" style="display:none; visibility:hidden;">
+		<div class="em-location-map-coords" id="em-location-map-coords-0ffc3" style="display:none; visibility:hidden;">
 			<span class="lat">62.2410041</span>
 			<span class="lng">25.751409599999988</span>
 		</div>
@@ -244,17 +244,17 @@ MITÄ MAKSAA: Ilmainen</p>
 </div>
     <div class="small-12 medium-6 large-6 columns" data-equalizer-watch>
         		<div class="em-location-map-container" style="position:relative; background: #CDCDCD; width: 100%; height: 100%;">
-   			<div class="em-location-map" id="em-location-map-ad62a" style="width: 100%; height: 100%;">
+   			<div class="em-location-map" id="em-location-map-b860f" style="width: 100%; height: 100%;">
    				Kartta latautuu...   			</div>
 		</div>
-   		<div class="em-location-map-info" id="em-location-map-info-ad62a" style="display:none; visibility:hidden;">
+   		<div class="em-location-map-info" id="em-location-map-info-b860f" style="display:none; visibility:hidden;">
    			<div class="em-map-balloon" style="font-size:12px;">
    				<div class="em-map-balloon-content">
 <strong>CrossFit Jyväskylä</strong><br>Kympinkatu 3 - Kympinkatu 3 40320 Jyväskylä<br><a href="http://www.porssiry.fi/locations/crossfit-jyvaskyla-2/">Tapahtumat</a>
 </div>
    			</div>
    		</div>
-		<div class="em-location-map-coords" id="em-location-map-coords-ad62a" style="display:none; visibility:hidden;">
+		<div class="em-location-map-coords" id="em-location-map-coords-b860f" style="display:none; visibility:hidden;">
 			<span class="lat">62.2537665</span>
 			<span class="lng">25.759945499999958</span>
 		</div>
@@ -279,7 +279,7 @@ MITÄ MAKSAA: Ilmainen</p>
 <li>sara manninen</li>
 <li>suvi lindfelt</li>
 <li>Matilda Heiskanen</li>
-<li>Aleksi kantonen</li>
+<li>Henna Nevala</li>
 <li>ronja narumo</li>
 <li>Pinja</li>
 <li>Pinja Karjala</li>
@@ -368,23 +368,23 @@ MITÄ MAKSAA: Ilmainen</p>
 – Osallistutko yhteiselle illalliselle (HUOM: Tämä lisää excun kokonaishintaa) ja vierailulle Danske Bankilla<br>
 – Mahdolliset erityisruokavaliot<br>
 – Huonekaveritoive</p>
-<p>Kysymyksiä excuun liittyen voit kysyä Miina Sarénilta osoitteesta <span id="eeb-267239"></span><script type="text/javascript">(function(){var ml="EpF3yxDtAlkCin.40fs-ceo%h2armu",mi="G3;JGI@HKEAG36GIILJ<97FG38E5DMG?@1FKBB<K4>A<GIIGI@GI@D9JBBG36GIILJ<97FC9<=:GIIG30E5DMG?@1FKBB<K4>A<G3;GI2JG30",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.getElementById("eeb-267239").innerHTML = decodeURIComponent(o);}());</script></p>
+<p>Kysymyksiä excuun liittyen voit kysyä Miina Sarénilta osoitteesta <span id="eeb-571327"></span><script type="text/javascript">(function(){var ml="honA%aDfC2.uryE-0klc3xFsemipt4",mi="4D8549@0<H74D6499I5JBL14D3HEC;4M@K1<GGJ<=:7J49949@49@CB5GG4D6499I5JBL1?BJ2A4994D>HEC;4M@K1<GGJ<=:7J4D849F54D>",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.getElementById("eeb-571327").innerHTML = decodeURIComponent(o);}());</script></p>
 <noscript>*protected email*</noscript>
 
 </div>
     <div class="small-12 medium-6 large-6 columns" data-equalizer-watch>
         		<div class="em-location-map-container" style="position:relative; background: #CDCDCD; width: 100%; height: 100%;">
-   			<div class="em-location-map" id="em-location-map-f5c2d" style="width: 100%; height: 100%;">
+   			<div class="em-location-map" id="em-location-map-3b7b6" style="width: 100%; height: 100%;">
    				Kartta latautuu...   			</div>
 		</div>
-   		<div class="em-location-map-info" id="em-location-map-info-f5c2d" style="display:none; visibility:hidden;">
+   		<div class="em-location-map-info" id="em-location-map-info-3b7b6" style="display:none; visibility:hidden;">
    			<div class="em-map-balloon" style="font-size:12px;">
    				<div class="em-map-balloon-content">
 <strong>Steel House Copenhagen</strong><br>Herholdtsgade 6 - Kööpenhamina<br><a href="http://www.porssiry.fi/locations/steel-house-copenhagen/">Tapahtumat</a>
 </div>
    			</div>
    		</div>
-		<div class="em-location-map-coords" id="em-location-map-coords-f5c2d" style="display:none; visibility:hidden;">
+		<div class="em-location-map-coords" id="em-location-map-coords-3b7b6" style="display:none; visibility:hidden;">
 			<span class="lat">55.6760968</span>
 			<span class="lng">12.568337199999973</span>
 		</div>
@@ -480,24 +480,24 @@ MITÄ MAKSAA: Ilmainen</p>
 <p><strong>Milloin</strong>: Sijoitusluento klo 17.30 ja OPTIO klo 19.00, keskiviikkona 25.10</p>
 <p><strong>Mitä maksaa</strong>: Ilmainen</p>
 <p><strong>Pukukoodi</strong>: Business casual (jos on)</p>
-<p>Lisätiedot sijoituskerhon vetäjiltä, Jerkko Leikonen (040 8245748) ja Santeri Vaattovaara (050 5636961) tai <span id="eeb-15793"><span id="eeb-419555"></span><script type="text/javascript">(function(){var ml="3ynirF2luDphak.40t-j%sAEfoemcwC",mi="D0N<D6@;4JHD09D66K<37AID0FE3CI3A8E=J4;ID?@MMM>:I4EE341>H3D66D6@L7<EED09D66K<37AIB732=D6@K<37AIB732=D66D0GE3CI3A8E=J4;ID?@MMM>:I4EE341>H3D0ND65<D0G",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.getElementById("eeb-419555").innerHTML = decodeURIComponent(o);}());</script><noscript>*protected email*</noscript></span></p>
+<p>Lisätiedot sijoituskerhon vetäjiltä, Jerkko Leikonen (040 8245748) ja Santeri Vaattovaara (050 5636961) tai <span id="eeb-15793"><span id="eeb-399639"></span><script type="text/javascript">(function(){var ml="tEhu.lDak%3F-pso0rC4emyjAfn2ciw",mi="9:B79K@2ADI9:69KKE7M50?9:H>MG?M03>8DA2?9C@NNN4=?A>>MAF4IM9KK9K@L57>>9:69KKE7M50?<5MJ89K@E7M50?<5MJ89KK9:1>MG?M03>8DA2?9C@NNN4=?A>>MAF4IM9:B9K;79:1",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.getElementById("eeb-399639").innerHTML = decodeURIComponent(o);}());</script><noscript>*protected email*</noscript></span></p>
 <p> </p>
 <p> </p>
 
 </div>
     <div class="small-12 medium-6 large-6 columns" data-equalizer-watch>
         		<div class="em-location-map-container" style="position:relative; background: #CDCDCD; width: 100%; height: 100%;">
-   			<div class="em-location-map" id="em-location-map-02e64" style="width: 100%; height: 100%;">
+   			<div class="em-location-map" id="em-location-map-d986e" style="width: 100%; height: 100%;">
    				Kartta latautuu...   			</div>
 		</div>
-   		<div class="em-location-map-info" id="em-location-map-info-02e64" style="display:none; visibility:hidden;">
+   		<div class="em-location-map-info" id="em-location-map-info-d986e" style="display:none; visibility:hidden;">
    			<div class="em-map-balloon" style="font-size:12px;">
    				<div class="em-map-balloon-content">
 <strong>Agora Center</strong><br>Mattilanniemi 3  - Jyväskylä<br><a href="http://www.porssiry.fi/locations/agora-center/">Tapahtumat</a>
 </div>
    			</div>
    		</div>
-		<div class="em-location-map-coords" id="em-location-map-coords-02e64" style="display:none; visibility:hidden;">
+		<div class="em-location-map-coords" id="em-location-map-coords-d986e" style="display:none; visibility:hidden;">
 			<span class="lat">62.2325293</span>
 			<span class="lng">25.736964599999965</span>
 		</div>
@@ -578,17 +578,17 @@ MITÄ MAKSAA: Ilmainen</p>
 </div>
     <div class="small-12 medium-6 large-6 columns" data-equalizer-watch>
         		<div class="em-location-map-container" style="position:relative; background: #CDCDCD; width: 100%; height: 100%;">
-   			<div class="em-location-map" id="em-location-map-c3fb7" style="width: 100%; height: 100%;">
+   			<div class="em-location-map" id="em-location-map-5f67b" style="width: 100%; height: 100%;">
    				Kartta latautuu...   			</div>
 		</div>
-   		<div class="em-location-map-info" id="em-location-map-info-c3fb7" style="display:none; visibility:hidden;">
+   		<div class="em-location-map-info" id="em-location-map-info-5f67b" style="display:none; visibility:hidden;">
    			<div class="em-map-balloon" style="font-size:12px;">
    				<div class="em-map-balloon-content">
 <strong>Vanha Freda</strong><br>Yliopistonkatu 11 - Jyväskylä<br><a href="http://www.porssiry.fi/locations/vanha-freda-2/">Tapahtumat</a>
 </div>
    			</div>
    		</div>
-		<div class="em-location-map-coords" id="em-location-map-coords-c3fb7" style="display:none; visibility:hidden;">
+		<div class="em-location-map-coords" id="em-location-map-coords-5f67b" style="display:none; visibility:hidden;">
 			<span class="lat">62.24324139999999</span>
 			<span class="lng">25.74374320000004</span>
 		</div>
@@ -660,7 +660,7 @@ Aiheena: Vähittäiskaupan digitalisaatio<br></span>13.45-14.45 Paneeli: Koulutu
 <div></div>
 <div class="paragraph"><strong><span size="4" style="font-size: large;">Lämpimästi tervetuloa mukaan!<br></span></strong></div>
 <div class="paragraph">
-<p>​Lisätietoja antaa Pörssin Alumnit ry:n hallitus osoitteesta <span id="eeb-780497"></span><script type="text/javascript">(function(){var ml="c03oC-airAukl4psD%2.FmhtfnEeg",mi="A246AB1F8KHA2@ABBE67<G3A29>38??7IC6<:EI7GA=1LE67<C03EABBAB1AB10<6??A2@ABBE67<G35<7I;ABBA2J>38??7IC6<:EI7GA=1LE67<C03EA24ABD6A2J",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.getElementById("eeb-780497").innerHTML = decodeURIComponent(o);}());</script></p>
+<p>​Lisätietoja antaa Pörssin Alumnit ry:n hallitus osoitteesta <span id="eeb-454681"></span><script type="text/javascript">(function(){var ml="h4Ep%ukf.sDacegn-CitF32lArom0",mi="4EA;4FL0I=74E:4FFK;BGCJ4EH3JI99B?8;G5K?BC41L>K;BG8<JK4FF4FL4FL<G;994E:4FFK;BGCJ@GB?64FF4E23JI99B?8;G5K?BC41L>K;BG8<JK4EA4FD;4E2",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.getElementById("eeb-454681").innerHTML = decodeURIComponent(o);}());</script></p>
 <noscript>*protected email*</noscript> ja puheenjohtaja Sanna Koistinen numerosta 045 134 5291
 </div>
 <p><a href="https://www.jyu.fi/fi/akateemiset-tapahtumat/yliopistopaivat/alumniaiset" class="nappi">Ilmoittaudu!</a></p>
@@ -669,17 +669,17 @@ Aiheena: Vähittäiskaupan digitalisaatio<br></span>13.45-14.45 Paneeli: Koulutu
 </div>
     <div class="small-12 medium-6 large-6 columns" data-equalizer-watch>
         		<div class="em-location-map-container" style="position:relative; background: #CDCDCD; width: 100%; height: 100%;">
-   			<div class="em-location-map" id="em-location-map-48b9e" style="width: 100%; height: 100%;">
+   			<div class="em-location-map" id="em-location-map-be440" style="width: 100%; height: 100%;">
    				Kartta latautuu...   			</div>
 		</div>
-   		<div class="em-location-map-info" id="em-location-map-info-48b9e" style="display:none; visibility:hidden;">
+   		<div class="em-location-map-info" id="em-location-map-info-be440" style="display:none; visibility:hidden;">
    			<div class="em-map-balloon" style="font-size:12px;">
    				<div class="em-map-balloon-content">
 <strong>Agora</strong><br>Mattilanniemi 2 - Jyväskylä<br><a href="http://www.porssiry.fi/locations/agora-6/">Tapahtumat</a>
 </div>
    			</div>
    		</div>
-		<div class="em-location-map-coords" id="em-location-map-coords-48b9e" style="display:none; visibility:hidden;">
+		<div class="em-location-map-coords" id="em-location-map-coords-be440" style="display:none; visibility:hidden;">
 			<span class="lat">62.2320331</span>
 			<span class="lng">25.73641509999993</span>
 		</div>
@@ -756,8 +756,8 @@ Aiheena: Vähittäiskaupan digitalisaatio<br></span>13.45-14.45 Paneeli: Koulutu
 <p>Tervetuloa mukaan!</p>
 <p> </p>
 <h2><strong>Ilmoittaudu: </strong></h2>
-<p>Osoitteseen  <span id="eeb-440085"></span><script type="text/javascript">(function(){var ml="nAloEest%0fmrjyDi2ck-.h4aFC3vp",mi="8KJH8A9F<5:8K?8AA;H@2738K1LM=8G9M3<66@<>E:@8AA8A98A9B2H668K?8AA;H@273D2@0C8AA8K4LM=8G9M3<66@<>E:@8KJ8AIH8K4",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.getElementById("eeb-440085").innerHTML = decodeURIComponent(o);}());</script></p>
-<noscript>*protected email*</noscript> <strong>20.10. mennessä</strong>. Ennakkotehtävä lähetetään osallistujille 21.10. Voit esittää kysymyksiä ohjaajille 25.10. mennessä järjestäjille, lähettämällä ne osoitteeseen <span id="eeb-382693"></span><script type="text/javascript">(function(){var ml="iDp4oe2E%ahnmtvCFck-lj.Afrs0y3",mi="8M?986K:I5H8M1866<90D=48MG>2E83K24IJJ0ILFH086686K86KAD9JJ8M1866<90D=4CD0;B8668M7>2E83K24IJJ0ILFH08M?86@98M7",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.getElementById("eeb-382693").innerHTML = decodeURIComponent(o);}());</script><noscript>*protected email*</noscript>. Tilaisuus järjestetään Agoralla, tarkempi sali ilmoitetaan ennakkokirjeessä.
+<p>Osoitteseen  <span id="eeb-278523"></span><script type="text/javascript">(function(){var ml="eC0FsDtfy4hA.rm%na-E2vklojicp3",mi="?M1A?D2:=07?M5?DD>AJG6H?M;ELI?92LH=44J=8<7J?DD?D2?D2KGA44?M5?DD>AJG6HBGJ@F?DD?MCELI?92LH=44J=8<7J?M1?D3A?MC",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.getElementById("eeb-278523").innerHTML = decodeURIComponent(o);}());</script></p>
+<noscript>*protected email*</noscript> <strong>20.10. mennessä</strong>. Ennakkotehtävä lähetetään osallistujille 21.10. Voit esittää kysymyksiä ohjaajille 25.10. mennessä järjestäjille, lähettämällä ne osoitteeseen <span id="eeb-90403"></span><script type="text/javascript">(function(){var ml="Foefstkh%m2En43rvj0c-Ay.iaplCD",mi="8>LI8:B7?238>M8::9IHK518>E@JA8=BJ1?44H?FG3H8::8:B8:BCKI448>M8::9IHK51DKH<68::8>;@JA8=BJ1?44H?FG3H8>L8:0I8>;",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.getElementById("eeb-90403").innerHTML = decodeURIComponent(o);}());</script><noscript>*protected email*</noscript>. Tilaisuus järjestetään Agoralla, tarkempi sali ilmoitetaan ennakkokirjeessä.
 <p><strong>MITÄ: </strong>Pörssiläisille järjestettävä rekrytointiworkshop<strong><br>
 MISSÄ: </strong>Agoralla<strong><br>
 MILLOIN: </strong>28.10. klo 9.30 – 12.00</p>
@@ -765,17 +765,17 @@ MILLOIN: </strong>28.10. klo 9.30 – 12.00</p>
 </div>
     <div class="small-12 medium-6 large-6 columns" data-equalizer-watch>
         		<div class="em-location-map-container" style="position:relative; background: #CDCDCD; width: 100%; height: 100%;">
-   			<div class="em-location-map" id="em-location-map-aa4a8" style="width: 100%; height: 100%;">
+   			<div class="em-location-map" id="em-location-map-735bc" style="width: 100%; height: 100%;">
    				Kartta latautuu...   			</div>
 		</div>
-   		<div class="em-location-map-info" id="em-location-map-info-aa4a8" style="display:none; visibility:hidden;">
+   		<div class="em-location-map-info" id="em-location-map-info-735bc" style="display:none; visibility:hidden;">
    			<div class="em-map-balloon" style="font-size:12px;">
    				<div class="em-map-balloon-content">
 <strong>Agora Center</strong><br>Mattilanniemi 3  - Jyväskylä<br><a href="http://www.porssiry.fi/locations/agora-center/">Tapahtumat</a>
 </div>
    			</div>
    		</div>
-		<div class="em-location-map-coords" id="em-location-map-coords-aa4a8" style="display:none; visibility:hidden;">
+		<div class="em-location-map-coords" id="em-location-map-coords-735bc" style="display:none; visibility:hidden;">
 			<span class="lat">62.2325293</span>
 			<span class="lng">25.736964599999965</span>
 		</div>
@@ -850,17 +850,17 @@ MILLOIN: </strong>28.10. klo 9.30 – 12.00</p>
 </div>
     <div class="small-12 medium-6 large-6 columns" data-equalizer-watch>
         		<div class="em-location-map-container" style="position:relative; background: #CDCDCD; width: 100%; height: 100%;">
-   			<div class="em-location-map" id="em-location-map-fd737" style="width: 100%; height: 100%;">
+   			<div class="em-location-map" id="em-location-map-abfd7" style="width: 100%; height: 100%;">
    				Kartta latautuu...   			</div>
 		</div>
-   		<div class="em-location-map-info" id="em-location-map-info-fd737" style="display:none; visibility:hidden;">
+   		<div class="em-location-map-info" id="em-location-map-info-abfd7" style="display:none; visibility:hidden;">
    			<div class="em-map-balloon" style="font-size:12px;">
    				<div class="em-map-balloon-content">
 <strong>Ravintola Sohwi</strong><br>Vaasankatu 21 - Jyväskylä<br><a href="http://www.porssiry.fi/locations/ravintola-sohwi/">Tapahtumat</a>
 </div>
    			</div>
    		</div>
-		<div class="em-location-map-coords" id="em-location-map-coords-fd737" style="display:none; visibility:hidden;">
+		<div class="em-location-map-coords" id="em-location-map-coords-abfd7" style="display:none; visibility:hidden;">
 			<span class="lat">62.2379425</span>
 			<span class="lng">25.738370199999963</span>
 		</div>
@@ -917,17 +917,17 @@ MILLOIN: </strong>28.10. klo 9.30 – 12.00</p>
 </div>
     <div class="small-12 medium-6 large-6 columns" data-equalizer-watch>
         		<div class="em-location-map-container" style="position:relative; background: #CDCDCD; width: 100%; height: 100%;">
-   			<div class="em-location-map" id="em-location-map-b435a" style="width: 100%; height: 100%;">
+   			<div class="em-location-map" id="em-location-map-67485" style="width: 100%; height: 100%;">
    				Kartta latautuu...   			</div>
 		</div>
-   		<div class="em-location-map-info" id="em-location-map-info-b435a" style="display:none; visibility:hidden;">
+   		<div class="em-location-map-info" id="em-location-map-info-67485" style="display:none; visibility:hidden;">
    			<div class="em-map-balloon" style="font-size:12px;">
    				<div class="em-map-balloon-content">
 <strong>Club Escape</strong><br>Kauppakatu 32 - Jyväskylä<br><a href="http://www.porssiry.fi/locations/club-escape/">Tapahtumat</a>
 </div>
    			</div>
    		</div>
-		<div class="em-location-map-coords" id="em-location-map-coords-b435a" style="display:none; visibility:hidden;">
+		<div class="em-location-map-coords" id="em-location-map-coords-67485" style="display:none; visibility:hidden;">
 			<span class="lat">62.243956</span>
 			<span class="lng">25.75023729999998</span>
 		</div>
@@ -986,17 +986,17 @@ MILLOIN: </strong>28.10. klo 9.30 – 12.00</p>
 </div>
     <div class="small-12 medium-6 large-6 columns" data-equalizer-watch>
         		<div class="em-location-map-container" style="position:relative; background: #CDCDCD; width: 100%; height: 100%;">
-   			<div class="em-location-map" id="em-location-map-34357" style="width: 100%; height: 100%;">
+   			<div class="em-location-map" id="em-location-map-23aff" style="width: 100%; height: 100%;">
    				Kartta latautuu...   			</div>
 		</div>
-   		<div class="em-location-map-info" id="em-location-map-info-34357" style="display:none; visibility:hidden;">
+   		<div class="em-location-map-info" id="em-location-map-info-23aff" style="display:none; visibility:hidden;">
    			<div class="em-map-balloon" style="font-size:12px;">
    				<div class="em-map-balloon-content">
 <strong>Selkkari</strong><br>Ag D125.1 - Jyväskylä<br><a href="http://www.porssiry.fi/locations/selkkari/">Tapahtumat</a>
 </div>
    			</div>
    		</div>
-		<div class="em-location-map-coords" id="em-location-map-coords-34357" style="display:none; visibility:hidden;">
+		<div class="em-location-map-coords" id="em-location-map-coords-23aff" style="display:none; visibility:hidden;">
 			<span class="lat">62.23281467366817</span>
 			<span class="lng">25.738063873619012</span>
 		</div>
@@ -1056,17 +1056,17 @@ MILLOIN: </strong>28.10. klo 9.30 – 12.00</p>
 </div>
     <div class="small-12 medium-6 large-6 columns" data-equalizer-watch>
         		<div class="em-location-map-container" style="position:relative; background: #CDCDCD; width: 100%; height: 100%;">
-   			<div class="em-location-map" id="em-location-map-8f3ba" style="width: 100%; height: 100%;">
+   			<div class="em-location-map" id="em-location-map-3a905" style="width: 100%; height: 100%;">
    				Kartta latautuu...   			</div>
 		</div>
-   		<div class="em-location-map-info" id="em-location-map-info-8f3ba" style="display:none; visibility:hidden;">
+   		<div class="em-location-map-info" id="em-location-map-info-3a905" style="display:none; visibility:hidden;">
    			<div class="em-map-balloon" style="font-size:12px;">
    				<div class="em-map-balloon-content">
 <strong>S-rakennuksen vanha juhlasali (S212)</strong><br>Seminaarikatu - Jyväskylä<br><a href="http://www.porssiry.fi/locations/s-rakennuksen-vanha-juhlasali-s212/">Tapahtumat</a>
 </div>
    			</div>
    		</div>
-		<div class="em-location-map-coords" id="em-location-map-coords-8f3ba" style="display:none; visibility:hidden;">
+		<div class="em-location-map-coords" id="em-location-map-coords-3a905" style="display:none; visibility:hidden;">
 			<span class="lat">62.2361745</span>
 			<span class="lng">25.734864300000027</span>
 		</div>
@@ -1136,17 +1136,17 @@ MILLOIN: </strong>28.10. klo 9.30 – 12.00</p>
 </div>
     <div class="small-12 medium-6 large-6 columns" data-equalizer-watch>
         		<div class="em-location-map-container" style="position:relative; background: #CDCDCD; width: 100%; height: 100%;">
-   			<div class="em-location-map" id="em-location-map-42b31" style="width: 100%; height: 100%;">
+   			<div class="em-location-map" id="em-location-map-6d466" style="width: 100%; height: 100%;">
    				Kartta latautuu...   			</div>
 		</div>
-   		<div class="em-location-map-info" id="em-location-map-info-42b31" style="display:none; visibility:hidden;">
+   		<div class="em-location-map-info" id="em-location-map-info-6d466" style="display:none; visibility:hidden;">
    			<div class="em-map-balloon" style="font-size:12px;">
    				<div class="em-map-balloon-content">
 <strong>Club Escape</strong><br>Kauppakatu 32 - Jyväskylä<br><a href="http://www.porssiry.fi/locations/club-escape/">Tapahtumat</a>
 </div>
    			</div>
    		</div>
-		<div class="em-location-map-coords" id="em-location-map-coords-42b31" style="display:none; visibility:hidden;">
+		<div class="em-location-map-coords" id="em-location-map-coords-6d466" style="display:none; visibility:hidden;">
 			<span class="lat">62.243956</span>
 			<span class="lng">25.75023729999998</span>
 		</div>
@@ -1204,17 +1204,17 @@ MILLOIN: </strong>28.10. klo 9.30 – 12.00</p>
 </div>
     <div class="small-12 medium-6 large-6 columns" data-equalizer-watch>
         		<div class="em-location-map-container" style="position:relative; background: #CDCDCD; width: 100%; height: 100%;">
-   			<div class="em-location-map" id="em-location-map-ab7cf" style="width: 100%; height: 100%;">
+   			<div class="em-location-map" id="em-location-map-2609c" style="width: 100%; height: 100%;">
    				Kartta latautuu...   			</div>
 		</div>
-   		<div class="em-location-map-info" id="em-location-map-info-ab7cf" style="display:none; visibility:hidden;">
+   		<div class="em-location-map-info" id="em-location-map-info-2609c" style="display:none; visibility:hidden;">
    			<div class="em-map-balloon" style="font-size:12px;">
    				<div class="em-map-balloon-content">
 <strong>Liikunnan kenttä</strong><br>Keskussairaalantie 4 - Jyväskylä<br><a href="http://www.porssiry.fi/locations/liikunnan-kentta/">Tapahtumat</a>
 </div>
    			</div>
    		</div>
-		<div class="em-location-map-coords" id="em-location-map-coords-ab7cf" style="display:none; visibility:hidden;">
+		<div class="em-location-map-coords" id="em-location-map-coords-2609c" style="display:none; visibility:hidden;">
 			<span class="lat">62.23434049999999</span>
 			<span class="lng">25.729898899999966</span>
 		</div>
@@ -1274,7 +1274,7 @@ MILLOIN: </strong>28.10. klo 9.30 – 12.00</p>
 <p style="text-align: left;">Kansalaiset, medborgare! Sitseillä nähdään</p>
 <p style="text-align: left;">-Tarja</p>
 <p> </p>
-<p style="text-align: left;"><strong>Ilmoittautuminen tapahtumaan osoitteessa bailataan.fi alkaa xxxx klo 10 ja loppuu xxxx. klo 12</strong><span> </span>tai kunnes tapahtuma on loppuunmyyty. Tapahtumaan ilmoittautuminen vaatii kirjautumisen sivustolle ja tapahtuma tulee maksaa ilmoittautumisen yhteydessä. Ilmoittautumista ei ole mahdollista perua, mutta voit tarvittaessa myydä lippusi eteenpäin toiselle fuksille. Ongelmatilanteessa voit ottaa yhteyttä<span> </span><span id="eeb-532538"><span id="eeb-805095"></span><script type="text/javascript">(function(){var ml="AiDp%aFhseCkmy.ft2El3j4n0r-oc",mi="4D:54AH7I9?4D24AA<51C@K4D03IKE9;@14FH3KI881I=>?1>4AA4AHLC5884D24AA<51C@KJC1G;4AH<51C@KJC1G;4AA4DB3IKE9;@14FH3KI881I=>?1>4D:4A654DB",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.getElementById("eeb-805095").innerHTML = decodeURIComponent(o);}());</script><noscript>*protected email*</noscript></span></p>
+<p style="text-align: left;"><strong>Ilmoittautuminen tapahtumaan osoitteessa bailataan.fi alkaa xxxx klo 10 ja loppuu xxxx. klo 12</strong><span> </span>tai kunnes tapahtuma on loppuunmyyty. Tapahtumaan ilmoittautuminen vaatii kirjautumisen sivustolle ja tapahtuma tulee maksaa ilmoittautumisen yhteydessä. Ilmoittautumista ei ole mahdollista perua, mutta voit tarvittaessa myydä lippusi eteenpäin toiselle fuksille. Ongelmatilanteessa voit ottaa yhteyttä<span> </span><span id="eeb-532538"><span id="eeb-162771"></span><script type="text/javascript">(function(){var ml="kA4o2m0ay%j3ht-nCF.DclersfpiE",mi="9;@7946<GFI9;C94457KE=39;1JG3:F0=K926J3GHHKG8BIKB944946DE7HH9;C94457KE=3>EK?094657KE=3>EK?09449;LJG3:F0=K926J3GHHKG8BIKB9;@94A79;L",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.getElementById("eeb-162771").innerHTML = decodeURIComponent(o);}());</script><noscript>*protected email*</noscript></span></p>
 <p style="text-align: left;">Linkki ilmoittautumiseen:</p>
 <p style="text-align: left;">MITÄ: Vuosijuhlasitsit</p>
 <p style="text-align: left;">MISSÄ: Club Escape</p>
@@ -1288,17 +1288,17 @@ MILLOIN: </strong>28.10. klo 9.30 – 12.00</p>
 </div>
     <div class="small-12 medium-6 large-6 columns" data-equalizer-watch>
         		<div class="em-location-map-container" style="position:relative; background: #CDCDCD; width: 100%; height: 100%;">
-   			<div class="em-location-map" id="em-location-map-1c7d8" style="width: 100%; height: 100%;">
+   			<div class="em-location-map" id="em-location-map-2bc8f" style="width: 100%; height: 100%;">
    				Kartta latautuu...   			</div>
 		</div>
-   		<div class="em-location-map-info" id="em-location-map-info-1c7d8" style="display:none; visibility:hidden;">
+   		<div class="em-location-map-info" id="em-location-map-info-2bc8f" style="display:none; visibility:hidden;">
    			<div class="em-map-balloon" style="font-size:12px;">
    				<div class="em-map-balloon-content">
 <strong>Club Escape</strong><br>Kauppakatu 32 - Jyväskylä<br><a href="http://www.porssiry.fi/locations/club-escape/">Tapahtumat</a>
 </div>
    			</div>
    		</div>
-		<div class="em-location-map-coords" id="em-location-map-coords-1c7d8" style="display:none; visibility:hidden;">
+		<div class="em-location-map-coords" id="em-location-map-coords-2bc8f" style="display:none; visibility:hidden;">
 			<span class="lat">62.243956</span>
 			<span class="lng">25.75023729999998</span>
 		</div>
@@ -1360,17 +1360,17 @@ MILLOIN: </strong>28.10. klo 9.30 – 12.00</p>
 </div>
     <div class="small-12 medium-6 large-6 columns" data-equalizer-watch>
         		<div class="em-location-map-container" style="position:relative; background: #CDCDCD; width: 100%; height: 100%;">
-   			<div class="em-location-map" id="em-location-map-df8f4" style="width: 100%; height: 100%;">
+   			<div class="em-location-map" id="em-location-map-cb209" style="width: 100%; height: 100%;">
    				Kartta latautuu...   			</div>
 		</div>
-   		<div class="em-location-map-info" id="em-location-map-info-df8f4" style="display:none; visibility:hidden;">
+   		<div class="em-location-map-info" id="em-location-map-info-cb209" style="display:none; visibility:hidden;">
    			<div class="em-map-balloon" style="font-size:12px;">
    				<div class="em-map-balloon-content">
 <strong>Cumulus Resort Laajavuori</strong><br>Laajavuorentie 30 - Jyväskylä<br><a href="http://www.porssiry.fi/locations/cumulus-resort-laajavuori/">Tapahtumat</a>
 </div>
    			</div>
    		</div>
-		<div class="em-location-map-coords" id="em-location-map-coords-df8f4" style="display:none; visibility:hidden;">
+		<div class="em-location-map-coords" id="em-location-map-coords-cb209" style="display:none; visibility:hidden;">
 			<span class="lat">62.25931079999999</span>
 			<span class="lng">25.698286499999995</span>
 		</div>
@@ -1456,7 +1456,7 @@ MILLOIN: </strong>28.10. klo 9.30 – 12.00</p>
 <li>Iiris Lukiini</li>
 <li>Jani-Petteri kuntala</li>
 <li>Kasperi Kantonen</li>
-<li>Aleksi kantonen</li>
+<li>Henna Nevala</li>
 <li>Laura Vättö</li>
 <li>Aino Väli-Klemelä</li>
 <li>Sanni Oranen</li>

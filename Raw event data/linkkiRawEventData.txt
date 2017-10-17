@@ -9,7 +9,7 @@ X-WR-CALDESC:Events for Linkki Jyväskylä ry
 BEGIN:VEVENT
 DTSTART;TZID=Europe/Helsinki:20170925T170000
 DTEND;TZID=Europe/Helsinki:20170925T230000
-DTSTAMP:20171013T134536
+DTSTAMP:20171017T142321
 CREATED:20170807T105541Z
 LAST-MODIFIED:20170919T102859Z
 UID:3564-1506358800-1506380400@linkkijkl.fi
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=Europe/Helsinki:20170927T170000
 DTEND;TZID=Europe/Helsinki:20170927T230000
-DTSTAMP:20171013T134536
+DTSTAMP:20171017T142321
 CREATED:20170807T103006Z
 LAST-MODIFIED:20170923T114743Z
 UID:3560-1506531600-1506553200@linkkijkl.fi
@@ -31,7 +31,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20170928
 DTEND;VALUE=DATE:20170930
-DTSTAMP:20171013T134536
+DTSTAMP:20171017T142321
 CREATED:20170807T103614Z
 LAST-MODIFIED:20170914T102631Z
 UID:3562-1506556800-1506729599@linkkijkl.fi
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=Europe/Helsinki:20170928T183000
 DTEND;TZID=Europe/Helsinki:20170929T010000
-DTSTAMP:20171013T134536
+DTSTAMP:20171017T142321
 CREATED:20170914T160751Z
 LAST-MODIFIED:20170914T160751Z
 UID:3701-1506623400-1506646800@linkkijkl.fi
@@ -53,7 +53,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=Europe/Helsinki:20171005T170000
 DTEND;TZID=Europe/Helsinki:20171005T233000
-DTSTAMP:20171013T134536
+DTSTAMP:20171017T142321
 CREATED:20170807T105704Z
 LAST-MODIFIED:20170807T105704Z
 UID:3566-1507222800-1507246200@linkkijkl.fi
@@ -64,7 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=Europe/Helsinki:20171018T080000
 DTEND;TZID=Europe/Helsinki:20171020T170000
-DTSTAMP:20171013T134536
+DTSTAMP:20171017T142321
 CREATED:20170919T110217Z
 LAST-MODIFIED:20170920T080640Z
 UID:3726-1508313600-1508518800@linkkijkl.fi
@@ -75,7 +75,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20171023
 DTEND;VALUE=DATE:20171024
-DTSTAMP:20171013T134536
+DTSTAMP:20171017T142321
 CREATED:20170916T195144Z
 LAST-MODIFIED:20171009T122724Z
 UID:3713-1508716800-1508803199@linkkijkl.fi
@@ -86,18 +86,18 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20171023
 DTEND;VALUE=DATE:20171030
-DTSTAMP:20171013T134536
+DTSTAMP:20171017T142321
 CREATED:20170926T101919Z
-LAST-MODIFIED:20170926T102051Z
+LAST-MODIFIED:20171014T085136Z
 UID:3775-1508716800-1509321599@linkkijkl.fi
 SUMMARY:Linkin Liikuntaviikko
-DESCRIPTION: \nLinkin liikuntaviikko! \nJoka päivä luvassa jotain huippua aktiviteettia. \nNyt on mahdollisuus mennä yhdessä liikkumaan ikioman liikuntatutorimme Eetun ja tapahtumavastaavien johdolla. \nKaikki mukaan liikkumaan! \nLisätietoja myöhemmin. \n
+DESCRIPTION: \nLinkin liikuntaviikko! \nLinkin liikuntaviikko!\nJoka päivä luvassa jotain huippua aktiviteettia. Vähintään neljä kertaa liikkumassa käyville yllätyspalkintoja! \nNyt on mahdollisuus mennä yhdessä liikkumaan ikioman liikuntatutorimme Eetun ja tapahtumavastaavien johdolla. Tunneille ilmaiseksi pääsee kun lyöttäytyy Eetun seuraan tunnin aluksi/lopuksi kun liikuntatarraa kysytään. Paikalle pääsee myös opastettuna\, lähdöt yleensä puoli tuntia ennen Kattilasta. \nKaikki mukaan liikkumaan! \nMA 18-19: Bodycombat\, L-rakennus\, Palloilusali(PS)\nTykkäätkö Tekkenistä? Tämä on zumbaa Tekkenin ja Rocky elokuvien ystäville. Säkällä hevin ystävätkin pääsevät nauttimaan lempimusiikistaan. Tunneilla tehdään taistelulajien iskuja ja potkuja musiikin tahtiin kovalla tempolla.\nKalenteriin \nTI 9-10: Pumppi\, L-rakennus\, voimistelusali\nTykkäätkö roolipelata tai optimoida? Pumpissa pääset säätämään levytangon painojen määrää koko tunnin. Voit arvioida\, että kestävätkö lihakset seuraavan liikesarjan 5 kilon painoilla vai pitäisikö vaihtaa pari kiloa pienempiin. Omaa leveliään vastaavan varustuksen valitseminen on jännittävää optimointia. Tämä on kuin salilla kävisi\, paitsi että sinulle kerrotaan miten painoja nostellaan ja taustalla soi jotain muuta kuin Järviradio. Voit löysäillä jos pitää säästää paukkuja seuraavaankin liikuntasuoritukseen\, tai vetää täysillä niin ettei seuraavaan viikkoon ole tarvetta liikkua. \nTI 18-19: Syvävenyttely\, L-rakennus\, voimistelusali(VS)\nTämä on se\, jolla tietoteknikon pinttyneimmätkin lihasjumit aukeavat. \nKE 9-10: Flowpilates\, L-rakennus\, rytmiikkasali(RS)\nOn tärkeää\, että jaksaa istua koneen ääressä. Koneen ääressä istumista jaksaa paremmin kun on lihaksia\, jotka pitävät siinä paikallaan. Täällä tehdäänkin sitä silmällä pitäen lihaskuntoharjoitteita. \nKE 19-20: Foamrolling\, L-rakennus\, rytmiikkasali(RS)\nVastaa hierontaa\, paitsi sen saa tehdä itse vaahtomuovirullalla. Paljon halvempaa kuin hieroja\, mutta paikat aukeavat. Täällä kannattaa käytä ainakin parilla peräkkäisellä kerralla\, sikäli kun toisella keskitytään alakroppaan ja toisella yläkroppaan. Muutama kerta kuukauden sisään pitää aika hyvin huolen siitä\, että on seuraavat pari kuukautta vähemmän jumissa\, kunhan vain venyttelee välillä. \nTO 16-17 ABS & Booty\, L-rakennus\, Palloilusali(PS)\nHyvää jumppaa keskivartalolle ja perseelle. Keskivartaloa meidän nörttien kannattaa kehittää\, koska sen lihakset tukevat istumista. \nPE 8:30-9:30: Jooga\, L-rakennus\, rytmiikkasali(RS)\nTämä on kelvollinen vaihtoehto erilaisille venyttelyille. Tietoteknikko voi joogata vaikka joka päivä\, eikä silti muutu liian joustavaksi\, koska näytön edessä istuminen ehtii kyllä jähmettää lihaksia aivan riittävästi. \nPE 16-17: Core&Liikkuvuus\, L-rakennus\, voimistelusali(VS)\nKeskivartalotreeniä ja liikkuvuuden parantamista. Pysyy selkä pidemmälle kohti keski-ikää suorana. \nLA 13: Zumba\,Jyväskylän ammattikorkeakoulun liikuntasali\, Rajakatu 35\nJos GTA:n latinoradiokanavat uppoavat\, tämä on sinun tuntisi. Zumba on siitä kivaa\, ettei tarvitse osata tanssia\, kunhan on hyvä tunnelma ja heiluu paljon! Ohjaaja näyttää suuntaa-antavasti millaisia tanssimuuveja pitäisi ehtiä huojua\, mutta pääasia on vauhdikas tanssiminen ja hyvä musa josta kaikkea ei juuri muualla kuule. \nSU 18:45: Flow&Yin jooga\, Urheiluhalli U2\, Kampuksen kentän vieressä\nTämä on kelvollinen vaihtoehto erilaisille venyttelyille. Tietoteknikko voi joogata vaikka joka päivä\, eikä silti muutu liian joustavaksi\, koska näytön edessä istuminen ehtii kyllä jähmettää lihaksia aivan riittävästi. \n
 URL:http://linkkijkl.fi/event/linkin-liikuntaviikko/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=Europe/Helsinki:20171026T180000
 DTEND;TZID=Europe/Helsinki:20171026T220000
-DTSTAMP:20171013T134536
+DTSTAMP:20171017T142321
 CREATED:20170913T100417Z
 LAST-MODIFIED:20171012T111938Z
 UID:3693-1509040800-1509055200@linkkijkl.fi
@@ -109,7 +109,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=Europe/Helsinki:20171030T160000
 DTEND;TZID=Europe/Helsinki:20171030T233000
-DTSTAMP:20171013T134536
+DTSTAMP:20171017T142321
 CREATED:20171010T095625Z
 LAST-MODIFIED:20171010T095643Z
 UID:3831-1509379200-1509406200@linkkijkl.fi
@@ -120,12 +120,12 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=Europe/Helsinki:20171101T170000
 DTEND;TZID=Europe/Helsinki:20171101T220000
-DTSTAMP:20171013T134536
+DTSTAMP:20171017T142321
 CREATED:20170807T110523Z
-LAST-MODIFIED:20171011T095859Z
+LAST-MODIFIED:20171015T204248Z
 UID:3572-1509555600-1509573600@linkkijkl.fi
 SUMMARY:Luonnontieteelliset suursitsit
-DESCRIPTION:Nyt sitsataan suuresti sillä sitsaavat voimansa yhdistävät Linkki\, Ynnä\, Syrinx ja Radikaali . \nSitsit järjestetään Aalto-Salissa.\nJa ovatkin siis OPM eli Oma Pullo Mukaan. \nTeemana on Halloween\, joten muista pukeutua sitseille teeman mukaisesti! \nIlmoittautuminen aukeaa 16.10. klo 12:00 ja sulkeutuu 25.10 klo 12:00.\nLinkki ilmoittautumiskantaan julkaistaan tähän myöhemmin. \nlyhyesti:\n\nMITÄ: Suursitsit luonnontieteilijöille\nMISSÄ: Aalto-Sali\nMILLOIN: 1.11. klo 18:00-23:00 \nJatkot järjestetään Freetimessä\, jonne pääsee tapahtuman haalarimerkillä ilmaiseksi sisään! \n
+DESCRIPTION: \nPian sitsataan suuresti sillä sitsaavat voimansa yhdistävät Linkki\, Ynnä\, Syrinx ja Radikaali .  \nSitseille mahtuu 150 henkeä laulamaan huippuja sitsilauluja sekä luomaan hyvää halloween mieltä!   \nPaikalle saapuu myös kahdeksan pelottavaa\, kaikista karmivinta\, jokaisen ainejärjestön kruunaamatonta hirviöitä ja hirvitärtä!  \nEi siis ketään muita kuin toastmastereita!    \n  \nTämä tulee olemaan ennennäkemätön tapahtuma ja varmasti kokemuksen arvoinen.  \n  \nTeemana on Halloween\, joten muista pukeutua sitseille teeman mukaisesti!  \nOlkaa siis tietoisia\, että jos ette ole tarpeeksi karmivan näköisiä niin ette kykene pelottelemaan pois siitä koituvaa rangaistusta!  \nKummittelu alkaa 1.11. klo 18:00 ja loppuu klo 23:00 Aalto-salissa (kauppakatu 30).   \nSitsit kustantavat 15€\, johon sisältyy ruoka sekä haalarimerkki jolla pääset jatkoille Freetimeen.   \nTapahtumaan saa ottaa omat taikajuomat joten varatkaa runsaasti vaapukkamehua mukaan.  \nEli tapahtuma onkin siis OPM.  \n  \nIlmoittautuminen aukeaa 16.10. klo 12:00 ja sulkeutuu 25.10 klo 12:00.   \nLinkki ilmoittautumiskantaan löytyy:  http://ynna.fi/tapahtumat/luonnontieteelliset-suursitsit/ \nFacebook-event löytyy täältä.  \n  \nlyhyesti:  \n  \nMITÄ: Suursitsit luonnontieteilijöille  \nMISSÄ: Aalto-Sali.  \nMILLOIN: 1.11. klo 18:00-23:00 \nTEEMA: Halloween! \nMITÄ MAKSAA: 15 euroa.  \n  \nJatkot järjestetään Freetimessä\, jonne pääsee sitsien haalarimerkillä ilmaiseksi sisään! \n
 URL:http://linkkijkl.fi/event/luonnontieteelliset-suursitsit/
 END:VEVENT
 END:VCALENDARBEGIN:VCALENDAR
@@ -139,7 +139,7 @@ X-WR-CALDESC:Events for Linkki Jyväskylä ry
 BEGIN:VEVENT
 DTSTART;TZID=Europe/Helsinki:20171030T160000
 DTEND;TZID=Europe/Helsinki:20171030T233000
-DTSTAMP:20171013T134538
+DTSTAMP:20171017T142323
 CREATED:20171010T095625Z
 LAST-MODIFIED:20171010T095643Z
 UID:3831-1509379200-1509406200@linkkijkl.fi
@@ -150,18 +150,18 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=Europe/Helsinki:20171101T170000
 DTEND;TZID=Europe/Helsinki:20171101T220000
-DTSTAMP:20171013T134538
+DTSTAMP:20171017T142323
 CREATED:20170807T110523Z
-LAST-MODIFIED:20171011T095859Z
+LAST-MODIFIED:20171015T204248Z
 UID:3572-1509555600-1509573600@linkkijkl.fi
 SUMMARY:Luonnontieteelliset suursitsit
-DESCRIPTION:Nyt sitsataan suuresti sillä sitsaavat voimansa yhdistävät Linkki\, Ynnä\, Syrinx ja Radikaali . \nSitsit järjestetään Aalto-Salissa.\nJa ovatkin siis OPM eli Oma Pullo Mukaan. \nTeemana on Halloween\, joten muista pukeutua sitseille teeman mukaisesti! \nIlmoittautuminen aukeaa 16.10. klo 12:00 ja sulkeutuu 25.10 klo 12:00.\nLinkki ilmoittautumiskantaan julkaistaan tähän myöhemmin. \nlyhyesti:\n\nMITÄ: Suursitsit luonnontieteilijöille\nMISSÄ: Aalto-Sali\nMILLOIN: 1.11. klo 18:00-23:00 \nJatkot järjestetään Freetimessä\, jonne pääsee tapahtuman haalarimerkillä ilmaiseksi sisään! \n
+DESCRIPTION: \nPian sitsataan suuresti sillä sitsaavat voimansa yhdistävät Linkki\, Ynnä\, Syrinx ja Radikaali .  \nSitseille mahtuu 150 henkeä laulamaan huippuja sitsilauluja sekä luomaan hyvää halloween mieltä!   \nPaikalle saapuu myös kahdeksan pelottavaa\, kaikista karmivinta\, jokaisen ainejärjestön kruunaamatonta hirviöitä ja hirvitärtä!  \nEi siis ketään muita kuin toastmastereita!    \n  \nTämä tulee olemaan ennennäkemätön tapahtuma ja varmasti kokemuksen arvoinen.  \n  \nTeemana on Halloween\, joten muista pukeutua sitseille teeman mukaisesti!  \nOlkaa siis tietoisia\, että jos ette ole tarpeeksi karmivan näköisiä niin ette kykene pelottelemaan pois siitä koituvaa rangaistusta!  \nKummittelu alkaa 1.11. klo 18:00 ja loppuu klo 23:00 Aalto-salissa (kauppakatu 30).   \nSitsit kustantavat 15€\, johon sisältyy ruoka sekä haalarimerkki jolla pääset jatkoille Freetimeen.   \nTapahtumaan saa ottaa omat taikajuomat joten varatkaa runsaasti vaapukkamehua mukaan.  \nEli tapahtuma onkin siis OPM.  \n  \nIlmoittautuminen aukeaa 16.10. klo 12:00 ja sulkeutuu 25.10 klo 12:00.   \nLinkki ilmoittautumiskantaan löytyy:  http://ynna.fi/tapahtumat/luonnontieteelliset-suursitsit/ \nFacebook-event löytyy täältä.  \n  \nlyhyesti:  \n  \nMITÄ: Suursitsit luonnontieteilijöille  \nMISSÄ: Aalto-Sali.  \nMILLOIN: 1.11. klo 18:00-23:00 \nTEEMA: Halloween! \nMITÄ MAKSAA: 15 euroa.  \n  \nJatkot järjestetään Freetimessä\, jonne pääsee sitsien haalarimerkillä ilmaiseksi sisään! \n
 URL:http://linkkijkl.fi/event/luonnontieteelliset-suursitsit/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20171108
 DTEND;VALUE=DATE:20171110
-DTSTAMP:20171013T134538
+DTSTAMP:20171017T142323
 CREATED:20170912T140620Z
 LAST-MODIFIED:20170923T114132Z
 UID:3676-1510099200-1510271999@linkkijkl.fi
@@ -172,7 +172,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=Europe/Helsinki:20171115T180000
 DTEND;TZID=Europe/Helsinki:20171115T233000
-DTSTAMP:20171013T134538
+DTSTAMP:20171017T142323
 CREATED:20170912T140829Z
 LAST-MODIFIED:20170912T140829Z
 UID:3678-1510768800-1510788600@linkkijkl.fi
@@ -183,7 +183,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=Europe/Helsinki:20171116T170000
 DTEND;TZID=Europe/Helsinki:20171116T190000
-DTSTAMP:20171013T134538
+DTSTAMP:20171017T142323
 CREATED:20171012T114028Z
 LAST-MODIFIED:20171012T114028Z
 UID:3851-1510851600-1510858800@linkkijkl.fi
@@ -194,7 +194,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20171117
 DTEND;VALUE=DATE:20171120
-DTSTAMP:20171013T134538
+DTSTAMP:20171017T142323
 CREATED:20170913T094307Z
 LAST-MODIFIED:20170920T081600Z
 UID:3681-1510876800-1511135999@linkkijkl.fi

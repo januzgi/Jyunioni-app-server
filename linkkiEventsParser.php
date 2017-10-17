@@ -1,14 +1,13 @@
-
 <?php
 
 # URLs
 $LINKKI_THIS_MONTH_EVENTS_URL = "http://linkkijkl.fi/events/?ical=1&tribe-bar-date=2017-";
 $LINKKI_NEXT_MONTH_EVENTS_URL = "http://linkkijkl.fi/events/?ical=1&tribe-bar-date=2017-";
 
-# Get the month for appending the URL to get this and next month's events.
 // Set the default timezone to use.
 date_default_timezone_set('Europe/Helsinki');
 
+// Get the month for appending the URL to get this and next month's events.
 $month     = date('n');
 $nextMonth = $month + 1;
 
@@ -30,7 +29,7 @@ if (file_put_contents($rawDataFile, $content) !== false) {
 }
 
 
-# Read the raw data file line by line and parse the different Event fields.
+// Read the raw data file line by line and parse the different Event fields.
 extractEventsData($rawDataFile);
 
 
@@ -38,9 +37,9 @@ function extractEventsData($file)
 {
     
     // Variables for the event's extracting
-    # Event's count in a file
+    // Event's count in a file
     $eventsCount = 0;
-    # Event's beginning symbol
+    // Event's beginning symbol
     $eventBegin  = "BEGIN:VEVENT";
     
     // Create the Event object variables
@@ -57,7 +56,7 @@ function extractEventsData($file)
     $extractedEventsData = "LINKKI\n";
     
     
-    # Count the amount of Events in the file. Open the file for reading only.
+    // Count the amount of Events in the file. Open the file for reading only.
     $handle = @fopen("$file", "r");
     if ($handle) {
         
@@ -78,7 +77,7 @@ function extractEventsData($file)
     
     $count = -1;
     
-    # Open the file for reading only. Get the different event values from the file
+    // Open the file for reading only. Get the different event values from the file
     $handle = @fopen("$file", "r");
     if ($handle) {
         
@@ -151,11 +150,11 @@ function extractEventsData($file)
                     $buffer = fgets($handle);
                 }
                 
-                $extractedEventsData .= 
-                    "\n" . "eventName: " . $eventName . "\n" . 
+                $extractedEventsData .= "\n" . 
+                    "eventName: " . $eventName . "\n" . 
                     "eventTimestamp: " . $eventTimestamp . "\n" . 
                     "eventUrl: " . $eventUrl . "\n" . 
-                    "eventInformation: " . $eventInformation  . "\n\n" . 
+                    "eventInformation: " . $eventInformation . "\n\n" . 
                     "END_OF_EVENT" . "\n\n";
                 
                 break;
@@ -169,7 +168,7 @@ function extractEventsData($file)
         
         // Close the handle from taking resources
         fclose($handle);
-
+        
         $eventDataFile = '/Users/JaniS/Sites/Jyunioni server/Parsed events/linkkiEvents.txt';
         
         // Write the results into a .txt file.
@@ -182,7 +181,7 @@ function extractEventsData($file)
 }
 
 
-# Extract content after ':' char
+// Extract content after ':' char
 function extractField($line)
 {
     // Find the position of ':', take a substring after it to the end of line and trim whitespace.
@@ -192,7 +191,7 @@ function extractField($line)
 }
 
 
-# Extract timestamps
+// Extract timestamps
 function extractTime($line)
 {
     
@@ -226,12 +225,11 @@ function extractTime($line)
 
 
 
-# Extract the event's timestamp
-# Check if the event happens only on one day. If, then use the date on the startTime only.
-#
-# Example input: "25.9. 17:00", "25.9. 23:00"
-# Example output: "25.9. 17:00 - 23:00"
-#
+// Extract the event's timestamp
+// Check if the event happens only on one day. If, then use the date on the startTime only.
+//
+// Example input: "25.9. 17:00", "25.9. 23:00"
+// Example output: "25.9. 17:00 - 23:00"
 function extractTimestamp($startTime, $endTime)
 {
     $result = $startTime . " - " . $endTime;
@@ -255,8 +253,7 @@ function extractTimestamp($startTime, $endTime)
 }
 
 
-
-# Extracts the event information field
+// Extracts the event information field
 function extractInformation($information)
 {
     $result = substr($information, strpos($information, ":") + 1);
@@ -266,5 +263,6 @@ function extractInformation($information)
     
     return $result;
 }
+
 
 ?>

@@ -50,7 +50,8 @@ eventInformation: Jyväskylän kaupunginteatterin suurella näyttämöllä nähd
 Dumpin jäsenille liput maksavat ainoastaan 10 € kpl! (normaalisti 20€)
 Baikal Brothers Ky on esitys Taideyliopiston musiikkiteatterilinjan bändin musiikkivideon kuvausmatkasta Trans-Siperian junalla Baikalille Olkhon-saarelle. Baikal Brothers Ky on myös näytelmä niistä haavoista, joita toiset ihmiset ovat meihin jättäneet, ja joista me toisten ihmisten avulla yritämme parantua, sekä matkasta kohti uutta tuntematonta maisemaa.
  
-Tutustu esitykseen teosesittelyssä ja jää keskustelemaan esityksen jälkeenEnnen Baikal Brothers Ky -esitystä 20.10. klo 18 alkaen ohjaaja Leea Klemolan pitämä teosesittely yleisölämpiössä.
+Tutustu esitykseen teosesittelyssä ja jää keskustelemaan esityksen jälkeen
+Ennen Baikal Brothers Ky -esitystä 20.10. klo 18 alkaen ohjaaja Leea Klemolan pitämä teosesittely yleisölämpiössä.
 
 END_OF_EVENT
 
@@ -162,6 +163,20 @@ Muutama huomio kokoukseen saapuville:
 – Kokoukseen voivat osallistua ainoastaan yhdistyksen jäsenet ja äänioikeus on yhdistyksen varsinaisilla jäsenillä. Jäsenyytesi tarkistetaan kokoukseen saapuessasi, joten ota henkilöllisyystodistus mukaasi.
 – Käytä äänioikeuttasi ja äänestä! Kokouksessa valitaan vuoden 2018 hallitus äänestämällä ehdokkaista. Voit tutustua ehdokkaisiin Dumppi ry:n nettisivuilla hakuajan päätyttyä. Hallitushaku sulkeutuu tiistaina 31.10. Kaikki ehdokkaat saavat mahdollisuuden esittäytyä syyskokouksessa.
 – Kokouksessa on ruokatarjoilu.
+
+END_OF_EVENT
+
+
+eventName: Dumppi ry:n 49. vuosijuhla
+eventTimestamp: 18.11. 17:00 - 19.11. 03:00
+eventUrl: https://dumppi.fi/events/dumppi-ryn-49-vuosijuhla/
+eventInformation:  
+Ilmoittautuminen Dumppi ry:n 49. vuosijuhliin alkaa tiistaina 17. lokakuuta kello 12.00, ja päättyy samalla sitovaksi muuttuen sunnuntaina 22. Lokakuuta kello 12.00. 
+ 
+Juhlaan ovat tervetulleita myös avecit, mutta heidän tulee ilmoittautua tapahtumaan normaalisti. 
+ 
+Ilmoitathan ilmoittautumisen yhteydessä niille varattuihin kohtiin haluatko alkoholillisen vai alkoholittoman juhlaillallisen ja oletko Dumppi ry:n jäsen. Huolehdithan myös sähköpostiosoitteesi oikein ilmoittautuessasi, sillä maksutiedot hoidetaan perille sitä kautta. 
+ 
 
 END_OF_EVENT
 

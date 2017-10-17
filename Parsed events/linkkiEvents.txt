@@ -170,10 +170,31 @@ eventName: Linkin Liikuntaviikko
 eventTimestamp: 23.10. - 30.10.
 eventUrl: http://linkkijkl.fi/event/linkin-liikuntaviikko/
 eventInformation: Linkin liikuntaviikko! 
-Joka päivä luvassa jotain huippua aktiviteettia. 
-Nyt on mahdollisuus mennä yhdessä liikkumaan ikioman liikuntatutorimme Eetun ja tapahtumavastaavien johdolla. 
+Linkin liikuntaviikko!
+Joka päivä luvassa jotain huippua aktiviteettia. Vähintään neljä kertaa liikkumassa käyville yllätyspalkintoja! 
+Nyt on mahdollisuus mennä yhdessä liikkumaan ikioman liikuntatutorimme Eetun ja tapahtumavastaavien johdolla. Tunneille ilmaiseksi pääsee kun lyöttäytyy Eetun seuraan tunnin aluksi/lopuksi kun liikuntatarraa kysytään. Paikalle pääsee myös opastettuna, lähdöt yleensä puoli tuntia ennen Kattilasta. 
 Kaikki mukaan liikkumaan! 
-Lisätietoja myöhemmin.
+MA 18-19: Bodycombat, L-rakennus, Palloilusali(PS)
+Tykkäätkö Tekkenistä? Tämä on zumbaa Tekkenin ja Rocky elokuvien ystäville. Säkällä hevin ystävätkin pääsevät nauttimaan lempimusiikistaan. Tunneilla tehdään taistelulajien iskuja ja potkuja musiikin tahtiin kovalla tempolla.
+Kalenteriin 
+TI 9-10: Pumppi, L-rakennus, voimistelusali
+Tykkäätkö roolipelata tai optimoida? Pumpissa pääset säätämään levytangon painojen määrää koko tunnin. Voit arvioida, että kestävätkö lihakset seuraavan liikesarjan 5 kilon painoilla vai pitäisikö vaihtaa pari kiloa pienempiin. Omaa leveliään vastaavan varustuksen valitseminen on jännittävää optimointia. Tämä on kuin salilla kävisi, paitsi että sinulle kerrotaan miten painoja nostellaan ja taustalla soi jotain muuta kuin Järviradio. Voit löysäillä jos pitää säästää paukkuja seuraavaankin liikuntasuoritukseen, tai vetää täysillä niin ettei seuraavaan viikkoon ole tarvetta liikkua. 
+TI 18-19: Syvävenyttely, L-rakennus, voimistelusali(VS)
+Tämä on se, jolla tietoteknikon pinttyneimmätkin lihasjumit aukeavat. 
+KE 9-10: Flowpilates, L-rakennus, rytmiikkasali(RS)
+On tärkeää, että jaksaa istua koneen ääressä. Koneen ääressä istumista jaksaa paremmin kun on lihaksia, jotka pitävät siinä paikallaan. Täällä tehdäänkin sitä silmällä pitäen lihaskuntoharjoitteita. 
+KE 19-20: Foamrolling, L-rakennus, rytmiikkasali(RS)
+Vastaa hierontaa, paitsi sen saa tehdä itse vaahtomuovirullalla. Paljon halvempaa kuin hieroja, mutta paikat aukeavat. Täällä kannattaa käytä ainakin parilla peräkkäisellä kerralla, sikäli kun toisella keskitytään alakroppaan ja toisella yläkroppaan. Muutama kerta kuukauden sisään pitää aika hyvin huolen siitä, että on seuraavat pari kuukautta vähemmän jumissa, kunhan vain venyttelee välillä. 
+TO 16-17 ABS & Booty, L-rakennus, Palloilusali(PS)
+Hyvää jumppaa keskivartalolle ja perseelle. Keskivartaloa meidän nörttien kannattaa kehittää, koska sen lihakset tukevat istumista. 
+PE 8:30-9:30: Jooga, L-rakennus, rytmiikkasali(RS)
+Tämä on kelvollinen vaihtoehto erilaisille venyttelyille. Tietoteknikko voi joogata vaikka joka päivä, eikä silti muutu liian joustavaksi, koska näytön edessä istuminen ehtii kyllä jähmettää lihaksia aivan riittävästi. 
+PE 16-17: Core&Liikkuvuus, L-rakennus, voimistelusali(VS)
+Keskivartalotreeniä ja liikkuvuuden parantamista. Pysyy selkä pidemmälle kohti keski-ikää suorana. 
+LA 13: Zumba,Jyväskylän ammattikorkeakoulun liikuntasali, Rajakatu 35
+Jos GTA:n latinoradiokanavat uppoavat, tämä on sinun tuntisi. Zumba on siitä kivaa, ettei tarvitse osata tanssia, kunhan on hyvä tunnelma ja heiluu paljon! Ohjaaja näyttää suuntaa-antavasti millaisia tanssimuuveja pitäisi ehtiä huojua, mutta pääasia on vauhdikas tanssiminen ja hyvä musa josta kaikkea ei juuri muualla kuule. 
+SU 18:45: Flow&Yin jooga, Urheiluhalli U2, Kampuksen kentän vieressä
+Tämä on kelvollinen vaihtoehto erilaisille venyttelyille. Tietoteknikko voi joogata vaikka joka päivä, eikä silti muutu liian joustavaksi, koska näytön edessä istuminen ehtii kyllä jähmettää lihaksia aivan riittävästi.
 
 END_OF_EVENT
 
@@ -233,18 +254,33 @@ END_OF_EVENT
 eventName: Luonnontieteelliset suursitsit
 eventTimestamp: 1.11. 17:00 -  22:00
 eventUrl: http://linkkijkl.fi/event/luonnontieteelliset-suursitsit/
-eventInformation: Nyt sitsataan suuresti sillä sitsaavat voimansa yhdistävät Linkki, Ynnä, Syrinx ja Radikaali . 
-Sitsit järjestetään Aalto-Salissa.
-Ja ovatkin siis OPM eli Oma Pullo Mukaan. 
-Teemana on Halloween, joten muista pukeutua sitseille teeman mukaisesti! 
-Ilmoittautuminen aukeaa 16.10. klo 12:00 ja sulkeutuu 25.10 klo 12:00.
-Linkki ilmoittautumiskantaan julkaistaan tähän myöhemmin. 
-lyhyesti:
-
-MITÄ: Suursitsit luonnontieteilijöille
-MISSÄ: Aalto-Sali
-MILLOIN: 1.11. klo 18:00-23:00 
-Jatkot järjestetään Freetimessä, jonne pääsee tapahtuman haalarimerkillä ilmaiseksi sisään!
+eventInformation: Pian sitsataan suuresti sillä sitsaavat voimansa yhdistävät Linkki, Ynnä, Syrinx ja Radikaali .  
+Sitseille mahtuu 150 henkeä laulamaan huippuja sitsilauluja sekä luomaan hyvää halloween mieltä!   
+Paikalle saapuu myös kahdeksan pelottavaa, kaikista karmivinta, jokaisen ainejärjestön kruunaamatonta hirviöitä ja hirvitärtä!  
+Ei siis ketään muita kuin toastmastereita!    
+  
+Tämä tulee olemaan ennennäkemätön tapahtuma ja varmasti kokemuksen arvoinen.  
+  
+Teemana on Halloween, joten muista pukeutua sitseille teeman mukaisesti!  
+Olkaa siis tietoisia, että jos ette ole tarpeeksi karmivan näköisiä niin ette kykene pelottelemaan pois siitä koituvaa rangaistusta!  
+Kummittelu alkaa 1.11. klo 18:00 ja loppuu klo 23:00 Aalto-salissa (kauppakatu 30).   
+Sitsit kustantavat 15€, johon sisältyy ruoka sekä haalarimerkki jolla pääset jatkoille Freetimeen.   
+Tapahtumaan saa ottaa omat taikajuomat joten varatkaa runsaasti vaapukkamehua mukaan.  
+Eli tapahtuma onkin siis OPM.  
+  
+Ilmoittautuminen aukeaa 16.10. klo 12:00 ja sulkeutuu 25.10 klo 12:00.   
+Linkki ilmoittautumiskantaan löytyy:  http://ynna.fi/tapahtumat/luonnontieteelliset-suursitsit/ 
+Facebook-event löytyy täältä.  
+  
+lyhyesti:  
+  
+MITÄ: Suursitsit luonnontieteilijöille  
+MISSÄ: Aalto-Sali.  
+MILLOIN: 1.11. klo 18:00-23:00 
+TEEMA: Halloween! 
+MITÄ MAKSAA: 15 euroa.  
+  
+Jatkot järjestetään Freetimessä, jonne pääsee sitsien haalarimerkillä ilmaiseksi sisään!
 
 END_OF_EVENT
 
@@ -262,18 +298,33 @@ END_OF_EVENT
 eventName: Luonnontieteelliset suursitsit
 eventTimestamp: 1.11. 17:00 -  22:00
 eventUrl: http://linkkijkl.fi/event/luonnontieteelliset-suursitsit/
-eventInformation: Nyt sitsataan suuresti sillä sitsaavat voimansa yhdistävät Linkki, Ynnä, Syrinx ja Radikaali . 
-Sitsit järjestetään Aalto-Salissa.
-Ja ovatkin siis OPM eli Oma Pullo Mukaan. 
-Teemana on Halloween, joten muista pukeutua sitseille teeman mukaisesti! 
-Ilmoittautuminen aukeaa 16.10. klo 12:00 ja sulkeutuu 25.10 klo 12:00.
-Linkki ilmoittautumiskantaan julkaistaan tähän myöhemmin. 
-lyhyesti:
-
-MITÄ: Suursitsit luonnontieteilijöille
-MISSÄ: Aalto-Sali
-MILLOIN: 1.11. klo 18:00-23:00 
-Jatkot järjestetään Freetimessä, jonne pääsee tapahtuman haalarimerkillä ilmaiseksi sisään!
+eventInformation: Pian sitsataan suuresti sillä sitsaavat voimansa yhdistävät Linkki, Ynnä, Syrinx ja Radikaali .  
+Sitseille mahtuu 150 henkeä laulamaan huippuja sitsilauluja sekä luomaan hyvää halloween mieltä!   
+Paikalle saapuu myös kahdeksan pelottavaa, kaikista karmivinta, jokaisen ainejärjestön kruunaamatonta hirviöitä ja hirvitärtä!  
+Ei siis ketään muita kuin toastmastereita!    
+  
+Tämä tulee olemaan ennennäkemätön tapahtuma ja varmasti kokemuksen arvoinen.  
+  
+Teemana on Halloween, joten muista pukeutua sitseille teeman mukaisesti!  
+Olkaa siis tietoisia, että jos ette ole tarpeeksi karmivan näköisiä niin ette kykene pelottelemaan pois siitä koituvaa rangaistusta!  
+Kummittelu alkaa 1.11. klo 18:00 ja loppuu klo 23:00 Aalto-salissa (kauppakatu 30).   
+Sitsit kustantavat 15€, johon sisältyy ruoka sekä haalarimerkki jolla pääset jatkoille Freetimeen.   
+Tapahtumaan saa ottaa omat taikajuomat joten varatkaa runsaasti vaapukkamehua mukaan.  
+Eli tapahtuma onkin siis OPM.  
+  
+Ilmoittautuminen aukeaa 16.10. klo 12:00 ja sulkeutuu 25.10 klo 12:00.   
+Linkki ilmoittautumiskantaan löytyy:  http://ynna.fi/tapahtumat/luonnontieteelliset-suursitsit/ 
+Facebook-event löytyy täältä.  
+  
+lyhyesti:  
+  
+MITÄ: Suursitsit luonnontieteilijöille  
+MISSÄ: Aalto-Sali.  
+MILLOIN: 1.11. klo 18:00-23:00 
+TEEMA: Halloween! 
+MITÄ MAKSAA: 15 euroa.  
+  
+Jatkot järjestetään Freetimessä, jonne pääsee sitsien haalarimerkillä ilmaiseksi sisään!
 
 END_OF_EVENT
 
