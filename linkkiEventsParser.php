@@ -1,19 +1,23 @@
 <?php
 
 # URLs
-$LINKKI_THIS_MONTH_EVENTS_URL = "http://linkkijkl.fi/events/?ical=1&tribe-bar-date=2017-";
-$LINKKI_NEXT_MONTH_EVENTS_URL = "http://linkkijkl.fi/events/?ical=1&tribe-bar-date=2017-";
+// Proper URL format after appends: http://linkkijkl.fi/events/?ical=1&tribe-bar-date=2017-1
+$LINKKI_THIS_MONTH_EVENTS_URL = "http://linkkijkl.fi/events/?ical=1&tribe-bar-date=";
+$LINKKI_NEXT_MONTH_EVENTS_URL = "http://linkkijkl.fi/events/?ical=1&tribe-bar-date=";
 
 // Set the default timezone to use.
 date_default_timezone_set('Europe/Helsinki');
 
+// Get the year for appending the URL
+$year      = date("Y");
+
 // Get the month for appending the URL to get this and next month's events.
-$month     = date('n');
+$month     = date("n");
 $nextMonth = $month + 1;
 
 // Set the months to the Linkki's URLs
-$LINKKI_THIS_MONTH_EVENTS_URL .= $month;
-$LINKKI_NEXT_MONTH_EVENTS_URL .= $nextMonth;
+$LINKKI_THIS_MONTH_EVENTS_URL .= $year . "-" . $month;
+$LINKKI_NEXT_MONTH_EVENTS_URL .= $year . "-" . $nextMonth;
 
 
 // Get Linkki's this & next months contents to linkkiRawEventData.txt file
