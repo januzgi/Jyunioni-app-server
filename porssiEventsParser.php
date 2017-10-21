@@ -7,9 +7,8 @@ $PORSSI_EVENTS_URL = "http://www.porssiry.fi/tapahtumat/";
 date_default_timezone_set('Europe/Helsinki');
 
 
-// File path to directory "Jyunioni-server". 
-// Run command "pwd" when in "Jyunioni-server" directory and put the result in $homeDirPath
-$homeDirPath = "/Users/JaniS/Sites/Jyunioni-server";
+// File path to working directory.
+$homeDirPath = getcwd();
 
 // The current file's path
 $filePath = "/Raw-event-data/porssiRawUrlData.json";

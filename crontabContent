@@ -1,0 +1,4 @@
+00 6,12,18 * * * php PATH/Jyunioni-server/linkkiEventsParser.php,
+00 6,12,18 * * * php PATH/Jyunioni-server/dumppiEventsParser.php,
+00 6,12,18 * * * php PATH/Jyunioni-server/porssiEventsParser.php,
+00 6,12,18 * * * php PATH/Jyunioni-server/stimulusEventsParser.php

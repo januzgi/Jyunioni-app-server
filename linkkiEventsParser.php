@@ -24,9 +24,8 @@ $content = file_get_contents($LINKKI_THIS_MONTH_EVENTS_URL);
 $content .= file_get_contents($LINKKI_NEXT_MONTH_EVENTS_URL);
 
 
-// File path to directory "Jyunioni-server". 
-// Run command "pwd" when in "Jyunioni-server" directory and put the result in $homeDirPath
-$homeDirPath = "/Users/JaniS/Sites/Jyunioni-server";
+// File path to working directory.
+$homeDirPath = getcwd();
 
 // The current file's path
 $filePath = "/Raw-event-data/linkkiRawEventData.txt";
