@@ -11,7 +11,7 @@ date_default_timezone_set('Europe/Helsinki');
 fetchUrls($STIMULUS_EVENTS_URL);
 
 // Using the list of URL's, get each event's data from it's own event page and parse the event attributes.
-$stimulusUrlsJson = file_get_contents("/Users/JaniS/Sites/Jyunioni server/Raw event data/stimulusRawUrlData.json");
+$stimulusUrlsJson = file_get_contents("/wwwhome/home/jatasuor/html/Jyunioni-server/Raw-event-data/stimulusRawUrlData.json");
 
 // Decode the .json into an array
 $stimulusEventUrls = json_decode($stimulusUrlsJson, true);
@@ -72,11 +72,11 @@ function getRawEventData($urls)
     */
     
     
-    $stimulusEvents = "/Users/JaniS/Sites/Jyunioni server/Parsed events/stimulusEvents.txt";
+    $stimulusEvents = "/wwwhome/home/jatasuor/html/Jyunioni-server/Parsed-events/stimulusEvents.txt";
     
     // Write the parsed events into stimulusEvents.txt file.
     if (file_put_contents($stimulusEvents, $eventDetails) !== false) {
-        echo "<br><b><i>Stimulus' parsed events data written succesfully to: </i></b>" . $stimulusEvents . "<br>";
+        echo "Stimulus' parsed events data written succesfully to: " . $stimulusEvents . "\n";
     }
     
 }
@@ -244,12 +244,12 @@ function fetchUrls($url)
         }
     }
     
-    $stimulusRawUrlDataJson = "/Users/JaniS/Sites/Jyunioni server/Raw event data/stimulusRawUrlData.json";
+    $stimulusRawUrlDataJson = "/wwwhome/home/jatasuor/html/Jyunioni-server/Raw-event-data/stimulusRawUrlData.json";
     
     // Write the array of links into the .json file
     $fp = fopen($stimulusRawUrlDataJson, "w");
     if (fwrite($fp, json_encode($links, JSON_PRETTY_PRINT)) !== false) {
-        echo "<b><i>stimulusRawUrlData.json written succesfully to: </i></b>" . $stimulusRawUrlDataJson . "<br>";
+        echo "Stimulus' URLs written succesfully to: " . $stimulusRawUrlDataJson . "\n";
     }
     fclose($fp);
 }

@@ -14,7 +14,7 @@ fetchUrls($PORSSI_EVENTS_URL);
 
 
 // Using the list of URL's for each event, get each event's data from it's own event page and create the .json with event attributes.
-$porssiUrlsJson = file_get_contents("/Users/JaniS/Sites/Jyunioni server/Raw event data/porssiRawUrlData.json");
+$porssiUrlsJson = file_get_contents("/wwwhome/home/jatasuor/html/Jyunioni-server/Raw-event-data/porssiRawUrlData.json");
 
 // Decode the .json into an array
 $porssiEventUrls = json_decode($porssiUrlsJson, true);
@@ -73,11 +73,11 @@ function getRawEventData($urls)
     */
     
     
-    $porssiEvents = "/Users/JaniS/Sites/Jyunioni server/Parsed events/porssiEvents.txt";
+    $porssiEvents = "/wwwhome/home/jatasuor/html/Jyunioni-server/Parsed-events/porssiEvents.txt";
     
     // Write the parsed events into porssiEvents.txt file.
     if (file_put_contents($porssiEvents, $eventDetails) !== false) {
-        echo "<br><b><i>Pörssi's parsed events data written succesfully to: </i></b>" . $porssiEvents . "<br>";
+        echo "Pörssi's parsed events data written succesfully to: " . $porssiEvents . "\n";
     }
 }
 
@@ -353,12 +353,13 @@ function fetchUrls($url)
             array_pop($links);
         }
     }
-    $porssiRawUrlDataJson = "/Users/JaniS/Sites/Jyunioni server/Raw event data/porssiRawUrlData.json";
+    
+    $porssiRawUrlDataJson = "/wwwhome/home/jatasuor/html/Jyunioni-server/Raw-event-data/porssiRawUrlData.json";
     
     // Write the array of links into the .json file
     $fp = fopen($porssiRawUrlDataJson, "w");
     if (fwrite($fp, json_encode($links, JSON_PRETTY_PRINT)) !== false) {
-        echo "<b><i>porssiRawUrlData.json written succesfully to: </i></b>" . $porssiRawUrlDataJson . "<br>";
+        echo "Pörssi's URLs written succesfully to: " . $porssiRawUrlDataJson . "\n";
     }
     fclose($fp);
 }

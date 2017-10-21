@@ -24,12 +24,13 @@ $LINKKI_NEXT_MONTH_EVENTS_URL .= $year . "-" . $nextMonth;
 $content = file_get_contents($LINKKI_THIS_MONTH_EVENTS_URL);
 $content .= file_get_contents($LINKKI_NEXT_MONTH_EVENTS_URL);
 
-$rawDataFile = '/Users/JaniS/Sites/Jyunioni server/Raw event data/linkkiRawEventData.txt';
+
+$rawDataFile = '/wwwhome/home/jatasuor/html/Jyunioni-server/Raw-event-data/linkkiRawEventData.txt';
 
 
 // Write the contents back to a .txt file
 if (file_put_contents($rawDataFile, $content) !== false) {
-    echo "<b><i>Linkki's raw events data written succesfully to: </b></i>" . $rawDataFile . "<br>";
+    echo "Linkki's raw events data written succesfully to: " . $rawDataFile . "\n";
 }
 
 
@@ -173,11 +174,11 @@ function extractEventsData($file)
         // Close the handle from taking resources
         fclose($handle);
         
-        $eventDataFile = '/Users/JaniS/Sites/Jyunioni server/Parsed events/linkkiEvents.txt';
+        $eventDataFile = '/wwwhome/home/jatasuor/html/Jyunioni-server/Parsed-events/linkkiEvents.txt';
         
         // Write the results into a .txt file.
         if (file_put_contents($eventDataFile, $extractedEventsData) !== false) {
-            echo "<br><b><i>Linkki's events data written succesfully to: </b></i>" . $eventDataFile . "<br>";
+            echo "Linkki's events data written succesfully to: " . $eventDataFile . "\n";
         }
         
     }
