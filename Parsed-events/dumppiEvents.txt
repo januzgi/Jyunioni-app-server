@@ -1,57 +1,15 @@
 DUMPPI
 
-eventName: Kese, Pörssi & Dumppi: juustoportviinitasting maistereille
-eventTimestamp: 17.10. 17:30 - 20:00
-eventUrl: https://dumppi.fi/events/kese-porssi-dumppi-juustoportviinitasting-maistereille/
-eventInformation: Keski-Suomen Ekonomit toivottavat lämpimästi tervetulleiksi maisterivaiheessa opiskelevat Dumpin tjt-opiskelijat ja pörssiläiset yhteiseen viinitasting-iltaan tiistaina 17.10. klo 17:30 Ravintola Figaron Winebistroon.
-
-
-Tarjolla on juustoportviinitastingin makuja ja mahtava tilaisuus verkostoitua ja vaihtaa viimeiset kuulumiset opiskelujen maailmasta sekä työelämästä. Tarjolla on kolmea eri viiniä juustoineen, joista ravintolapäällikkö kertoo paikalla meille lisää.
-
-
-Huomaathan, että tapahtuma on tarkoitettu ensisijaisesti maisteriopiskelijoille ja paikkoja on rajoitetusti. Mikäli paikkoja kuitenkin vapautuu niin varasijoilta on hyvä mahdollisuus päästä osallistumaan, kannattaa siis ilmoittautua myös varasijoille. Tapahtuma on Ekonomien opiskelijajäsenille maksuton.
-
-END_OF_EVENT
-
-
-eventName: Dumppi goes ATK-YTP
-eventTimestamp: 18.10. - 20.10.
-eventUrl: https://dumppi.fi/events/dumppi-goes-atk-ytp/
-eventInformation: J?lleen on aika vuosittaisen?ATK-YTP:n eli automaattisen tietojenk?sittelyn yhteistoimintap?ivien.?
-T?n? vuonna tapahtuma j?rjestet??n Tampereella ja odotettavissa on huippupuhujia sek? laadukasta iltaohjelmaa. Tapahtuma on kaksip?iv?inen ja osallistumismaksuun sis?ltyy majoitus Hatanp??n koululla kahdeksi y?ksi.
-
-ATK-YTP on mahtava tilaisuus p??st? tutustumaan tulevaisuuden kollegoihin ty?n ja huvin merkeiss?!
-?
-Alustava ohjelma on seuraava:
-18.10.
-
-END_OF_EVENT
-
-
-eventName: Ryhmäliikuntatunti
-eventTimestamp: 19.10. 15:00 - 16:00
-eventUrl: https://dumppi.fi/events/ryhmaliikuntatunti-8/
-eventInformation: Lyhyesti
-MITÄ: Ryhmäliikunta
-MISSÄ: Fresh Fitness
-MILLOIN: 19.10.2017 15:00 - 16:00
-HINTA: Ilmainen!
-YHTEYSHENKILÖ: Lassi Tukiainen, liikunta@dumppi.fi
-
-END_OF_EVENT
-
-
-eventName: Dumppi goes: Taideyliopiston Teatterikorkeakoulu: BAIKAL BROTHERS KY
-eventTimestamp: 20.10. 19:00 - 22:00
-eventUrl: https://dumppi.fi/events/dumppi-goes-taideyliopiston-teatterikorkeakoulu-baikal-brothers-ky/
-eventInformation: Jyväskylän kaupunginteatterin suurella näyttämöllä nähdään harvinaista herkkua kun Teatterikorkeakoulun Baikal Brothers Ky -esitys vierailee pe 20.10. klo 19. Esityksen ohjaa ja yhtenä käsikirjoittajana on Leea Klemola.
-
-
-Dumpin jäsenille liput maksavat ainoastaan 10 € kpl! (normaalisti 20€)
-Baikal Brothers Ky on esitys Taideyliopiston musiikkiteatterilinjan bändin musiikkivideon kuvausmatkasta Trans-Siperian junalla Baikalille Olkhon-saarelle. Baikal Brothers Ky on myös näytelmä niistä haavoista, joita toiset ihmiset ovat meihin jättäneet, ja joista me toisten ihmisten avulla yritämme parantua, sekä matkasta kohti uutta tuntematonta maisemaa.
- 
-Tutustu esitykseen teosesittelyssä ja jää keskustelemaan esityksen jälkeen
-Ennen Baikal Brothers Ky -esitystä 20.10. klo 18 alkaen ohjaaja Leea Klemolan pitämä teosesittely yleisölämpiössä.
+eventName: Hallitushaku vuodelle 2018
+eventTimestamp: 10.10.  - 31.10. 0:00
+eventUrl: https://dumppi.fi/events/hallitushaku-vuoden-2018-hallitukseen/
+eventInformation: Hakuprosessiin kuuluu kaksi virallista vaihetta; sähköinen lomake Dumpin sivuilla ja sääntömääräinen syyskokous 8. marraskuuta Club Escapessa. Sähköisen lomakkeen kautta hakemuksen voi jättää 10.10.-31.10.2017 välisenä aikana. Lomakkeen tietoja ei voi käydä muokkaamassa vastaamisen jälkeen. Hakuajan päättymisen jälkeen jäsenistölle ilmoitetaan salasana, jolla hakemuksia pääsee tarkastelemaan.
+Hakijoihin pääsee tutustumaan 6.11. Opinkivellä järjestettävällä vaalisaunalla. Tapahtumaan ovat tervetulleita kaikki Dumpparit ja erityisesti hallitushakijoiden olisi suotavaa saapua paikalle. Tapahtuman ohjelmaan kuuluu lyhyt kyselyosuus, jossa jäsenistö pääsee tutustumaan hakijoihin, jonka jälkeen sauna lämpiää ja hakijoita voi käydä jututtamassa rennommissa merkeissä.
+Vuoden 2018 hallitus valitaan sääntömääräisessä syyskokouksessa Club Escapessa 8.11. Kokouksessa äänivaltaisia ovat kaikki Dumpin jäsenet. Ehdolle voi asettua vielä syyskokouksessa, vaikka ei olisikaan jättänyt hakemusta Dumpin nettisivujen kautta. Sähköisen hakemuksen jättäminen on kuitenkin erittäin suotavaa.
+Mikäli et pysty rekisteröitymään verkkosivuille. Ota yhteys webmaster Markus Mulariin (webmaster(a)dumppi.fi / +358 44 040 1770)
+Hakulomake
+Kaikkiin hallitushakuun liittyviin kysymyksiin vastaavat puheenjohtaja Eveliina Mali ja varapuheenjohtaja Satu Häkkinen.
+Lyhyesti
 
 END_OF_EVENT
 
@@ -59,12 +17,13 @@ END_OF_EVENT
 eventName: Dumpin verenluovutusviikko
 eventTimestamp: 23.10. - 29.10.
 eventUrl: https://dumppi.fi/events/dumpin-verenluovutusviikko-2/
-eventInformation: Lyhyesti
-MITÄ: Dumpin verenluovutusviikko
+eventInformation: Koko kuluvan viikon, ja miksi ei sen jälkeenkin, kannustamme kaikkia dumppareita luovuttamaan verta. Mainitsethan verenluovutuksen yhteydessä VeriRyhmämme nimen “Dumppi ry”. Vähintään 10 luovutuskertaa vuoden 2017 aikana keränneet VeriRyhmät palkitaan Suomi 100 -kunniakirjoin, joten nyt kaikki mukaan tähtäämään tähän tavoitteeseen ja auttamaan 🙂  
+Keskustan veripalvelupisteen aukioloajat:
+ma,ti ja to klo 12-18    ke, pe 11-16
+Sovitko juuri sinä verenluovuttajaksi? Klikkaa linkkiä ja tee testi ennen verenluovutusviikkoa! http://www.sovinkoluovuttajaksi.fi/
+Lyhyesti
+MITÄ: Jyväskylän veripalvelutoimisto
 MISSÄ: Veripalvelu, Jyväskylä
-MILLOIN: 23.10.2017 - 29.10.2017 Koko päivä
-HINTA: Ilmainen
-YHTEYSHENKILÖ: Anni Junkkarinen, sopo@dumppi.fi
 
 END_OF_EVENT
 

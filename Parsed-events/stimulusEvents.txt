@@ -1,98 +1,20 @@
 STIMULUS
 
-eventName: Stimuluksen tanssikerho: Lattarit !
-eventTimestamp: 17.10. 16:00
-eventUrl: http://stimulus.fi/ilmoittautuminen.php?tid=560
-eventInformation: Opettajina toimivat  Igor Bologov ja Pauliina Sääksi. He edustavat TK Master Helsinkiä ja kisaavat Champion A-sarjassa. Pari on erikoistuinut lattareihin. He ovat myös voittaneet useita valtakunnallisia kilpailuja ja edustaneet Suomea myös ulkomailla (WAU !). Omien sanojensa mukaan vapaa-aika koostuu täysin omista reeneistä ja valmentamisesta. Heidän lajeihinsa sisältyy samba, cha cha, rumba, paso doble ja jive, joista pariin tanssiin päästään tutustumaan!
-Tule siis joko yksin, tai tuo parisi mukaan. Psst..tältä tunnilta tanssivinkit vujuille ;)
- 
-MITÄ: Lattariopetusta
-MILLOIN: 17.10 klo. 16-18.00
+eventName: Hallitushakuinfo
+eventTimestamp: 24.10. 16:00
+eventUrl: http://stimulus.fi/ilmoittautuminen.php?tid=565
+eventInformation: Katso lisätiedot tapahtumasivulta!
 
 END_OF_EVENT
 
 
-eventName: Luovan kirjoittamisen piirin tapaaminen
-eventTimestamp: 17.10. 18:00
-eventUrl: http://stimulus.fi/ilmoittautuminen.php?tid=558
-eventInformation: Osallistuminen ei vaadi tietotaitoa aiheesta luova kirjoittaminen, ehkä ennemminkin kyseessä on kannustavan ilmapiirin poppoo, jossa voi puhella kirjoittamisesta ja kirjoitella tai lukea tekstejä yhdessä. :) 
-Älkää siis peljätkö vaan tulkaa rohkeasti kurkkaamaan piirin toimintaa. Huom. osallistumispakkoa ei ole, voi käydä silloin kun huvittaa ja ehtii ja joutaa.
- 
-Kuulemisiin ja toivottavasti myös näkemisiin!
-Ida Honkanen ja muut kirjoituspiiriläiset
-
-END_OF_EVENT
-
-
-eventName: Herkkuappro
-eventTimestamp: 18.10. 14:00
-eventUrl: http://stimulus.fi/ilmoittautuminen.php?tid=557
-eventInformation: Nyt on hyvä syy herkutella, vaikkei keskiviikko karkkipäivä olisikaan, sillä Jyväskylän ensimmäinen HerkkuAppro järjestetään 18.10! HerkkuApprossa idea on kuin missä tahansa muussakin approssa: tarkoituksena on kiertää toinen toistaan herkullisempia suorituspaikkoja ja kerätä leimoja appropassiin! Ensimmäisenä vuonna voit suorittaa "maistelijan" -tutkintoa, johon vaaditaan yhteensä 4 suoritusleimaa. Herkkuappron järjestäjinä toimivat Emile, Magna Carta, Stimulus, Varkaat, Jio, Fokus ja Parku, mutta toivotamme kaikki herkkusuut tervetulleiksi approilemaan!
-
-Ennakkolipunmyynti alkaa keskiviikkona 4.10 klo 12 bailataan.fi sivustolla (linkki sivustolle päivittyy tapahtuman Facebook-eventtiin). Ennakkolipun hinta on 3 euroa. Lippu on mahdollista ostaa myös appropäivänä lähtöpaikalta hintaan 4 euroa (vain korttimaksu).
-
-Appropassien nouto on mahdollista appropäivänä klo 14-15 Kirkkopuistosta. Suoritusaika on klo 14-18:30 (lähtö Kirkkopuistosta). Suoritusten tenttiminen on 17:30-18:30. Hyväksytystä suorituksesta (4 leimaa eri suorituspaikoista) saat HerkkuAppron haalarimerkin!
-
-Suorituspaikkoina toimivat:
-Kalpis
-FaFa's
-Wilhelmiina
-Miriam's
-Vaffeli
-Pannukakkutalo
-Caffitella
-Kahvila Kultavatkain
-
-Koska kyseessä on opiskelijatapahtuma, suorituspaikoissa on tietysti tarjolla myös opiskelijan kukkarolle sopivia approherkkuja!
-
-MITÄ: HerkkuAppro 
-MISSÄ: Jyväskylän herkullisimmissa paikoissa!
-MILLOIN: keskiviikkona 18.10
-KENELLE: ihan kaikille!
-MIKSI: koska aina on hyvä syy herkutella!
-_______
-
-Here comes a great opportunity to satisfy your sweet tooth, even if Wednesday is not your cheat day, because on 18.10 we’re holding Jyväskylä’s first ever HerkkuAppro! Herkkuappro follows the same pattern as any other Appro, where the idea is to visit cafés and shops each sweeter than the other and collect stamps in your HerkkuAppro-pass! As this is the first year of HerkkuAppro, you have a chance to complete the first degree, ”maistelija” (taster), which requires 4 stamps in your pass. After collecting all the stamps you’ll be rewarded with a sweet overall padge ;)
-
-Prepaid tickets are sold 4.10 at 12pm at bailataan.fi (the link will be in the Facebook-event). The ticket costs 3 euros. You also have a chance to buy your ticket on the day of Appro for 4 euros at the starting point (with a credit card).
-
-You can come collect your Appro-passes at 2-3pm from Kirkkopuisto on the day of Appro. The examination of your performance is possible 5.30pm-6.30pm at Kirkkopuisto.
-
-Companies participating in the event:
-Kalpis
-FaFa's
-Wilhelmiina
-Miriam's
-Vaffeli
-Pannukakkutalo
-Caffitella
-Kahvila Kultavatkain 
-
-WHAT: HerkkuAppro
-WHERE: the tastiest places of Jyväskylä!
-WHEN: on Wednesday 18.10
-WHY: because it’s always a good time to treat yourself!
- 
-
-END_OF_EVENT
-
-
-eventName: VIP-shoppailuilta
-eventTimestamp: 19.10. 19:00
-eventUrl: http://stimulus.fi/ilmoittautuminen.php?tid=553
-eventInformation:  
-Ilta järjestetään siis Vero Modassa ja Jack&Jones’issa torstaina 19.10. klo 19 – 21. Tule siis tekemään löytöjä tai vain katselemaan rauhassa syksyn uutuuksia! Muista näyttää stimppatarraa kassalla, niin saat alennukset hyödynnettyä. Tapahtumaan ei tarvitse ilmoittautua etukäteen, mutta mahdolliset kysymykset ja kommentit voit esittää Stimuluksen yritysvastaaville.
- 
-MITÄ: VIP-shoppailua Vero Modassa ja Jack&Jones’issa
-MISSÄ: Forumin 2. kerros
-
-END_OF_EVENT
-
-
-eventName: Stimppasauna
+eventName: Stimppasauna+lautapelit!
 eventTimestamp: 24.10. 18:00
 eventUrl: http://stimulus.fi/ilmoittautuminen.php?tid=511
-eventInformation: 
+eventInformation: Sauna on lämpimänä 18-22. Paikan päälle tuodaan myös lautapelejä, koska erillistä lautapeli-iltaa ei ole keretty lokakuulle järjestää. Tuo siis myös omat pelisi mukaan !
+Lisäksi tapahtumaan voi tuoda nyyttäriperiaatteella pientä naposteltavaa. Ja oma pefletti mukaan, mikäli saunaan mielii :)
+Lämpimästi (kuumasti) tervetuloa!
+ 
 
 END_OF_EVENT
 
@@ -105,6 +27,30 @@ eventInformation: Tervetuloa Stimuluksen ja Glitter Jyväskylän yhteiseen shopp
 MITÄ? Glitter Jyväskylän VIP-vujushoppailuilta stimppalaisten kesken
 MILLOIN? 24.10. klo 19-20
 MISSÄ? Kauppakatu 20, Kauppakeskus Forum
+
+END_OF_EVENT
+
+
+eventName: Stimpan collegetilaus - HOUSUT
+eventTimestamp: 25.10. 12:00
+eventUrl: http://stimulus.fi/ilmoittautuminen.php?tid=569
+eventInformation:  
+Kahden vuoden odotuksen jälkeen — nyt niitä taas saa! 
+Tänä vuonna sinun on mahdollista tilata itsellesi ikiomaksi tyylikkäät ja uudistetut Stimppakollarihousut!
+ 
+Millaisia uudet kollarit ovat?
+
+END_OF_EVENT
+
+
+eventName: Stimpan collegetilaus - PAIDAT
+eventTimestamp: 25.10. 12:00
+eventUrl: http://stimulus.fi/ilmoittautuminen.php?tid=570
+eventInformation:  
+Kahden vuoden odotuksen jälkeen — nyt niitä taas saa! 
+Tänä vuonna sinun on mahdollista tilata itsellesi ikiomaksi tyylikäs ja uudistettu Stimppakollari!
+ 
+Millaisia uudet kollarit ovat?
 
 END_OF_EVENT
 
@@ -237,7 +183,7 @@ END_OF_EVENT
 eventName: Syyskokous
 eventTimestamp: 14.11. 16:30
 eventUrl: http://stimulus.fi/ilmoittautuminen.php?tid=531
-eventInformation: 
+eventInformation: Katso lisätiedot tapahtumasivulta!
 
 END_OF_EVENT
 
@@ -257,7 +203,15 @@ END_OF_EVENT
 eventName: Pikkujoulut
 eventTimestamp: 22.11. 18:00
 eventUrl: http://stimulus.fi/ilmoittautuminen.php?tid=512
-eventInformation: 
+eventInformation:  
+Ilmoittautuminen pikkujouluihin aukeaa 23.10. klo 12 ja sulkeutuu 6.11. klo 23:45. Ilmoitathan mahdolliset erikoisruokavaliot ilmoittautumisen yhteydessä!
+
+
+MISSÄ/WHERE? Club Escape
+MILLOIN/WHEN? 22.11.2017, 18.00
+PUKUKOODI/DRESSCODE? 100 v. Suomea kunnioittava juhlava pukeutuminen / Festive dressing that respects 100-year old Finland
+MIKSI/WHY? Koska Suomi täyttää vain kerran 100 vuotta! / Because Finland turns 100 only once!
+ 
 
 END_OF_EVENT
 
@@ -287,7 +241,7 @@ END_OF_EVENT
 eventName: Kulttuuriexcu Helsinkiin
 eventTimestamp: 30.11. 11:00
 eventUrl: http://stimulus.fi/ilmoittautuminen.php?tid=544
-eventInformation: 
+eventInformation: Katso lisätiedot tapahtumasivulta!
 
 END_OF_EVENT
 

@@ -19,26 +19,30 @@ $nextMonth = $month + 1;
 $LINKKI_THIS_MONTH_EVENTS_URL .= $year . "-" . $month;
 $LINKKI_NEXT_MONTH_EVENTS_URL .= $year . "-" . $nextMonth;
 
-
 // Get Linkki's this & next months contents to linkkiRawEventData.txt file
 $content = file_get_contents($LINKKI_THIS_MONTH_EVENTS_URL);
 $content .= file_get_contents($LINKKI_NEXT_MONTH_EVENTS_URL);
 
 
-$rawDataFile = '/wwwhome/home/jatasuor/html/Jyunioni-server/Raw-event-data/linkkiRawEventData.txt';
+// File path to directory "Jyunioni-server". 
+// Run command "pwd" when in "Jyunioni-server" directory and put the result in $homeDirPath
+$homeDirPath = "/Users/JaniS/Sites/Jyunioni-server";
+
+// The current file's path
+$filePath = "/Raw-event-data/linkkiRawEventData.txt";
 
 
 // Write the contents back to a .txt file
-if (file_put_contents($rawDataFile, $content) !== false) {
-    echo "Linkki's raw events data written succesfully to: " . $rawDataFile . "\n";
+if (file_put_contents($homeDirPath . $filePath, $content) !== false) {
+    echo "Linkki's raw events data written succesfully to: " . $filePath . "\n";
 }
 
 
 // Read the raw data file line by line and parse the different Event fields.
-extractEventsData($rawDataFile);
+extractEventsData($homeDirPath . $filePath, $homeDirPath);
 
 
-function extractEventsData($file)
+function extractEventsData($file, $homeDirPath)
 {
     
     // Variables for the event's extracting
@@ -173,8 +177,12 @@ function extractEventsData($file)
         
         // Close the handle from taking resources
         fclose($handle);
-        
-        $eventDataFile = '/wwwhome/home/jatasuor/html/Jyunioni-server/Parsed-events/linkkiEvents.txt';
+
+
+		// The current file's path
+		$filePath = "/Parsed-events/linkkiEvents.txt";
+
+        $eventDataFile = $homeDirPath . $filePath;
         
         // Write the results into a .txt file.
         if (file_put_contents($eventDataFile, $extractedEventsData) !== false) {

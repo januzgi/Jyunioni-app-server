@@ -1,42 +1,5 @@
 PORSSI
 
-eventName: Syksyn vaihtoilta
-eventTimestamp: 16.10. 16:00 - 18:00
-eventUrl: http://www.porssiry.fi/events/syksyn-vaihtoilta/
-eventInformation: Lokakuussa järjestetään taas vaihtoilta JSBE:n asiaosuuden ja puhujien kera. Tule kuuntelemaan unohtumattomia tarinoita ja kokemuksia meidän opiskelijoiden vaihdoista. Aiheena on Euroopan ulkopuoliset kohteet. Osallistujille tarjolla kahvia ja 30. ensimmäiselle sämpylät.
-Puhujat: 
-Juho-Tuomas Järvikangas; Chile
-Ville Mikkonen; Kanada
-Juho-Antti Hyyppä; Australia
-
-END_OF_EVENT
-
-
-eventName: Viini-ilta KESE:n kanssa
-eventTimestamp: 17.10.
-eventUrl: http://www.porssiry.fi/events/viini-ilta-kesen-kanssa/
-eventInformation: Uppoudu viinien ja juustojen saloihin Keski-Suomen Ekonomien seurassa.
- 
-Keski-Suomen Ekonomit toivottavat lämpimästi tervetulleiksi maisterivaiheessa opiskelevat Pörssin sekä Dumpin opiskelijat yhteiseen viinitasting-iltaan tiistaina 17.10. klo 17:30 Ravintola Figaron Winebistroon.
-Tarjolla on juustoportviinitastingin makuja ja mahtava tilaisuus verkostoitua ja vaihtaa viimeiset kuulumiset opiskelujen maailmasta sekä työelämästä. Tarjolla on kolmea eri viiniä juustoineen, joista ravintolapäällikkö kertoo paikalla meille lisää.
-Huomaathan, että tapahtuma on tarkoitettu ensisijaisesti maisteriopiskelijoille ja paikkoja on rajoitetusti. Tapahtuma on Ekonomien opiskelijajäsenille maksuton.
-
-END_OF_EVENT
-
-
-eventName: Liikuntakokeilu CrossFit Jyväskylä
-eventTimestamp: 18.10. 18:15 - 19:45
-eventUrl: http://www.porssiry.fi/events/liikuntakokeilu-crossfit-jyvaskyla/
-eventInformation: Tervetuloa tutustumaan CrossFit Jyväskyään!
-18.10. CrossFit Jyväskylä tarjoaa pörssiläisille mahdollisuuden tulla tutustumaan CrossFitin saloihin. Tässä ilmaisessa tapahtumassa on CrossFit- treenin lisäksi luvassa huokeita liittymistarjouksia, joita osallistujat pääsevät hyödyntämään. Mukaan tarvitset vain sisäurheiluvarusteet ja juomapullon!
-MITÄ: Liikuntakokeilu CrossFit Jyväskylään
-MISSÄ: Kympinkatu 3, 40320 Jyväskylä
-MILLOIN: 18.10. kello 18.15
-HINTA: ILMAINEN!
-
-END_OF_EVENT
-
-
 eventName: Pörstimin Köpis-excu
 eventTimestamp: 19.10. 12:00 - 23.10. 21:00
 eventUrl: http://www.porssiry.fi/events/porstimin-kopis-excu/
@@ -45,6 +8,28 @@ Tänä vuonna Pörstimin reissukuume kohdistuu Köpikseen!
 Kyllä – luit aivan oikein, Pörstimin! Lähdemme ulkomaan excursiolle Pörssin ja Optimin yhteisvoimin Tanskan kuvankauniiseen pääkaupunkiin Kööpenhaminaan. Matkaan kohti Kööpenhaminaa lähdemme torstaina 19.10. klo 12.00 Matkakeskukselta . Palaamme Jyväskylään seuraavana maanataina 23.10. klo 21.00.
 Tällä reissulla on mahdollista vierailla Danske Bankin pääkonttorilla, tutustua kaupunkiin ja nauttia hyvästä ruoasta ja juomasta. Ja mikä parasta, tämän kaiken voi tehdä yhdessä kylterisiskojen ja -veljien kanssa!
 Excun alustava ohjelma:
+
+END_OF_EVENT
+
+
+eventName: Markkinointitiimin kokous
+eventTimestamp: 24.10. 16:00 - 18:00
+eventUrl: http://www.porssiry.fi/events/markkinointitiimin-kokous-2/
+eventInformation: Yrityssuhteet ovat Pörssille elintärkeitä. Niiden avulla pörssiläiset tutustuvat työelämään ja potentiaalisiin tulevaisuuden työpaikkoihin, verkostoituvat yritysten edustajien kanssa sekä saavat monenlaisia huikeita etuja. Joillekin pörssiläisille yritysyhteistyö voi poikia jopa työ- tai harjoittelupaikan. Lisäksi yhdistys hyötyy yrityssuhteista taloudellisesti, etenkin erilaisissa tapahtumissa. Tästä huolimatta Pörssi ei juurikaan kohdista viestintäänsä yrityksille – ja tätä asiaa me lähdemme korjaamaan.
+Lokakuisen markkinointitiimin kokouksen agendana on Pörssin yritysviestintä. Pörssin yrityssuhdesektori on pohtinut, mitä haluamme viestiä yrityksille, mitä tarjottavaa meillä on ja millaisena toimijana haluamme näyttäytyä. Markkinointitiimin tehtävänä on suunnitella ja toteuttaa viestin vieminen eteenpäin käytännössä. Kanavina käytetään vuoden viimeistä, yritysnumerona toteutettavaa Pörssikurssia, blogia, sosiaalisen median kanavia sekä nettisivujen Yrityksille-osiota. Kokouksessa suunnittelemme, millaista sisältöä eri kanaviin tuotetaan ja sovimme vastuut kunkin sisällön tuottamisesta.
+Yritysviestintäprojektissa tiimi pääsee suunnittelemaan ja tuottamaan sisältöä paitsi monipuolisesti erilaisiin kanaviin, myös aivan uudenlaisella kärjellä. Nyt on aika laittaa B2B-ajattelu käyntiin ja markkinointitiimin vuoden siistien projekti vauhtiin – tavataan siis Selkkarissa tiistaina 24.10. klo 16!
+
+END_OF_EVENT
+
+
+eventName: Fuksipassikahvit vol. 2
+eventTimestamp: 25.10. 10:00 - 14:00
+eventUrl: http://www.porssiry.fi/events/fuksipassikahvit-vol-2/
+eventInformation: Joku fuksi on saavuttanut jo yli 150 pisteen rajan! Eräät ostivat 100 juustoa mäkkäristä! Mitä Fuksipassin palautuspäivään mennessä ehtiikään tapahtua?
+Ketkä ottavat kuninkaallisten viitat vuonna 2017?
+Fuksikuninkaalliset kruunataan Puurojuhlassa joulukuussa. Aikaa on vielä. Jokainen suorittaa omalla tasollaan, mutta vain kahdesta henkilöstä tulee vuoden 2017 Fuksikuningas & -kuningatar. Kaikki ansaitsevat kuitenkin pisteidensä arvoisen haalarimerkin.
+Selkkarissa on mahdollisuus suorittaa tehtäviä samalla kun hallituslaiset allekirjoittavat passeja. Tuu morottamaan, vaihtamaan kuulumiset tai pelaamaan matsi änärii. Pääasia et nähdään! Muistathan, että passi ei ole vain suorittamista varten, vaan sen avulla keräät mahtavia kokemuksia syksyn ajalta. Mahdollisuuksia on paljon!
+Tässä muutamia tehtäviä vinkiksi:
 
 END_OF_EVENT
 
@@ -108,7 +93,7 @@ END_OF_EVENT
 eventName: Pörssi ry:n sääntömääräinen syyskokous
 eventTimestamp: 1.11. 16:00 - 22:00
 eventUrl: http://www.porssiry.fi/events/porssi-ryn-saantomaarainen-syyskokous-2/
-eventInformation: 
+eventInformation: Katso lisätiedot tapahtumasivulta!
 
 END_OF_EVENT
 

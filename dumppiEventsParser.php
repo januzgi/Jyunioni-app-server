@@ -7,22 +7,30 @@ $DUMPPI_EVENTS_URL = "https://dumppi.fi/tapahtumat/";
 date_default_timezone_set('Europe/Helsinki');
 
 
+// File path to directory "Jyunioni-server". 
+// Run command "pwd" when in "Jyunioni-server" directory and put the result in $homeDirPath
+$homeDirPath = "/Users/JaniS/Sites/Jyunioni-server";
+
+// The current file's path
+$filePath = "/Raw-event-data/dumppiRawUrlData.json";
+
+
 // Get Dumppi's "css-events-list" HTML div's URL list to a dumppiRawUrlData.json file
-fetchUrls($DUMPPI_EVENTS_URL);
+fetchUrls($DUMPPI_EVENTS_URL, $homeDirPath);
 
 // Using the list of URL's, get each event's data from it's own event page and parse the event attributes.
-$dumppiUrlsJson = file_get_contents("/wwwhome/home/jatasuor/html/Jyunioni-server/Raw-event-data/dumppiRawUrlData.json");
+$dumppiUrlsJson = file_get_contents($homeDirPath . $filePath);
 
 // Decode the .json into an array
 $dumppiEventUrls = json_decode($dumppiUrlsJson, true);
 
 
 // Get the raw event data into dumppiRawEventData.txt and extract the event details into dumppiEvents.txt
-getRawEventData($dumppiEventUrls);
+getRawEventData($dumppiEventUrls, $homeDirPath);
 
 
 // Fetch each event's raw data from the event's page
-function getRawEventData($urls)
+function getRawEventData($urls, $homeDirPath)
 {
     // All different events data will be put into this string to be put into dumppiRawEventData.txt
     # $eventPageContents = "";
@@ -71,12 +79,12 @@ function getRawEventData($urls)
     }
     */
     
-    
-    $dumppiEvents = "/wwwhome/home/jatasuor/html/Jyunioni-server/Parsed-events/dumppiEvents.txt";
+    // The current file's path
+	$filePath = "/Parsed-events/dumppiEvents.txt";
     
     // Write the parsed events into dumppiEvents.txt file.
-    if (file_put_contents($dumppiEvents, $eventDetails) !== false) {
-        echo "Dumppi's parsed events data written succesfully to: " . $dumppiEvents . "\n";
+    if (file_put_contents($homeDirPath . $filePath, $eventDetails) !== false) {
+        echo "Dumppi's parsed events data written succesfully to: " . $filePath . "\n";
     }
     
 }
@@ -240,12 +248,17 @@ function extractEventInformation($eventInformation)
     
     // Decode any html chars like &amp;'s (&'s) etc..
     $eventInformation = htmlspecialchars_decode($eventInformation);
+
+    // Check if empty
+    if (strlen($eventInformation) < 5) {
+    	$eventInformation = "Katso lisätiedot tapahtumasivulta!";
+    }
     
     return $eventInformation;
 }
 
 
-function fetchUrls($url)
+function fetchUrls($url, $homeDirPath)
 {
     // Get the contents of the site
     $html = file_get_contents($url);
@@ -282,13 +295,15 @@ function fetchUrls($url)
         // Delete the link to the second page from the links list.
         array_shift($links);
     }
-    
-    $dumppiRawUrlDataJson = "/wwwhome/home/jatasuor/html/Jyunioni-server/Raw-event-data/dumppiRawUrlData.json";
+
+
+    // The current file's path
+	$filePath = "/Raw-event-data/dumppiRawUrlData.json";
     
     // Write the array of links into the .json file
-    $fp = fopen($dumppiRawUrlDataJson, "w");
+    $fp = fopen($homeDirPath . $filePath, "w");
     if (fwrite($fp, json_encode($links, JSON_PRETTY_PRINT)) !== false) {
-        echo "Dumppi's URLs written succesfully to: " . $dumppiRawUrlDataJson . "\n";
+        echo "Dumppi's URLs written succesfully to: " . $filePath . "\n";
     }
     fclose($fp);
 }

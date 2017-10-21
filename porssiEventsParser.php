@@ -7,24 +7,31 @@ $PORSSI_EVENTS_URL = "http://www.porssiry.fi/tapahtumat/";
 date_default_timezone_set('Europe/Helsinki');
 
 
+// File path to directory "Jyunioni-server". 
+// Run command "pwd" when in "Jyunioni-server" directory and put the result in $homeDirPath
+$homeDirPath = "/Users/JaniS/Sites/Jyunioni-server";
+
+// The current file's path
+$filePath = "/Raw-event-data/porssiRawUrlData.json";
+
+
 // Get Porssi's "css-events-list" HTML div's URL list to a porssiRawUrlData.json file
 // The event's page list in http://www.porssiry.fi/tapahtumat/ goes to page 2 after 20 events.
 // So only fetch the 20 first and not the url "http://www.porssiry.fi/tapahtumat/?pno=2"
-fetchUrls($PORSSI_EVENTS_URL);
-
+fetchUrls($PORSSI_EVENTS_URL, $homeDirPath);
 
 // Using the list of URL's for each event, get each event's data from it's own event page and create the .json with event attributes.
-$porssiUrlsJson = file_get_contents("/wwwhome/home/jatasuor/html/Jyunioni-server/Raw-event-data/porssiRawUrlData.json");
+$porssiUrlsJson = file_get_contents($homeDirPath . $filePath);
 
 // Decode the .json into an array
 $porssiEventUrls = json_decode($porssiUrlsJson, true);
 
 // Get the raw event data into porssiRawEventData.txt
-getRawEventData($porssiEventUrls);
+getRawEventData($porssiEventUrls, $homeDirPath);
 
 
 // Fetch each event's raw data from the event's page
-function getRawEventData($urls)
+function getRawEventData($urls, $homeDirPath)
 {
     // All different events data will be put into this string to be put into porssiRawEventsData.txt
     # $eventPageContents = "";
@@ -72,12 +79,12 @@ function getRawEventData($urls)
     }
     */
     
-    
-    $porssiEvents = "/wwwhome/home/jatasuor/html/Jyunioni-server/Parsed-events/porssiEvents.txt";
+
+    $filePath = "/Parsed-events/porssiEvents.txt";
     
     // Write the parsed events into porssiEvents.txt file.
-    if (file_put_contents($porssiEvents, $eventDetails) !== false) {
-        echo "Pörssi's parsed events data written succesfully to: " . $porssiEvents . "\n";
+    if (file_put_contents($homeDirPath . $filePath, $eventDetails) !== false) {
+        echo "Pörssi's parsed events data written succesfully to: " . $filePath . "\n";
     }
 }
 
@@ -304,13 +311,18 @@ function extractEventInformation($eventInformation)
     
     // Decode any html chars like &amp;'s (&'s) etc..
     $eventInformation = htmlspecialchars_decode($eventInformation);
+
+    // Check if empty
+    if (strlen($eventInformation) < 5) {
+    	$eventInformation = "Katso lisätiedot tapahtumasivulta!";
+    }
     
     return $eventInformation;
 }
 
 
 
-function fetchUrls($url)
+function fetchUrls($url, $homeDirPath)
 {
     // Get the contents of the site
     $html = file_get_contents($url);
@@ -353,13 +365,14 @@ function fetchUrls($url)
             array_pop($links);
         }
     }
-    
-    $porssiRawUrlDataJson = "/wwwhome/home/jatasuor/html/Jyunioni-server/Raw-event-data/porssiRawUrlData.json";
+
+    $filePath = "/Raw-event-data/porssiRawUrlData.json";
+    $porssiRawUrlDataJson = $homeDirPath . $filePath;
     
     // Write the array of links into the .json file
     $fp = fopen($porssiRawUrlDataJson, "w");
     if (fwrite($fp, json_encode($links, JSON_PRETTY_PRINT)) !== false) {
-        echo "Pörssi's URLs written succesfully to: " . $porssiRawUrlDataJson . "\n";
+        echo "Pörssi's URLs written succesfully to: " . $filePath . "\n";
     }
     fclose($fp);
 }

@@ -7,22 +7,30 @@ $STIMULUS_EVENTS_URL = "http://stimulus.fi/ilmoittautuminen.php";
 date_default_timezone_set('Europe/Helsinki');
 
 
+// File path to directory "Jyunioni-server". 
+// Run command "pwd" when in "Jyunioni-server" directory and put the result in $homeDirPath
+$homeDirPath = "/Users/JaniS/Sites/Jyunioni-server";
+
+// The current file's path
+$filePath = "/Raw-event-data/stimulusRawUrlData.json";
+
+
 // Get Stimulus' "ilmo_content" HTML div's URL list to a stimulusRawUrlData.json file
-fetchUrls($STIMULUS_EVENTS_URL);
+fetchUrls($STIMULUS_EVENTS_URL, $homeDirPath);
 
 // Using the list of URL's, get each event's data from it's own event page and parse the event attributes.
-$stimulusUrlsJson = file_get_contents("/wwwhome/home/jatasuor/html/Jyunioni-server/Raw-event-data/stimulusRawUrlData.json");
+$stimulusUrlsJson = file_get_contents($homeDirPath . $filePath);
 
 // Decode the .json into an array
 $stimulusEventUrls = json_decode($stimulusUrlsJson, true);
 
 
 // Get the raw event data into stimulusRawEventData.txt and extract the event details into stimulusEvents.txt
-getRawEventData($stimulusEventUrls);
+getRawEventData($stimulusEventUrls, $homeDirPath);
 
 
 // Fetch each event's raw data from the event's page
-function getRawEventData($urls)
+function getRawEventData($urls, $homeDirPath)
 {
     // All different events data will be put into this string to be put into stimulusRawEventData.txt
     # $eventPageContents = "";
@@ -71,12 +79,13 @@ function getRawEventData($urls)
     }
     */
     
-    
-    $stimulusEvents = "/wwwhome/home/jatasuor/html/Jyunioni-server/Parsed-events/stimulusEvents.txt";
+
+    $filePath = "/Parsed-events/stimulusEvents.txt";
+    $stimulusEvents = $homeDirPath . $filePath;
     
     // Write the parsed events into stimulusEvents.txt file.
     if (file_put_contents($stimulusEvents, $eventDetails) !== false) {
-        echo "Stimulus' parsed events data written succesfully to: " . $stimulusEvents . "\n";
+        echo "Stimulus' parsed events data written succesfully to: " . $filePath . "\n";
     }
     
 }
@@ -207,12 +216,17 @@ function extractEventInformation($eventInformation)
     
     // Decode any html chars like &amp;'s (&'s) etc..
     $eventInformation = htmlspecialchars_decode($eventInformation);
+
+    // Check if empty
+    if (strlen($eventInformation) < 5) {
+    	$eventInformation = "Katso lisätiedot tapahtumasivulta!";
+    }
     
     return $eventInformation;
 }
 
 
-function fetchUrls($url)
+function fetchUrls($url, $homeDirPath)
 {
     // Get the contents of the site
     $html = file_get_contents($url);
@@ -244,12 +258,13 @@ function fetchUrls($url)
         }
     }
     
-    $stimulusRawUrlDataJson = "/wwwhome/home/jatasuor/html/Jyunioni-server/Raw-event-data/stimulusRawUrlData.json";
+    $filePath = "/Raw-event-data/stimulusRawUrlData.json";
+    $stimulusRawUrlDataJson = $homeDirPath . $filePath;
     
     // Write the array of links into the .json file
     $fp = fopen($stimulusRawUrlDataJson, "w");
     if (fwrite($fp, json_encode($links, JSON_PRETTY_PRINT)) !== false) {
-        echo "Stimulus' URLs written succesfully to: " . $stimulusRawUrlDataJson . "\n";
+        echo "Stimulus' URLs written succesfully to: " . $filePath . "\n";
     }
     fclose($fp);
 }
